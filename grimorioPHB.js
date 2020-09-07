@@ -206,7 +206,7 @@ AMICIZIA
 Trucchetto di Ammaliamento
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
-Componenti: S. M (una piccola quantità di trucco da applicare al volto mentre si lancia l'incantesimo)
+Componenti: S, M (una piccola quantità di trucco da applicare al volto mentre si lancia l'incantesimo)
 Durata: Concentrazione, fino a 1 minuto
 Per la durata dell'incantesimo, l'incantatore dispone di
 vantaggio a tutte le prove di Carisma rivolte a una creatura
@@ -459,9 +459,9 @@ esserne influenzata di nuovo.
 
 ARMA ELEMENTALE
 Trasmutazione di 3 livello
-tempo di Lancio: 1 azione
+Tempo di Lancio: 1 azione
 Gittata: Contatto
-Componenti: V, 5
+Componenti: V, S
 Durata: Concentrazione, fino a 1 ora
 Un'arma non magica toccata dall'incantatore diventa un'arma
 magica. L'incantatore sceglie uno dei tipi di danno seguenti:
@@ -479,7 +479,7 @@ ARMA MAGICA
 Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
-Componenti: V, 5
+Componenti: V, S
 Durata: Concentrazione, fino a 1 ora
 L'incantatore tocca un'arma non magica e finché l'incantesimo
 non termina, quell'arma diventa un'arma magica con un
@@ -539,7 +539,7 @@ ARMATURA MAGICA
 Abiurazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
-Componenti: V, 5, M (un pezzo di cuoio trattato)
+Componenti: V, S, M (un pezzo di cuoio trattato)
 Durata: 8 ore
 L'incantatore tocca una creatura consenziente che non
 indossi un'armatura, e una forza magica protettiva circonda
@@ -553,7 +553,7 @@ ARTIFICIO DRUIDICO
 Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
-Componenti: V, 5
+Componenti: V, S
 Durata: Istantanea
 Sussurrando agli spiriti della natura, l'incantatore crea uno
 degli effetti seguenti entro gittata:
@@ -719,7 +719,7 @@ BAGLIORE SOLARE
 Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (linea di 18 metri)
-Componenti: V. S, M (una lente d'ingrandimento)
+Componenti: V, S, M (una lente d'ingrandimento)
 Durata: Concentrazione, fino a 1 minuto
 Un bagliore di luce brillante scaturisce dalla mano
 dell'incantatore e genera una linea lunga 18 metri e
@@ -742,7 +742,7 @@ BANCHETTO DEGLI EROI
 Evocazione di 6 livello
 Tempo di Lancio: 10 minuti
 Gittata: 9 metri
-Componenti: V, S. M (una scodella tempestata di gemme del valore di almeno 1.000 mo, che l'incantesimo consuma)
+Componenti: V, S, M (una scodella tempestata di gemme del valore di almeno 1.000 mo, che l'incantesimo consuma)
 Durata: Istantanea
 L'incantatore evoca un grande banchetco, completo di
 sontuose pietanze e bevande. Pasteggiare al banchetto
@@ -984,7 +984,7 @@ quel liquido a una velocità di 18 metri per round.
 
 CAMPO ANTI-MAGIA
 Abiurazione di 8 livello
-Tempo dl Lancio: 1 azione
+Tempo di Lancio: 1 azione
 Gittata: Incantatore (sfera del raggio di 3 metri)
 Componenti: V, S, M (un pizzico di polvere o di limatura di ferro)
 Durata: Concentrazione, fino a 1 ora
@@ -1107,7 +1107,7 @@ CARATTERISTICA POTENZIATA
 Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
-Componenti: V. S. M ( peli o piume strappati a una bestia)
+Componenti: V, S, M ( peli o piume strappati a una bestia)
 Durata: Concentrazione. fino a 1 ora
 L'incantatore tocca una creatura e le conferisce un
 potenziamento magico, scegliendo uno degli effetti seguenti
@@ -1164,7 +1164,7 @@ CATENA DI FULMINI
 Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
-Componenti: V. S, M (un ciuffo di pelliccia, un frammento d'ambra, di vetro o di una verga di cristallo. e tre spilli d'argento)
+Componenti: V, S, M (un ciuffo di pelliccia, un frammento d'ambra, di vetro o di una verga di cristallo. e tre spilli d'argento)
 Durata: Istantanea
 L'incantatore crea un fulmine che sfreccia verso un
 bersaglio a sua scelta entro gittata e che egli sia in grado
@@ -1409,7 +1409,7 @@ COLPO INFUOCATO
 Invocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
-Componenti: V, S, M (un pizzico di zolfo}
+Componenti: V, S, M (un pizzico di zolfo)
 Durata: Istantanea
 Una colonna verticale di fuoco divino scende dal cielo
 con un boato in un luogo indicato dall'incantatore. Ogni
@@ -1619,7 +1619,7 @@ CONO DI FREDDO
 Invocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (cono di 18 metri)
-Componenti: V, S, M {un piccolo cono di vetro o di cristallo}
+Componenti: V, S, M (un piccolo cono di vetro o di cristallo)
 Durata: Istantanea
 Una scarica di aria fredda prorompe dalle mani
 dell'incantatore. Ogni creatura entro un cono di 18 metri
@@ -2093,7 +2093,7 @@ CRESCITA DI SPINE
 Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
-Componenti: V. S, M (sette spine aguzze o sette rametti appuntiti)
+Componenti: V, S, M (sette spine aguzze o sette rametti appuntiti)
 Durata: Concentrazione, fino a 10 minuti
 Spine e spuntoni nascono dal terreno entro un raggio di
 6 metri centrato su un punto situato entro gittata. L'area
@@ -2205,7 +2205,7 @@ DARDO INCANTATO
 Invocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
-Componenti: V. S
+Componenti: V, S
 Durata: Istantaneo
 L'incantatore crea tre dardi lucenti di forza magica. Ogni
 dardo colpisce una creatura scelta dall'incantatore, situata
@@ -2220,7 +2220,7 @@ slot di livello superiore al 1.
 
 DARDO STREGATO
 Invocazione di 1 livello
-Tempo dl Lancio: 1 azione
+Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (un rametto di un albero colpito da un fulmine)
 Durata: Concentrazione. fino a 1 minuto
@@ -2922,7 +2922,7 @@ EVOCA FOLLETTO
 Evocazione di 6 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
-Componenti: Vt S
+Componenti: V, S
 Durata: Concentrazione, fino a 1 ora
 L'incantatore evoca un folletto con grado di sfida pari o
 inferiore a 6 o uno spirito fatato che assume la forma di
@@ -3040,7 +3040,7 @@ FAME DI HADAR
 Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
-Componenti: V, S1 M (un tentacolo di piovra conservato sott'olio)
+Componenti: V, S, M (un tentacolo di piovra conservato sott'olio)
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore apre un portale fino all'oscurità celata tra le
 stelle, una regione infestata da orrori ignoti. Appare una
@@ -3083,7 +3083,7 @@ l'incantesimo termina.
 FARO DI SPERANZA
 Abiurazione di 3 livello
 Tempo di Lancio: 1 azione
-Gittata: 9 metri·
+Gittata: 9 metri
 Componenti: V, S
 Durata: Concentrazione, fino a 1 minuto
 Questo incantesimo infonde speranza e vitalità.
@@ -3390,7 +3390,7 @@ FRECCIA ACIDA DI MELF
 Invocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
-Componenti: v. S, M (una foglia di rabarbaro in polvere e lo stomaco di una vipera)
+Componenti: V, S, M (una foglia di rabarbaro in polvere e lo stomaco di una vipera)
 Durata: Istantanea
 Una freccia verde scintillante vola fino a un bersaglio
 entro gittata cd esplode generando uno spruzzo d'acido.
@@ -3408,7 +3408,7 @@ aumentano di 1d4 per ogni slot di livello superiore al 2.
 
 FRECCIA FOLGORANTE
 Trasmutazione di 3 livello
-Tempo dl Lancio: 1 azione bonus
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S
 Durata: Concentrazione, fino a 1 minuto
@@ -3435,7 +3435,7 @@ FRUSTA DI SPINE
 Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
-Componenti: V. S. M (il gambo di una pianta spinata)
+Componenti: V, S, M (il gambo di una pianta spinata)
 Durata: Istantanea
 L'incantatore crea una lunga frusta simile a un rampicante
 e coperta di spine che al suo comando sferza fino a una
@@ -3492,7 +3492,7 @@ GABBIA DI FORZA
 Invocazione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: 30 metri
-Componenti: V. S, M (polvere di rubino del valore di 1.500mo)
+Componenti: V, S, M (polvere di rubino del valore di 1.500mo)
 Durata: 1 ora
 Una prigione cubica immobile e invisibile. composta di
 forza magica, si materializza attorno a un'area entro gittata
@@ -3586,7 +3586,7 @@ GLIFO DI INTERDIZIONE
 Abiurazione di 3 livello
 Tempo di Lancio: 1 ora
 Gittata: Contatto
-Componenti: V. S, M (incenso e polvere di diamante del valore di almeno 200 mo, che l'incantesimo consuma)
+Componenti: V, S, M (incenso e polvere di diamante del valore di almeno 200 mo, che l'incantesimo consuma)
 Durata: Finché non viene dissolto o innescato
 Quando l'incantatore lancia questo incantesimo, traccia
 un glifo da cui in seguito si sprigionerà un effetto magico.
@@ -3964,7 +3964,7 @@ attenuano alle sue orecchie.
 
 IMMAGINE SILENZIOSA
 Illusione di 1 livello
-Tempo dl Lancio: 1 azione
+Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un ciuffo di lana)
 Durata: Concentrazione, fino a 10 minuti
@@ -4465,7 +4465,7 @@ INVOCARE IL FULMINE
 Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
-Componenti: V. S
+Componenti: V, S
 Durata: Concentrazione, fino a 10 minuti
 Una nube tempestosa a forma di un cilindro del raggio di 18
 metri e alto 3 metri compare in un punto che l'incantatore
@@ -4515,7 +4515,7 @@ LAMA INFUOCATA
 Invocazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
-Componenti: V, S, M {una foglia di scolano)
+Componenti: V, S, M (una foglia di scolano)
 Durata: Concentrazione, fino a 10 minuti
 L'incantatore evoca una lama infuocata nella sua mano
 tibera. La lama ha forma e dimensioni simili a quelle di
@@ -4782,7 +4782,7 @@ LUCI DANZANTI
 Trucchetto di Invocazione
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
-Componenti: V. S, M (un frammento di fosforo, di legno wych o una lucciola)
+Componenti: V, S, M (un frammento di fosforo, di legno wych o una lucciola)
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore crea fino a quattro luci delle dimensioni
 di una torcia, facendole apparire come lanterne, torce
@@ -6500,7 +6500,7 @@ PUNIZIONE MARCHIANTE
 Invocazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
-ComponentJ: V
+Componenti: V
 Durata: Concentrazione, fino a 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma entro la durata di questo
@@ -6659,7 +6659,7 @@ fiamme.
 
 RAMPICANTE AFFERRANTE
 Evocazione di 4 livello
-Tempo dl Lancio: 1 azione bonus
+Tempo di Lancio: 1 azione bonus
 Gittata: 9 metri
 Componenti: V, S
 Durata: Concentrazione, fino a 1 minuto
@@ -7390,7 +7390,7 @@ SCRITTO ILLUSORIO
 Illusione di 1 livello (rituale)
 Tempo di Lancio: 1 minuto
 Gittata: Contatto
-Componenti: S. M (inchiostro a base di piombo del valore di almeno 10 mo, che l'incantesimo consuma)
+Componenti: S, M (inchiostro a base di piombo del valore di almeno 10 mo, che l'incantesimo consuma)
 Durata: 10 giorni
 L'incantatore scrive qualcosa su carta, pergamena o un
 altro materiale adatto alla scrittura e infonde in quello
@@ -7645,7 +7645,7 @@ SFERA CONGELANTE DI OTILUKE
 Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 90 metri
-Componenti: V1 S, M (una piccola sfera di cristallo)
+Componenti: V, S, M (una piccola sfera di cristallo)
 Durata: Istantanea
 Un globo ghiacciato carico di energia fredda parte dalla punta
 delle dita dell'incantatore e sfreccia verso un punto a sua scelta
@@ -8337,7 +8337,7 @@ contenitore aperto o versare i contenuti di una fiala.
 TELEPATIA
 Invocazione di 8 livello
 Tempo di Lancio: 1 azione
-Gittata: illimitata
+Gittata: Illimitata
 Componenti: V, S, M (un paio di anelli d'argento concatenati)
 Durata: 24 ore
 L'incantatore crea un legame telepatico tra se stesso e una
@@ -8965,7 +8965,7 @@ VEDERE INVISIBILITÀ
 Divinazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
-Componenti: V, S, M {un pizzico di talco e una manciata di polvere d'argento)
+Componenti: V, S, M (un pizzico di talco e una manciata di polvere d'argento)
 Durata: 1 ora
 Per la durata dell'incantesimo, l'incantatore vede le
 creature e gli oggetti invisibili come se fossero visibili e può
