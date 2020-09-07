@@ -18,7 +18,7 @@ for (let spell of grimArr) {
   spell.casters = [];
   for (let caster in objCastersArr) {
     for (let i of objCastersArr[caster]) {
-      if (spell.title === i) spell.casters.push(caster);
+      if (spell.title[0] === i) spell.casters.push(caster);
     }
   }
 }
@@ -73,15 +73,29 @@ function grimorioCreation (grimorio) {
   }
 
   for (let spell of grimorio.slice(1).split('\n\n')) {
+    // if (spell.split('\n')[2].split(': ')[0] !== 'Tempo di Lancio') console.log('Qualcosa non va in "Tempo di Lancio" di: ', spell.split('\n')[0]);
+    // if (spell.split('\n')[3].split(': ')[0] !== 'Gittata') console.log('Qualcosa non va in "Gittata" di: ', spell.split('\n')[0]);
+    // if (spell.split('\n')[4].split(': ')[0] !== 'Componenti') console.log('Qualcosa non va in "Componenti" di: ', spell.split('\n')[0]);
+    // if (spell.split('\n')[5].split(': ')[0] !== 'Durata') console.log('Qualcosa non va in "Durata" di: ', spell.split('\n')[0]);
     grimorioArray.push({
-      title : spell.split('\n')[0],
-      magicSchool : schoolAndLevel(spell.split('\n')[1].split(' '), 'school'),
-      magicLevel : schoolAndLevel(spell.split('\n')[1].split(' '), 'level'),
-      spellcastingTime : spell.split('\n')[2].split(': ')[1],
-      range : spell.split('\n')[3].split(': ')[1],
-      components : spell.split('\n')[4].split(': ')[1],
-      duration : spell.split('\n')[5].split(': ')[1],
-      description : spell.split('\n').slice(6).join(' ')
+      title : [spell.split('\n')[0]],
+      magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
+      magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
+      spellcastingTime : [spell.split('\n')[2].split(': ')[1]],
+      range : [spell.split('\n')[3].split(': ')[1]],
+      components : (function () {
+        let arr = spell.split('\n')[4].split(': ')[1].split(', ');
+        let arr2 = [];
+        for (let i=0; i<arr.length; i++) { 
+          if (arr[i][0] === 'V' || arr[i][0] === 'S' || arr[i][0] === 'M') {
+            arr2.push(arr[i][0]);
+          }
+        }
+        if(spell.split('\n')[4].split(': ')[1].split(' (')[1]) arr2.push(spell.split('\n')[4].split(': ')[1].split(' (')[1].slice(0,-1));
+        return arr2; 
+      })(),
+      duration : [spell.split('\n')[5].split(': ')[1]],
+      description : [spell.split('\n').slice(6).join(' ')]
     });
   }
 
@@ -171,17 +185,26 @@ function allSpellsUniqueArray () {
   return arrayUniqueValues(arr).sort().slice(1);
 }
 
-// filterKeyValueGrimArr: DA FINIRE PER FARLA FUNZIONARE CON TUTTO!!!!!
-// una funzione che restituisce un array contenente tutti gli incantesimi filtrati da
-// grimArr inserendo come argomenti la chiave della proprieta' che ti interessa e 
-// il valore desiderato. Se ad esempio vuoi tutti gli incantesimi del paladino ti 
-// basta digitare filterKeyValueGrimArr('casters', 'Paladino');
-function filterKeyValueGrimArr (key, value) {
+// filterKeyValueGrimArr: DA FINIRE PER FARLA FUNZIONARE CON TUTTO!!!!! (ogni propietà di grimArr fai in modo che come valore sia un array contenete quel che serve)
+// una funzione che restituisce un array contenente tutti gli incantesimi filtrati dal
+// grimorio che in quel momento viene usato come base di riferimento (quindi non necessariamente grimArr). 
+// Inserendo quindi come argomenti: il grimorio di riferimento in quel momento, 
+// la chiave della proprieta' che ti interessa e il suo valore desiderato e FACOLTATIVAMENTE un altro argomento VERO, ad esempio 'U'.
+// Se aggiunto filtrera' solamente gli incantemi che avranno il valore desiderato di cui sopra come elemento univoco della proprietà. 
+// Se ad esempio vuoi tutti gli incantesimi che il paladino conosce ti basta digitare: filterKeyValueGrimArr(grimArr, 'casters', 'Paladino');
+// Se invece vuoi tutti gli incantesimi che SOLO il paladino conosce allora: filterKeyValueGrimArr(grimArr, 'casters', 'Paladino', 'U');
+function filterKeyValueGrimArr (grim, key, value, U) {
   let arr = [];
-  for (let i of grimArr) {
+  for (let i of grim) {
     for (let j of i[key]) {
-      if (j === value) {
-        arr.push(i);
+      if (U) {
+        if (i[key].length === 1 && j === value) {
+          arr.push(i);
+        }
+      } else {
+        if (j === value) {
+          arr.push(i);
+        }
       }
     }
   }
