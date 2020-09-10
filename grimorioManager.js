@@ -94,7 +94,13 @@ function grimorioCreation (grimorio) {
         if(spell.split('\n')[4].split(': ')[1].split(' (')[1]) arr2.push(spell.split('\n')[4].split(': ')[1].split(' (')[1].slice(0,-1));
         return arr2; 
       })(),
-      duration : [spell.split('\n')[5].split(': ')[1]],
+      duration : (function () {
+        if (spell.split('\n')[5].split(': ')[1].split(', ')[0] === 'Concentrazione') {
+          return [spell.split('\n')[5].split(': ')[1].split(', ')[0], spell.split('\n')[5].split(': ')[1].split(', ')[1]];
+        } else {
+          return [spell.split('\n')[5].split(': ')[1]];
+        }
+      })(),
       description : [spell.split('\n').slice(6).join(' ')]
     });
   }

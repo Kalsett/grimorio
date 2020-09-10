@@ -104,7 +104,7 @@ Illusione di 2 livello
 Tempo di Lancio: I azione
 Gittata: 18 metri
 Componenti: V, S, M (un ciuffo di lana)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea un'illusione che mette radici nella
 mente di una creatura entro gittata e che egli sia in grado
 di vedere. Il bersaglio deve effettuare un tiro salvezza su
@@ -150,7 +150,7 @@ Illusione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore attinge agli incubi di una creatura entro
 gittata e che egli sia in grado di vedere, per creare una
 manifestazione illusoria delle sue paure più recondite,
@@ -171,7 +171,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore assume una forma diversa, scegliendo
 al momento del lancio dell'incantesimo una delle
 opzioni seguenti, i cui effetti permangono per la durata
@@ -207,7 +207,7 @@ Trucchetto di Ammaliamento
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: S, M (una piccola quantità di trucco da applicare al volto mentre si lancia l'incantesimo)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Per la durata dell'incantesimo, l'incantatore dispone di
 vantaggio a tutte le prove di Carisma rivolte a una creatura
 a sua scelta che non sia ostile nei suoi confronti. Quando
@@ -244,7 +244,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (una goccia di sangue)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie fino a tre creature entro gittata e che
 egli sia in grado di vedere, che dovranno effettuare un tiro
 salvezza su Carisma. Se una creatura fallisce il suo tiro
@@ -336,7 +336,7 @@ Trasmutazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Gli oggetti prendono vita a comando delJ'incantatore, che
 sceglie fino a dieci oggetti non magici entro gittata che
 non siano indossati o trasportati. I ber agli Medi contano
@@ -462,7 +462,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Un'arma non magica toccata dall'incantatore diventa un'arma
 magica. L'incantatore sceglie uno dei tipi di danno seguenti:
 acido, freddo, fulmine, fuoco o tuono. Per la durata
@@ -480,7 +480,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore tocca un'arma non magica e finché l'incantesimo
 non termina, quell'arma diventa un'arma magica con un
 bonus di + 1 ai tiri per colpire e ai tiri per i danni.
@@ -578,7 +578,7 @@ Abiurazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 9 metri)
 Componenti: V
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore emana un'aura di energia purificatrice entro
 un raggio di 9 metri. Finché l'incantesimo non termina,
 l'aura si muove assieme a lui ed è centrata su di lui. Ogni
@@ -594,7 +594,7 @@ Abiurazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 9 metri)
 Componenti: V
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore emana un'aura di energia che preserva la
 vita entro un raggio di 9 metri. Finché l'incantesimo non
 termina, l'aura si muove assieme a lui ed è centrata su di lui.
@@ -609,7 +609,7 @@ Invocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 9 metri)
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore emana un'aura di energia curativa entro un
 raggio di 9 metri. Finché l'incantesimo non termina, l'aura
 si muove assieme a lui ed è ('entrata su di lui. L'incantatore
@@ -657,7 +657,7 @@ Abiurazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un minuscolo reliquiario del valore di almeno 1.000 mo contenente una reliquia sacra, come un pezzo di stoffa della tunica di un santo o un frammento di pergamena di un testo religioso)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Dall'incantatore si diffonde una luce divina che si
 materializza in un tenue bagliore entro un raggio di 9
 metri da lui. Le creature a sua scelta entro quel raggio net
@@ -691,7 +691,7 @@ Invocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (alcuni semi di qualsiasi pianta a chicchi e un frammento di feldspato opalescente)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un bagliore argentato di luce pallida forma un cilindro del
 raggio di 1,5 metri e alto 12 metri, centrato su un punto
 entro gittata. Finché l'incantesimo non termina, il cilindro è
@@ -720,7 +720,7 @@ Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (linea di 18 metri)
 Componenti: V, S, M (una lente d'ingrandimento)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un bagliore di luce brillante scaturisce dalla mano
 dell'incantatore e genera una linea lunga 18 metri e
 larga 1,5 metri. Ogni creatura sulla linea deve effettuare
@@ -763,7 +763,7 @@ Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea un muro verticale di lame affilate
 turbinanti, fatte di energia magica. Il muro appare
 entro gittata e permane per la durata dell'incantesimo.
@@ -801,7 +801,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (uno spruzzo di acqua santa)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore benedice fino a tre creature a sua scelta entro
 gittata. Ogni volta che un bersaglio effettua un tiro per
 colpire o un tiro salvezza prima che l'incantesimo termini
@@ -817,7 +817,7 @@ Ammaliamento di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (una piccola sbarra di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie una creatura entro gittata e che egli
 sia in grado di vedere. li bersaglio deve superare un tiro
 salvezza su Saggezza, altrimenti sarà paralizzato per la
@@ -837,7 +837,7 @@ Ammaliamento di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (una piccola sbarra di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie un umanoide entro gittata e che egli
 sia in grado di vedere. Il bersaglio deve superare un tiro
 salvezza su Saggezza, altrimenti sarà paralizzato per
@@ -918,7 +918,7 @@ Ammaliamento di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di sopprimere le emozioni più intense in
 un gruppo di persone. Ogni umanoide entro una sfera del
 raggio di 6 metri centrata su un punto scelto dall'incantatore
@@ -987,7 +987,7 @@ Abiurazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (sfera del raggio di 3 metri)
 Componenti: V, S, M (un pizzico di polvere o di limatura di ferro)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore viene circondato da una sfera di anti-magia
 invisibile del raggio di 3 metri. Quest'area è isolata
 dall'energia magica che pervade il multiverso. All'interno
@@ -1108,7 +1108,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M ( peli o piume strappati a una bestia)
-Durata: Concentrazione. fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore tocca una creatura e le conferisce un
 potenziamento magico, scegliendo uno degli effetti seguenti
 che permane finché l'incantesimo non termina.
@@ -1137,7 +1137,7 @@ Trasmutazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un pizzico di pietra calcarea. acqua e terra)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di pietrificare una creatura entro gittata
 e che egli sia in grado di vedere. Se il corpo del bersaglio ,�
 fatto di carne, la creatura deve effettuare un tiro salvezza su
@@ -1243,7 +1243,7 @@ Abiurazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 9 metri)
 Componenti: V
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Dall'incantatore si irradia un flusso di energia divina
 distorcente entro un raggio di 9 metri. Finché l'incantesimo
 non termina, la sfera si muove assieme a lui ed è centrata
@@ -1351,7 +1351,7 @@ Divinazione di 3 livello
 Tempo di Lancio: 10 minuti
 Gittata: 1,5 km
 Componenti: V, S, M (un focus del valore di almeno 100 mo, a scelta tra un cornetto acustico ingioiellato per l'udito o un occhio di vetro per la vista)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea un sensore invisibile entro gittata in un
 luogo a lui familiare (vale a dire un luogo che abbia visitato
 o visto in precedenza), oppure in un luogo ovvio che non gli
@@ -1397,7 +1397,7 @@ Trucchetto di Divinazione
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: S
-Durata: Concentrazione, fino a 1 round
+Durata: Concentrazione, 1 round
 L'incantatore punta il dito contro un bersaglio entro
 gittata. La sua magia gli conferisce una fugace e accurata
 percezione delle difese del bersaglio. NelLivelli suo turno
@@ -1429,7 +1429,7 @@ Evocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma entro la durata di questo
 incantesimo, una massa brulicante di rampicanti spinosi
@@ -1510,7 +1510,7 @@ Ammaliamento di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Le creature a scelta dell'incantatore entro gittata, che siano
 in grado di sentirlo e che egli sia in grado di vedere, devono
 effettuare un tiro salvezza su Saggezza. Un bersaglio supera
@@ -1584,7 +1584,7 @@ Ammaliamento di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (tre gusci di noce)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Questo incantesimo assale e sconvolge le menti delle
 creature, inducendole al delirio e provocando azioni
 incontrollate. Ogni creatura entro una sfera del raggio di 3
@@ -1787,7 +1787,7 @@ Trasmutazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 90 metri
 Componenti: V, S, M (una goccia d1acqua e un pizzico di polvere)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Finché l'incantesimo non termina, l'incantatore controlla
 una massa libera d'acqua in un•area a sua scelta, fino a un
 volume massimo pari a un cubo con spigolo di 30 metri.
@@ -1856,7 +1856,7 @@ Trasmutazione di 8 livello
 Tempo di Lancio: 10 minuti
 Gittata: Incantatore (raggio di 7,5 km)
 Componenti: V, S, M (incenso bruciato e frammenti di terra e di legno mescolati nell'acqua)
-Durata: Concentrazione, fino a 8 ore
+Durata: Concentrazione, 8 ore
 L'incantatore assume il controllo del tempo atmosferico
 entro un raggio di 7,5 km per la durata dell'incantesimo.
 Deve trovarsi all'esterno per lanciare questo incantesimo.
@@ -1927,7 +1927,7 @@ Ammaliamento di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un umanoide a scelta dell'incantatore, situato entro gittata
 e che l'incantatore sia in grado di vedere, deve superare un
 tiro salvezza su Saggezza, altrimenti diventa affascinato
@@ -2094,7 +2094,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
 Componenti: V, S, M (sette spine aguzze o sette rametti appuntiti)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Spine e spuntoni nascono dal terreno entro un raggio di
 6 metri centrato su un punto situato entro gittata. L'area
 diventa terreno difficile per la durata dell'incantesimo.
@@ -2170,7 +2170,7 @@ Ammaliamento di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie una creatura entro gittata e che egli sia
 in grado di vedere. La creatura inizia a danzare comicamente
 sul posto, agitando le braccia, battendo i piedi a terra e facendo
@@ -2206,7 +2206,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Istantaneo
+Durata: Istantanea
 L'incantatore crea tre dardi lucenti di forza magica. Ogni
 dardo colpisce una creatura scelta dall'incantatore, situata
 entro gittata e che egli sia in grado di vedere. Un dardo
@@ -2223,7 +2223,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (un rametto di un albero colpito da un fulmine)
-Durata: Concentrazione. fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un raggio di energia azzurra crepitante sfreccia verso una
 creatura entro gittata, formando una scarica di fulmini
 prolungata che corre dall'incantatore al bersaglio. L'incantatore
@@ -2437,7 +2437,7 @@ Abiurazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (acqua santa o polvere d1argento e di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore è circondato da un alone di energia
 scintillante che lo protegge dai folletti, dai non morti e dalle
 creature originarie di un piano diverso dal Piano Materiale.
@@ -2527,7 +2527,7 @@ Ammaliamento di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di soggiogare una bestia entro gittata
 e che egli sia in grado di vedere. Quella bestia deve
 superare un tiro salvezza su Saggezza, altrimenti sarà
@@ -2570,7 +2570,7 @@ Ammaliamento di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore tenta di soggiogare una creatura entro gittata
 e che egli sia in grado di vedere. Quella creatura deve
 superare un tiro salvezza su Saggezza, altrimenti sarà
@@ -2609,7 +2609,7 @@ Ammaliamento di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di soggiogare un umanoide entro gittata
 e che egli sia in grado di vedere. Quell'umanoide deve
 superare un tiro salvezza su Saggezza, altrimenti sarà
@@ -2652,7 +2652,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 9 metri
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di obbligare una creatura a partecipare
 a un duello. Una creatura entro gittata e che egli sia
 in grado di vedere deve effettuare un tiro salvezza su
@@ -2676,7 +2676,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una creatura consenziente toccata dall'incantatore è
 animata da un grande coraggio. Finché l'incantesimo
 non termina, la creatura è immune alla condizione
@@ -2695,7 +2695,7 @@ Abiurazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un oggetto sgradito al bersaglio)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di inviare su un altro piano di esistenza
 una creatura che egli sia in grado di vedere e che si trovi
 entro gittata. Il bersaglio deve superare un tiro salvezza su
@@ -2763,7 +2763,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca alcuni spiriti fatati che assumono
 forme bestiali e compaiono in spazi liberi entro gittata e
 che egli sia in grado di vedere, scegliendo una delle opzioni
@@ -2796,7 +2796,7 @@ Evocazione di 7 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca un celestiale con grado di sfida pari o
 inferiore a 4, che appare in uno spazio libero entro gittata
 e che l'incantatore sia in grado di vedere. Il celestiale
@@ -2821,7 +2821,7 @@ Evocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (una bacca di agrifoglio per ogni creatura evocata)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca alcune creature fatate che compaiono
 in spazi liberi entro gittata e che egli sia in grado di vedere,
 scegliendo una delle opzioni seguenti per determinare ciò
@@ -2854,7 +2854,7 @@ Evocazione di 5 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
 Componenti: V, S, M (acqua e sabbia per l'acqua, incenso bruciato per l'aria, zolfo e fosforo per il fuoco, argilla duttile per la terra)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore chiama a sé un servitore elementale,
 scegliendo un'area di acqua, aria, fuoco o terra delle
 dimensioni di un cubo con spigolo di 3 metri situato entro
@@ -2890,7 +2890,7 @@ Evocazione di 4 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca alcuni elementali che compaiono in
 spazi liberi entro gittata e che egli sia in grado di vedere,
 scegliendo una delle opzioni seguenti per determinare ciò
@@ -2923,7 +2923,7 @@ Evocazione di 6 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca un folletto con grado di sfida pari o
 inferiore a 6 o uno spirito fatato che assume la forma di
 una bestia con grado di sfida pari o inferiore a 6. Il folletto
@@ -3041,7 +3041,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
 Componenti: V, S, M (un tentacolo di piovra conservato sott'olio)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore apre un portale fino all'oscurità celata tra le
 stelle, una regione infestata da orrori ignoti. Appare una
 sfera del raggio di 6 metri composta di oscurità e di freddo
@@ -3064,7 +3064,7 @@ Trasmutazione di 5 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
 Componenti: V, S, M (una faretra che contenga almeno una munizione)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore trasmuta la propria faretra in modo che
 produca una scorta infinita di munizioni non magiche che
 sembrano balzargli in mano ogni volta che egli protende la
@@ -3085,7 +3085,7 @@ Abiurazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Questo incantesimo infonde speranza e vitalità.
 L'incantatore sceglie un qualsiasi numero di creature
 entro gittata. Per la durata dell'incantesimo, ogni bersaglio
@@ -3098,7 +3098,7 @@ Illusione di 9 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Attingendo alle più profonde paure di un gruppo di
 creature, l'incantatore crea nella loro mente un gruppo di
 creature illusorie visibili soltanto a esse. Ogni creatura
@@ -3118,7 +3118,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Intonando una preghiera, l'incantatore è pervaso da un
 alone radioso di luce divina. Finché l'incantesimo non
 termina, i suoi attacchi con le armi infliggono ld4 danni
@@ -3208,7 +3208,7 @@ Invocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (Linea di 18 metri)
 Componenti: V, S, M (il seme di un legume)
-Durata: Concentrazione fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una linea di vento forte lunga 18 metri e larga 3 metri
 si diffonde dall'incantatore in una direzione a sua scelta
 per la durata dell'incantesimo. Ogni creatura che inizia il
@@ -3263,7 +3263,7 @@ Trasmutazione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Fino a 8 ore
+Durata: 8 ore
 L'incantatore si spinge nelle regioni di confine del Piano
 Etereo, nell'area in cui si sovrappone al suo piano attuale.
 Rimane sul Confine Etereo per la durata dell'incantesimo
@@ -3308,7 +3308,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un frammento di garza e uno sbuffo di fumo)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore trasforma una creatura consenziente da lui
 toccata (assieme a tutto ciò che essa indossa e trasporta)
 in una nube di foschia per la durata dell'incantesimo.
@@ -3334,7 +3334,7 @@ Trasmutazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 24 ore
+Durata: Concentrazione, 24 ore
 La magia dell'incantatore trasforma gli altri in bestie.
 L'incantatore sceglie un qualsiasi numero di creature
 consenzienti entro gittata e che egli sia in grado di vedere.
@@ -3411,7 +3411,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l 'incantatore effettua un attacco con
 un'arma a distanza entro la durata dell'incantesimo, la
 munizione dell'arma, o l'arma stessa se si tratta di un'arma
@@ -3471,7 +3471,7 @@ Illusione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore diventa invisibile nello stesso momento in
 cui un suo sosia illusorio appare nel punto dove egli si
 trova. Il sosia permane per la durata dell'incantesimo, ma
@@ -3676,7 +3676,7 @@ Abiurazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 3 metri)
 Componenti: V, S, M (una perla di vetro o di cristallo che si frantuma quando l'incantesimo termina)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una barriera scintillante e immobile si materializza in un
 raggio di 3 metri attorno all'incantatore e permane per la
 durata dell'incantesimo.
@@ -3698,7 +3698,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 4,5 metri)
 Componenti: V, S, M (un simbolo sacro)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore chiama a sé degli spiriti che lo proteggano.
 Gli spiriti fluttuano attorno a lui a una distanza di 4,5 metri
 per la durata dell'incantesimo. Se l'incantatore è buono o
@@ -3777,7 +3777,7 @@ Trucchetto di Divinazione
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tocca una creatura consenziente. Una volta
 prima che l'incantesimo termini, il bersaglio pub tirare un
 d4 e aggiungere il risultato a una prova di caratteristica a
@@ -3789,7 +3789,7 @@ Abiurazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 3 metri)
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Una barriera scintillante si proietta dall'incantatore entro
 un raggio di 3 metri e si muove assieme a lui, rimanendo
 centrata su di lui e respingendo tutte le creature che non
@@ -3894,7 +3894,7 @@ Illusione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un ciuffo di lana)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea l'immagine di un oggetto, una creatura
 o qualche altro fenomeno visibile che non sia più grande di
 un cubo con spigolo di 6 metri. I.:immagine appare in un
@@ -3935,7 +3935,7 @@ Illusione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: 750 km
 Componenti: V, S, M (una riproduzione in miniatura dell'incantatore fatta di materiali del valore di almeno 5 mo)
-Durata: Concentrazione, fino a 1 giorno
+Durata: Concentrazione, 1 giorno
 L'incantatore crea una copia illusoria di se stesso che
 permane per la durata dell'incantesimo. La copia pub apparir-e
 in un qualsiasi luogo situato entro gittata e che l'incantatore
@@ -3967,7 +3967,7 @@ Illusione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un ciuffo di lana)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea l'immagine di un oggetto, una creatura
 o un altro fenomeno visibile che non sia più grande di
 un cubo con spigolo di 4,5 metri. L'immagine appare in
@@ -4124,7 +4124,7 @@ Divinazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (una moneta di rame)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Per la durata dell'incantesimo, l'incantatore può leggere
 i pensieri di certe creature. Quando lancia l'incantesimo
 e come sua azione in ogni turno finché l'incantesimo non
@@ -4175,7 +4175,7 @@ Divinazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Per la durata dell'incantesimo, l'incantatore sa se è presente
 un'aberrazione. un celestiale, un elementale, un folletto,
 un immondo o un non morto entro 9 metri da lui, nonché
@@ -4192,7 +4192,7 @@ Divinazione di 1 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Per la durata dell'incantesimo, l'incantatore percepisce la
 presenza della magia entro 9 metri da lui. Se percepisce la
 magia in questo modo, può usare la sua azione per vedere
@@ -4209,7 +4209,7 @@ Divinazione di 1 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (una foglia di tasso)
-Durata: Concentrazione. fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Per la durata dell'incantesimo, l'incantatore può percepire
 la presenza e l'ubicazione di veleni, creature velenose e
 malattie situate entro 9 metri da lui. È inoltre in grado di
@@ -4239,7 +4239,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (un pizzico di polvere di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore ingrandisce o riduce una creatura o un oggetto
 situato entro gittata e che egli sia in grado di vedere per la
 durata dell'incantesimo. L'incantatore deve scegliere una
@@ -4278,7 +4278,7 @@ Trasmutazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore trasforma un massimo di dieci millepiedi,
 tre ragni, cinque vespe o uno scorpione situati entro gittata
 in versioni giganti delle loro forme naturali per la durata
@@ -4377,7 +4377,7 @@ Evocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Erbacce e rampicanti spuntano dal terreno in un quadrato
 con lato di 6 metri che parte da un punto situato entro
 gittata. Per la durata dell'incantesimo, questi vegetali
@@ -4397,7 +4397,7 @@ Trasmutazione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: 30 metri
 Componenti: V, S, M (una calamita e limatura di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Questo incantesimo inverte la gravità all'interno di un cilindro
 del raggio di 15 metri e alto 30 metri, centrato su un punto
 situalo entro gittata. Tutte le creature e gli oggetti che non sono
@@ -4439,7 +4439,7 @@ Illusione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un ciglio in uno strato di resina)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Una creatura toccata dall'incantatore diventa invisibile finché
 l'incantesimo non termina. Anche tutto ciò che il bersaglio
 indossa o trasporta diventa invisibile finché rimane sulla sua
@@ -4455,7 +4455,7 @@ Illusione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore o la creatura da lui toccata diventa invisibile
 finché l'incantesimo non termina. Anche tutto ciò che il
 bersaglio indossa o trasporta diventa invisibile finché
@@ -4466,7 +4466,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Una nube tempestosa a forma di un cilindro del raggio di 18
 metri e alto 3 metri compare in un punto che l'incantatore
 sia in grado di vedere e situato a 30 metri direttamente
@@ -4497,7 +4497,7 @@ Evocazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore esilia una creatura entro gittata e che egli sia
 in grado di vedere su un semipiano labirintico. li bersaglio
 rimane laggiù per la durata dell'incantesimo o finché non
@@ -4516,7 +4516,7 @@ Invocazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S, M (una foglia di scolano)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore evoca una lama infuocata nella sua mano
 tibera. La lama ha forma e dimensioni simili a quelle di
 una scimitarra e permane per la durata dell'incantesimo.
@@ -4593,7 +4593,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (una goccia di melassa)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore altera il tempo attorno a un massimo di sei
 creature a sua scelta all'interno di un cubo con spigolo di
 12 metri situato entro gittata. Ogni bersaglio deve superare
@@ -4621,7 +4621,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un piccolo cappio di cuoio o un sottile cavo dorato piegato a forma di coppa con un lungo manico a un'estremità)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Una creatura o un oggetto a scelta dell'incantatore, situato
 entro gittata e che egli sia in grado di vedere, si solleva
 verticalmente fino a 6 metri e rimane sospeso lassù per
@@ -4688,7 +4688,7 @@ Divinazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un ciuffo di pelo strappato a un segugio)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore descrive o nomina una creatura a lui familiare.
 Percepisce la direzione dell'ubicazione di quella creatura,
 purché essa si trovi entro 300 metri da lui. Se la creatura è
@@ -4710,7 +4710,7 @@ Divinazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un rametto biforcuto)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore descrive o nomina un oggetto a lui familiare.
 Percepisce la direzione dell'ubicazione di quell'oggetto
 purché esso si trovi entro 300 metri da lui. Se l'oggetto è ia
@@ -4783,7 +4783,7 @@ Trucchetto di Invocazione
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un frammento di fosforo, di legno wych o una lucciola)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea fino a quattro luci delle dimensioni
 di una torcia, facendole apparire come lanterne, torce
 o globi luminosi che fluttuano nell'aria per la durata
@@ -4802,7 +4802,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Ogni oggetto contenuto in un cubo con spigolo di 6 metri
 entro gittata viene evidenziato da un alone di luce blu, verde
 o viola (a scelta dell'incantatore). Ogni creatura situata
@@ -4840,7 +4840,7 @@ Invocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un guscio d'uovo e un guanto di pelle di serpente)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea una mano di forza scintillante e
 trasparente di taglia Grande in uno spazio libero entro
 gittata e che egli sia in grado di vedere. La mano permane
@@ -4924,7 +4924,7 @@ Invocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Dall'incantatore si irradia un'aura del raggio di 9 metri
 che infonde coraggio nelle creature amiche. Finché
 l'incantesimo non termina. l'aura si muove assieme
@@ -4938,7 +4938,7 @@ Divinazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 27 metri
 Componenti: V
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore sceglie una creatura entro gittata e che cali
 sia in grado di vedere e la marchia misticamente come
 sua preda. Finché l'incantesimo non termina, l'incantatore
@@ -4980,7 +4980,7 @@ Trasmutazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (il bozzolo di un bruco)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Questo incantesimo impartisce una nuova forma a una
 creatura entro gittata e che l'incantatore sia in grado di
 vedere. Una creatura non consenziente deve effettuare
@@ -5017,7 +5017,7 @@ Trasmutazione di 9 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (una goccia di mercurio, una sfera di resina e uno sbuffo di fumo)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore sceglie una creatura o un oggetto non
 magico situato entro gittata e che egli sia in grado di
 vedere e trasforma la creatura in una creatura diversa o
@@ -5115,7 +5115,7 @@ Ammaliamento di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tenta di alterare i ricordi di un'altra creatura
 che egli ia in grado di vedere, che dovrà effettuare un tiro
 salvezza su Saggezza. Se l'incantatore sta combattendo
@@ -5188,7 +5188,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (una goccia di bitume e un ragno)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Finché l'incantesimo non termina, una creatura
 consenziente toccata dall'incantatore ottiene Ja capacità
 di muoversi verticalmente e orizzontalmente sulle pareti
@@ -5201,7 +5201,7 @@ Trasmutazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (una lama di ferro e un sacchetto contenente un misto di terre: argilla, terriccio e sabbia)
-Durata: Concentrazione, fino a 2 ore
+Durata: Concentrazione, 2 ore
 L'incantatore sceglie un'area di terreno grande al massimo·
 12 metri per lato e situata entro gittata. Può modellare
 l'argilla, il terriccio o la sabbia entro l'area nella maniera
@@ -5236,7 +5236,7 @@ Invocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un pizzico di polvere ricavato dalla distruzione di una gemma trasparente)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Un muro di forza invisibile si materializza in un punto a
 scelta dell'incantatore situato entro gittata. Il muro appare
 nell'orientamento che l'incantatore desidera, come barriera
@@ -5261,7 +5261,7 @@ Invocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un frammento di fosforo)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea un muro di fuoco su una superficie
 solida situata entro gittata. Il muro può essere lungo fino a
 18 metri, alto 6 metri e spesso 30 cm, oppure può essere
@@ -5289,7 +5289,7 @@ Invocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un frammento di quarzo)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea un muro di ghiaccio su una superficie
 solida situata entro gittata, formando una semisfera o
 una sfera del raggio massimo di 3 metri o una superficie
@@ -5324,7 +5324,7 @@ Invocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un piccolo pezzo di granito)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Un muro non magico di solida pietra si materializza
 partendo da un punto a scelta dell'incantatore situato
 entro gittata. Il muro è spesso 15 cm e composto da dieci
@@ -5366,7 +5366,7 @@ Evocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (una manciata di spine)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea u n fitto muro di rovi, resistente,
 flessibile ed erto di spine affilate. Il muro appare su una
 superficie solida entro gittata e permane per la durata
@@ -5396,7 +5396,7 @@ Invocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S, M (un minuscolo ventaglio e una piuma di origini esotiche)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un muro di vento forte si solleva dal terreno in un punto
 a scelta dell'incantatore situato entro gittata. Il muro può
 essere lungo fino a 15 metri, alto 4,5 metri e spesso 30
@@ -5511,7 +5511,7 @@ Evocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore crea una sfera di nebbia del raggio di 6 metri
 centrata su un punto entro gittata. La sfera si diffonde oltre
 gli angoli e la sua area risulta pesantemente oscurata. La
@@ -5528,7 +5528,7 @@ Evocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (una scheggia di vetro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore riempie l'aria di pugnali turbinanti in un cubo
 con spigolo di 1,5 metri, centrato su un punto a sua scelta
 entro gittata. Una creatura subisce 4d4 danni taglienti
@@ -5544,7 +5544,7 @@ Evocazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una nube turbinante di fumo mista a un nugolo di tizzoni
 incandescenti appare in una sfera del raggio di 6 metri
 centrata su un punto entro gittata. La nube si diffonde
@@ -5566,7 +5566,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un uovo marcio o alcune foglie di cavolfiore)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea una sfera del raggio di 6 metri composta
 di gas nauseante giallastro, centrata su un punto situato
 entro gittata. La nube si diffonde oltre gli angoli e la sua
@@ -5587,7 +5587,7 @@ Evocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea una sfera di velenosa nebbia gialloverdastra
 del raggio di 6 metri, centrata su un punto a sua
 scelta entro gittata. La nebbia si diffonde oltre gli angoli e
@@ -5615,7 +5615,7 @@ Divinazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (un ciuffo di pelo di pipistrello)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore crea un occhio magico invisibile entro gittata
 che fluttua nell'aria per la durata dell'incantesimo.
 L'incantatore riceve mentalmente una serie di
@@ -5671,7 +5671,7 @@ Invocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, M (pelo di pipistrello e una goccia di pece o un pezzo di carbone)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore sceglie un punto situato entro gittata da cui si
 diffonde un'oscurità magica che riempie una sfera del raggio
 di 4,5 metri per la durata dell'incantesimo. L'oscurità si
@@ -5713,7 +5713,7 @@ Invocazione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
 Componenti: V, S, M (una piccola sfera di sterco di pipistrello e zolfo)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un raggio di luce gialla si sprigiona dal dito indice
 dell'incantatore per condensarsi in un punto a sua scelta
 situato entro gittata, fino a formare una perla scintillante
@@ -5749,7 +5749,7 @@ Divinazione di 1 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: 1 O minuti
+Durata: 10 minuti
 L'incantatore ottiene la capacità di comprendere le
 bestie e comunicare verbalmente con loro per la durata
 dell'incantesimo. Le conoscenze e la consapevolezza
@@ -5956,7 +5956,7 @@ Abiurazione di 2 livello
 Tempo di Lancio: l azione
 Gittata: Incantatore
 Componenti: V, S, M (cenere di una foglia di vischio bruciata e un rametto di abete)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore è avvolto da un velo d'ombra e di silenzio che
 impediste a lui e ai suoi compagni di essere individuati.
 Per la durata dell'incantesimo, ogni creatura da lui scelta
@@ -5994,7 +5994,7 @@ Illusione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (cono di 9 metri)
 Componenti: V, S, M (una piuma bianca o un cuore di pollo)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore proietta un'immagine illusoria delle peggiori
 paure di una creatura. Ogni creatura entro un cono di
 9 metri deve superare un tiro salvezza su Saggezza,
@@ -6014,7 +6014,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un frammento di corteccia di quercia)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore tocca una creatura consenziente. Finché
 l'incantesimo non termina, la pelle del bersaglio assume
 un aspetto ruvido simile alla corteccia e la sua CA non può
@@ -6026,7 +6026,7 @@ Abiurazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M ( polvere di diamante del valore di 100 mo, che l'incantesimo consuma)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Questo incantesimo rende la carne di una creatura
 consenziente toccata dall'incantatore dura come la pietra.
 Finché l'incantesimo non termina, il bersaglio ottiene
@@ -6038,7 +6038,7 @@ Divinazione di 2 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore tocca una bestia consenziente. Per la durpta
 dell'incantesimo, può usare la sua azione per vedere
 attraverso gli occhi della bestia e sentire ciò che essa
@@ -6054,7 +6054,7 @@ Evocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 90 metri
 Componenti: V, S, M (alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Uno sciame di locuste fameliche riempie una sfera del raggio
 di 6 metri centrata su un punto a scelta dell'incantatore
 entro gittata. La sfera si diffonde oltre gli angoli, permane
@@ -6103,7 +6103,7 @@ Evocazione di 9 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un diamante del valore di almeno 5.000 mo)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore evoca un portale che collega uno spazio
 libero entro gittata e che egli sia in grado di vedere a un
 punto preciso di un diverso piano di esistenza. Il portale
@@ -6137,7 +6137,7 @@ Evocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 150 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore crea dei portali di teletrasporto collegati
 che rimangono aperti per la durata dell'incantesimo.
 L'incantatore sceglie due punti sul terreno che sia in grado
@@ -6210,7 +6210,7 @@ Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione
 Gittata: 3 metri
 Componenti: V, S
-Durata: Fino a 1 ora
+Durata: 1 ora
 Questo incantesimo è un trucco magico che gli incantatori
 novizi usano per fare pratica. L'incantatore crea uno degli
 effetti magici seguenti entro gittata:
@@ -6381,7 +6381,7 @@ Abiurazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (acqua santa o polvere d'argento e di ferro, che l'incantesimo consuma)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Finché l'incantesimo non termina, una creatura
 consenziente toccata dall'incantatore è protetta da certi
 tipi di creature: aberrazioni, celestiali, elementali, folletti,
@@ -6399,7 +6399,7 @@ Abiurazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 Per la durata dell'incantesimo, una creatura consenziente
 toccata dall'incantatore dispone di resistenza a un tipo di
 danni scelto dall'incantatore: acido, freddo, fulmine, fuoco
@@ -6410,7 +6410,7 @@ Invocazione di 3 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma da mischia entro la durata di
 questo incantesimo, l'arma in questione emette un lampo
@@ -6427,7 +6427,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce con un
 attacco con un'arma da mischia entro la durata di questo
 incantesimo, infligge l d6 danni psichici extra. Inoltre, se
@@ -6443,7 +6443,7 @@ Invocazione di 4 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino al minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma da mischia entro la durata di
 questo incantesimo, la sua arma penetra sia il corpo che
@@ -6458,7 +6458,7 @@ Abiurazione di 5 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma entro la durata di questo
 incantesimo, la sua arma crepita di energia e l'attacco
@@ -6478,7 +6478,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l1incantatore colpisce una creatura
 con un attacco con un'arma da mischia entro la durata
 di questo incantesimo, l'arma diventa incandescente e
@@ -6501,7 +6501,7 @@ Invocazione di 2 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un attacco con un'arma entro la durata di questo
 incantesimo, l'arma risplende di un bagliore astrale al
@@ -6520,7 +6520,7 @@ Invocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce con un
 attacco con un'arma da mischia entro la durata di questo
 incantesimo, la sua arma vibra di un rombo di tuono udibile
@@ -6545,7 +6545,7 @@ Evocazione di r livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 La prossima volta che l'incantatore colpisce una creatura
 con un'arma a distanza entro la durata di questo
 incantesimo, una raffica di spine si sprigiona dalla sua
@@ -6564,7 +6564,7 @@ Necromanzia di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Un raggio nero di energia logorante scaturisce dal dito
 dell'incantatore e punta verso una creatura entro gittata.
 I:incantatore effettua un attacco a distanza con questo
@@ -6630,7 +6630,7 @@ Evocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un frammento di ragnatela comune)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore evoca una massa di spessi e viscosi filamenti
 di ragnatela in un punto a sua scelta situato entro gittata.
 Le ragnatele riempiono un cubo con spigolo di 6 metri
@@ -6662,7 +6662,7 @@ Evocazione di 4 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 9 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore evoca un rampicante che spunta dal terreno
 in uno spazio libero entro gittata e che egli sia in grado di
 vedere. Quando lancia questo incantesimo, l'incantatore
@@ -6796,7 +6796,7 @@ Trucchetto di Abiurazione
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un mantello in miniatura)
-Durata: Concentrazione, fino n 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tocca una creatura consenziente. Per una
 volta prima che l'incantesimo termini, il bersaglio può
 tirare un d4 e aggiungere il risultato ottenuto a un tiro
@@ -6972,7 +6972,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (una manciata di briciole e una piuma da agitare in aria)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una creatura a scelta dell'incantatore, situata entro gittata
 e che egli sia in grado di vedere, percepisce ogni cosa come
 esilarante ed è scossa da una spasmodica risata se questo
@@ -6993,7 +6993,7 @@ Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un pezzo di ferro e una fiamma)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie un oggetto artificiale di metallo
 come un'arma di metallo o un'armatura di metallo
 media o pesante, situato entro gittata e che egli sia in
@@ -7073,7 +7073,7 @@ Trasmutazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Questo incantesimo consente all'incantatore di muoversi
 a una velocità straordinaria. Quando lancia questo
 incantesimo, e poi come azione bonus a ogni suo turno
@@ -7220,7 +7220,7 @@ Necromanzia di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore tocca una creatura che deve superare un
 tiro salvezza su Saggezza per non essere maledetta per la
 durata dell'incantesimo. Quando l'incantatore lancia questo
@@ -7320,7 +7320,7 @@ Divinazione di 6 livello
 Tempo di Lancio: I minuto
 Gittata: Incantatore
 Componenti: V, S, M (una serie di strumenti da divinazione, come ossa, bastoncini d'avorio, carte, denti o incisioni runiche, del valore di 100mo e un oggetto proveniente dal luogo che si desidera trovare)
-Durata: Concentrazione, fino a 1 giorno
+Durata: Concentrazione, 1 giorno
 Questo incantesimo consente all'incantatore di scoprire
 il percorso fisico più breve e diretto verso un determinato
 luogo fisso che gli sia familiare e che si trovi sul suo
@@ -7417,7 +7417,7 @@ Divinazione di 5 livello
 Tempo di Lancio: 10 minuti
 Gittata: Incantatore
 Componenti: V, S, M (un focus del valore di almeno 1.000mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore può vedere e udire una particolare creatura
 a sua scelta situata sul suo stesso piano di esistenza. Il
 bersaglio deve effettuare un tiro salvezza su Saggezza,
@@ -7468,7 +7468,7 @@ Abiurazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 18 metri
 Componenti: V, S, M (una piccola pergamena su cui sia stato scritto un frammento di un testo sacro)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 Un campo di energia scintillante si materializza attorno
 a una creatura scelta dall'incantatore entro gittata,
 conferendole un bonus di +2 alla CA per la durata
@@ -7682,7 +7682,7 @@ Invocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (una semisfera di cristallo trasparente e una semisfera corrispondente di resina)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una sfera di forza scintillante racchiude una creatura o
 un oggetto di taglia Grande o inferiore entro gittata. Una
 creatura non consenziente deve effettuare un tiro salvezza
@@ -7710,7 +7710,7 @@ Evocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un frammento di sego, un pizzico di zolfo e una manciata di polvere di ferro)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una sfera di fuoco del diametro di 1,5 metri appare in uno
 spazio libero a scelta dell'incantatore, situato entro gittata,
 dove permane per la durata dell'incantesimo. Ogni creatura
@@ -7738,7 +7738,7 @@ Illusione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Il corpo dell'incantatore diventa sfocato, instabile e
 ondeggiante agli occhi di tutti coloro che sono in grado di
 vederlo. Per la durata dell'incantesimo, tutte le creature
@@ -7752,7 +7752,7 @@ Necromanzia di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Per la durata dell'incantesimo, gli occhi dell'incantatore
 diventano neri, vacui e pervasi da una sinistra energia.
 Una creatura a sua scelta entro 18 metri da lui e che egli
@@ -7785,7 +7785,7 @@ Illusione di 2 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore genera una sfera del raggio di 6 metri centrata
 su un punto a sua scelta situato entro gittata. Per la durata
 dell'incantesimo, nessun suono pub essere creato all'interno
@@ -7987,7 +7987,7 @@ Ammaliamento di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 27 metri
 Componenti: V, S, M (l'occhio pietrificato di un girino)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore scaglia una maledizione su una creatura
 entro gittata e che egli sia in grado di vedere. Finché
 l'incantesimo non termina, l'incantatore infligge ld6 danni
@@ -8014,7 +8014,7 @@ Invocazione di 7 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (una spada di platino in miniatura dall'impugnatura e dal pomolo di rame e di zinco, del valore di 250 mo)
-Durata: Concentrazione, lino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea un piano di forza a forma di spada
 che fluttua entro gittata e permane per la durata
 dell'incantesimo.
@@ -8173,7 +8173,7 @@ Ammaliamento di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, M (una lingua di serpente e un frammento di un alveare o una goccia di olio dolce)
-Durata: Concentrazione, fino a 8 ore
+Durata: Concentrazione, 8 ore
 L'incantatore suggerisce un corso d'azione da intraprendere
 (limitandosi a una o due frasi) e influenza magicamente
 una creatura entro gittata e che egli sia in grado di vedere.
@@ -8267,7 +8267,7 @@ Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V
-Durata: Fino a 1 minuto
+Durata: 1 minuto
 L'incantatore genera una meraviglia minore, una
 manifestazione di potere soprannaturale. Può creare uno
 degli effetti magici seguenti entro gittata:
@@ -8293,7 +8293,7 @@ Trasmutazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore ottiene la capacità di spostare o manipolare
 le creature o gli oggetti con la forza del pensiero. Quando
 lancia l'incantesimo e come sua azione ogni round per
@@ -8478,7 +8478,7 @@ Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 45 metri
 Componenti: V, S, M (un pizzico di polvere e alcune gocce d'acqua)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Finché l'incantesimo non termina, una gelida pioggia di
 nevischio cade in un cilindro del raggio di 12 metri e alto
 6 metri, centrato su un punto a scelta dell'incantatore e
@@ -8500,7 +8500,7 @@ Evocazione di 9 livello
 Tempo di Lancio: l azione
 Gittata: Vista
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore genera una minacciosa nube tempestosa,
 che si espande fino a un raggio di 108 metri centrato su
 un punto che egli sia in grado di vedere. L'area è scossa
@@ -8539,7 +8539,7 @@ Evocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un frammento di tentacolo appartenuto a una piovra o a una seppia gigante)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Una massa di tentacoli brulicanti di color ebano riempiono
 un quadrato con lato di 6 metri situato sul terreno, entro
 gittata e che l'incantatore sia in grado di vedere. Per la
@@ -8562,7 +8562,7 @@ Invocazione di 8 livello
 Tempo di Lancio: 1 azione
 Gittata: 150 metri
 Componenti: V, S, M (un pizzico di terriccio, un frammento di pietra e un pezzo d'argilla)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea una scossa sismica in un punto del
 terreno situato entro gittata e che egli sia in grado di
 vedere. Per la durata dell'incantesimo, un intenso tremito
@@ -8639,7 +8639,7 @@ Necromanzia di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 Il tocco della mano dell'incantatore, avviluppata in una
 cortina d'ombra, può risucchiare l'energia vitale delle altre
 creature per curare le proprie ferite. L'incantatore effettua
@@ -8680,7 +8680,7 @@ Illusione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 36 metri
 Componenti: S, M (un bastoncino d'incenso acceso o una fiala di cristallo riempita di materiale fosforescente)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore crea un complicato intreccio di colori che
 si :snoda nell'aria all'interno di un cubo con spigolo di
 9 metri entro gittata. La trama appare soltanto per un
@@ -8699,7 +8699,7 @@ Trasmutazione di 9 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un diadema di giada del valore di almeno 1.500 mo, che l'incantatore deve indossare prima di lanciare l'incantesimo)
-Durata: Concentrazione, fino a 1 ora
+Durata: Concentrazione, 1 ora
 L'incantatore assume la forma di una creatura diversa
 per la durata dell'incantesimo. La nuova forma può essere
 quella di qualsiasi creatura con un grado di sfida pari o
@@ -8759,7 +8759,7 @@ Evocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore ottiene la capacità di entrare in un albero e
 di muoversi dall'interno di quell'albero a un altro albero
 dello stesso tipo situato entro 150 metri. Entrambi gli
@@ -8916,7 +8916,7 @@ Evocazione di 8 livello
 Tempo di Lancio: 1 minuto
 Gittata: Vista
 Componenti: V, S
-Durata: Concentrazione, fino a 6 round
+Durata: Concentrazione, 6 round
 Un muro d'acqua si materializza in un punto a scelta
 dell'incantatore situato entro gittata. Il muro può avere
 dimensioni massime di 90 metri di lunghezza, 90 metri
@@ -8977,7 +8977,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V, S, M (una buccia di radice di liquirizia)
-Durata: Concentrazione, fino a 1 minuto
+Durata: Concentrazione, 1 minuto
 L'incantatore sceglie una creatura consenziente
 entro gittata e che egli sia in grado di vedere. Finché
 l'incantesimo non termina, il bersaglio ottiene un bonus
@@ -9079,7 +9079,7 @@ Divinazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma)
-Durata: l ora
+Durata: 1 ora
 Questo incantesimo conferisce alla creatura toccata
 dall'incantatore la capacità di vedere le cose per ciò che
 effettivamente sono. Per la durata dell'incantesimo, la
@@ -9106,7 +9106,7 @@ Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (la piuma dell'ala di un qualsiasi uccello)
-Durata: Concentrazione, fino a 10 minuti
+Durata: Concentrazione, 10 minuti
 L'incantatore tocca una creatura consenziente. Il bersaglio
 ottiene una velocità di volare di 18 metri per la durata
 dell'incantesimo. Quando l'incantesimo termina, il
