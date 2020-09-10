@@ -4,24 +4,26 @@
 
 
 // Oggetto contenenente il nome del caster e i suoi incantesimi in array.
+// Lasciare in questa pozione perche' serve successivamente nel codice alla creazione di grimArr.
 let objCastersArr = objClassesArrSpellLists(listaIncantesimi);
 
 // Array contenente i nomi di tutti gli incantesimi presi una volta sola e ordinati alfabeticamente.
 // N.B. non e' stato fabbricato da grimArr ma da listeIncantesimi_grimorioPHB.js, in modo da avere un riscontro a due fattori
+// Lasciare in questa pozione perche' serve successivamente nel codice alla creazione grimArr.
 let allSpellTitlesArr = allSpellsUniqueArray();
 
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
-// Aggiunge ad ogni incantesimo oggetto di grimArr chi sono gli utilizzatori
-for (let spell of grimArr) {
-  spell.casters = [];
-  for (let caster in objCastersArr) {
-    for (let i of objCastersArr[caster]) {
-      if (spell.title[0] === i) spell.casters.push(caster);
-    }
-  }
-}
+// // Aggiunge ad ogni incantesimo oggetto di grimArr chi sono gli utilizzatori
+// for (let spell of grimArr) {
+//   spell.casters = [];
+//   for (let caster in objCastersArr) {
+//     for (let i of objCastersArr[caster]) {
+//       if (spell.title[0] === i) spell.casters.push(caster);
+//     }
+//   }
+// }
 
 
 // console.log(grimArr); // Tutto funziona
@@ -80,8 +82,16 @@ function grimorioCreation (grimorio) {
     grimorioArray.push({
       title : [spell.split('\n')[0]],
       magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
-      magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
-      spellcastingTime : [spell.split('\n')[2].split(': ')[1]],
+      magicLevel : [Number(schoolAndLevel(spell.split('\n')[1].split(' '), 'level'))],
+      spellcastingTime : (function () {
+        if (spell.split('\n')[2].split(': ')[1][2] === 'r') {
+          return [spell.split('\n')[2].split(': ')[1].split(', che ')[0], spell.split('\n')[2].split(': ')[1].split(', che ')[1]];
+        } else if (spell.split('\n')[2].split(': ')[1] === '1 azione o 8 ore') {
+          return [spell.split('\n')[2].split(': ')[1].split(' o ')[0], spell.split('\n')[2].split(': ')[1].split(' o ')[1]];
+        } else {
+          return [spell.split('\n')[2].split(': ')[1]];
+        }
+      })(),
       range : [spell.split('\n')[3].split(': ')[1]],
       components : (function () {
         let arr = spell.split('\n')[4].split(': ')[1].split(', ');
@@ -105,7 +115,15 @@ function grimorioCreation (grimorio) {
     });
   }
 
-
+  // Aggiunge ad ogni incantesimo oggetto di grimorioArray chi sono gli utilizzatori
+  for (let spell of grimorioArray) {
+    spell.casters = [];
+    for (let caster in objCastersArr) {
+      for (let i of objCastersArr[caster]) {
+        if (spell.title[0] === i) spell.casters.push(caster);
+      }
+    }
+  }
 
   return grimorioArray;
 }

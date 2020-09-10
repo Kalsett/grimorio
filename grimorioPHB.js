@@ -101,7 +101,7 @@ riceve la sua parte di punti esperienza concessi.
 
 ALLUCINAZIONE DI FORZA
 Illusione di 2 livello
-Tempo di Lancio: I azione
+Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un ciuffo di lana)
 Durata: Concentrazione, 1 minuto
@@ -894,7 +894,7 @@ sua persona si protendono alcuni tentacoli di energia oscura che
 tempestano di colpi tutte le creature entro 3 metri da lui. Ogni
 creatura in quell'area deve effettuare un tiro salvezza su Forza.
 Se lo fallisce, subisce 2d6 danni necrotici e non può effettuare
-reazioni fino al suo turno .successivo. Se lo supera, subisce
+reazioni fino al suo turno successivo. Se lo supera, subisce
 soltanto Ja metà di quei danni, ma non subisce altri effetti.
 Ai UveJJJ Superiori. Quando l'incantatore lancia questo
 incantesimo usando uno slot incantesimo di T livello o superiore,
@@ -953,7 +953,7 @@ una creatura possiede una velocità di volare pari a 90 metri
 e resistenza ai danni delle armi non magiche. Le uniche
 azioni che una creatura può effettuare in questa forma sono
 l'azione di Scatto o tornare alla propria forma normale. Per
-tornare alla propria forma normale è necessario l minuto,
+tornare alla propria forma normale è necessario 1 minuto,
 durante il quale la creatura è incapacitata e non è in grado di
 muoversi. Finché l'incantesimo non termina, la creatura può
 riassumere forma gassosa, cosa che richiede a sua volta 1
@@ -1499,7 +1499,7 @@ Per la durata dell'incantesimo, l'incantatore comprende il
 significato letterale di qualsiasi linguaggio parlato che è in
 grado di sentire. Comprende inoltre ogni linguaggio scritto
 che è in grado di vedere, ma deve toccare la superficie su
-cui sono scritte le parole. È necessario circa l minuto per
+cui sono scritte le parole. È necessario circa 1 minuto per
 leggere una pagina di testo.
 Questo incantesimo non decodifica i messaggi segreti di
 un testo o di un glifo, come un sigillo arcano, che non faccia
@@ -1734,7 +1734,7 @@ frase come risposta.
 
 CONTINGENZA
 Invocazione di 6 livello
-Tempo di Lancio: 1O minuti
+Tempo di Lancio: 10 minuti
 Gittata: Incantatore
 Componenti: V, S, M (una statuetta dell'incantatore scolpita in avorio e decorata di gemme del valore di almeno 1.500 mo)
 Durata: 10 giorni
@@ -2484,7 +2484,7 @@ dall'incantatore.
 
 DITO DELLA MORTE
 Necromanzia di 7 livello
-Tempo di Lancio: l azione
+Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
 Durata: Istantanea
@@ -2983,7 +2983,7 @@ usata come componente.
 
 EVOCAZIONI ISTANTANEE DI DRAWMIJ
 Evocazione di 6 livello (rituale)
-Tempo di Lancio: l minuto
+Tempo di Lancio: 1 minuto
 Gittata: Contatto
 Componenti: V, S, M (uno zaffiro del valore di 1.000 mo)
 Durata: Finché non viene dissolto
@@ -4023,7 +4023,7 @@ come false, nel caso sia dotata di visione del vero.
 
 IMPRIGIONARE
 Abiurazione di 9 livello
-Tempo di Lancio: l minuto
+Tempo di Lancio: 1 minuto
 Gittata: 9 metri
 Componenti: V, S, M (un ritratto su pergamena o una statuetta che riproduce le fattezze del bersaglio e una componente speciale che varia in base alla versione dell'incantesimo che si desidera lanciare, del valore di almeno 500 mo per ogni Dado Vita del bersaglio)
 Durata: Finché non viene dissolto
@@ -5787,7 +5787,7 @@ non pub speculare sugli eventi futuri.
 
 PARLARE CON I VEGETALI
 Trasmutazione di 3 livello
-Tempo di Lancio: I azione
+Tempo di Lancio: 1 azione
 Gittata: Incantatore (raggio di 9 metri)
 Componenti: V, S
 Durata: 10 minuti
@@ -5953,7 +5953,7 @@ vicino alla superficie in cui l'incantesimo è stato lanciato.
 
 PASSARE SENZA TRACCE
 Abiurazione di 2 livello
-Tempo di Lancio: l azione
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (cenere di una foglia di vischio bruciata e un rametto di abete)
 Durata: Concentrazione, 1 ora
@@ -6577,7 +6577,7 @@ supera, l'incantesimo termina.
 
 RAGGIO DI GELO
 Trucchetto di Invocazione
-Tempo di Lancio: t azione
+Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S
 Durata: Istantanea
@@ -6904,7 +6904,7 @@ Durata: 1 ora
 L'incantatore tocca una creatura e amplifica le sue capacità
 curative naturali. Il bersaglio recupera 4d8+15 punti ferita.
 Per la durata dell'incantesimo, il bersaglio recupera 1 punto
-ferita all'inizio di ogni suo turno (10 punti ferita al minuto).
+ferita all'inizio di ogni suo turno (10 punti ferita a1 minuto).
 Se al bersaglio sono state recise delle parti del corpo
 (dita, gambe, coda e cosí via), quelle parti ricrescono
 dopo 2 minuti. Se il bersaglio è in possesso della parte
@@ -7317,7 +7317,7 @@ può essere dotato di meccanismi più raffinati.
 
 SCOPRI IL PERCORSO
 Divinazione di 6 livello
-Tempo di Lancio: I minuto
+Tempo di Lancio: 1 minuto
 Gittata: Incantatore
 Componenti: V, S, M (una serie di strumenti da divinazione, come ossa, bastoncini d'avorio, carte, denti o incisioni runiche, del valore di 100mo e un oggetto proveniente dal luogo che si desidera trovare)
 Durata: Concentrazione, 1 giorno
@@ -8240,7 +8240,7 @@ la durata è pari a 30 giorni. Quando usa uno slot incantesimo di
 
 SUSSURRI DISSONANTI
 Ammaliamento di 1 livello
-Tempo di Lancio: l azione
+Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V
 Durata: Istantanea
@@ -8282,7 +8282,7 @@ da un punto entro gittata a sua scelta, come un rombo di
 tuono, il verso di un corvo o un sinistro sussurro.
 • L'incantatore fa in modo che una porta o una finestra non
 chiusa a chiave si spalanchi o si chiuda di colpo da sola.
-• L'incantatore altera l'aspetto dei suoi occhi per l minuto.
+• L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.
 Se l'incantatore lancia questo incantesimo più volte,
 può mantenere attivi fino a tre dei suoi effetti da 1 minuto
 simultaneamente e può congedare uno di quegli effetti con
@@ -8497,7 +8497,7 @@ concentrazione.
 
 TEMPESTA DI VENDETTA
 Evocazione di 9 livello
-Tempo di Lancio: l azione
+Tempo di Lancio: 1 azione
 Gittata: Vista
 Componenti: V, S
 Durata: Concentrazione, 1 minuto
