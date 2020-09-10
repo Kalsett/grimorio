@@ -5632,7 +5632,7 @@ attraverso un'apertura del diametro minimo di 2,5 cm.
 ONDA DISTRUTTIVA
 Invocazione di 5 livello
 Tempo di Lancio: 1 azione
-Gittata: Incantatore (raggio di 9 metri}
+Gittata: Incantatore (raggio di 9 metri)
 Componenti: V
 Durata: Istantanea
 L'incantatore colpisce il terreno, generando un'ondata di

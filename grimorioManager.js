@@ -15,15 +15,6 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
-// // Aggiunge ad ogni incantesimo oggetto di grimArr chi sono gli utilizzatori
-// for (let spell of grimArr) {
-//   spell.casters = [];
-//   for (let caster in objCastersArr) {
-//     for (let i of objCastersArr[caster]) {
-//       if (spell.title[0] === i) spell.casters.push(caster);
-//     }
-//   }
-// }
 
 
 // console.log(grimArr); // Tutto funziona
@@ -92,7 +83,12 @@ function grimorioCreation (grimorio) {
           return [spell.split('\n')[2].split(': ')[1]];
         }
       })(),
-      range : [spell.split('\n')[3].split(': ')[1]],
+      range : (function () {
+        if (spell.split('\n')[3].split(': ')[1].split('(')[0] === 'Incantatore ') {
+          return [spell.split('\n')[3].split(': ')[1].split(' (')[0], spell.split('\n')[3].split(': ')[1].split(' (')[1].slice(0,-1)];
+        }
+        return [spell.split('\n')[3].split(': ')[1]];
+      })(),
       components : (function () {
         let arr = spell.split('\n')[4].split(': ')[1].split(', ');
         let arr2 = [];
