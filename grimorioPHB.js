@@ -3823,7 +3823,7 @@ dell'incantesimo, apprende quali incantesimi influenzano
 attualmente quella creatura, se ce ne sono.
 
 ILLUSIONE MINORE
-Trucchetto di illusione
+Trucchetto di Illusione
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: S, M (un ciuffo di lana)

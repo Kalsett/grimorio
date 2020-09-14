@@ -12,7 +12,151 @@
     <header>
       <h1>GRIMORIO D&d 5E [-_-] </h1>
     </header>
-    <p id="grim"></p>
+
+    <section class="responsive">
+      <div class="Specifiche">
+        <p>Specifiche di ricerca</p>
+        <form action="">
+          <hr>
+          <section>
+            <label for="titolo">Titolo = </label>
+            <input type="text" id="titolo" placeholder="Indifferente" name="title" list="titleSpell">
+            <datalist id="titleSpell" class="dataListTitles">
+            </datalist>
+          </section>
+          <hr>
+          <section>
+            <label for="classe">Classe = </label>
+            <select name="casters" id="classe">
+              <option value="Indifferente">Indifferente</option>
+              <option value="Bardo">Bardo</option>
+              <option value="Chierico">Chierico</option>
+              <option value="Druido">Druido</option>
+              <option value="Mago">Mago</option>
+              <option value="Paladino">Paladino</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Stregone">Stregone</option>
+              <option value="Warlock">Warlock</option>
+            </select>
+          </section>
+          <hr>
+          <section>  
+            <label for="livello">Livello = </label>
+            <select name="magicLevel" id="livello">
+              <option value="Indifferente">Indifferente</option>
+              <option value="Trucchetto">Trucchetti</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </section>
+          <hr>
+          <section>  
+            <label for="scuolaDiMagia">Scuola di magia = </label>
+            <select name="magicSchool" id="scuolaDiMagia">
+              <option value="Indifferente">Indifferente</option>
+              <option value="Abiurazione">Abiurazione</option>
+              <option value="Ammaliamento">Ammaliamento</option>
+              <option value="Divinazione">Divinazione</option>
+              <option value="Evocazione">Evocazione</option>
+              <option value="Illusione">Illusione</option>
+              <option value="Invocazione">Invocazione</option>
+              <option value="Necromanzia">Necromanzia</option>
+              <option value="Trasmutazione">Trasmutazione</option>
+            </select>
+          </section>
+          <hr>
+          <section>  
+            <label for="tempoDiLancio">Tempo di lancio = </label>
+            <select name="spellcastingTime" id="TempoDiLancio">
+              <option value="Indifferente">Indifferente</option>
+              <option value="1 azione">1 azione</option>
+              <option value="1 minuto">1 minuto</option>
+              <option value="10 minuti">10 minuti</option>
+              <option value="1 ora">1 ora</option>
+              <option value="1 azione bonus">1 azione bonus</option>
+              <option value="1 reazione">1 reazione</option>
+              <option value="8 ore">8 ore</option>
+              <option value="24 ore">24 ore</option>
+              <option value="12 ore">12 ore</option>
+            </select>
+          </section>
+          <hr>
+          <section>
+            <span>Concentrazione = </span>  
+            <label for="Indifferente">Indifferente</label>
+            <input type="radio" id="Indifferente" name="Concentrazione" value="Indifferente">
+            <label for="Si">Si</label>
+            <input type="radio" id="Si" name="Concentrazione" value="Si">
+            <label for="No">No</label>
+            <input type="radio" id="No" name="Concentrazione" value="No">
+          </section>
+          <hr>
+          <section>  
+            <span>Rituale = </span>  
+            <label for="Indifferente">Indifferente</label>
+            <input type="radio" id="Indifferente" name="ritual" value="Indifferente">
+            <label for="Si">Si</label>
+            <input type="radio" id="Si" name="ritual" value="Si">
+            <label for="No">No</label>
+            <input type="radio" id="No" name="ritual" value="No">
+          </section>
+          <hr>
+          <section>  
+            <label for="gittata">Gittata = </label>
+            <select name="range" id="gittata">
+              <option value="Indifferente">Indifferente</option>
+              <option value="Incantatore">Incantatore</option>
+              <option value="Contatto">Contatto</option>
+              <option value="Vista">Vista</option>
+              <option value="1,5 metri">1,5 metri</option>
+              <option value="3 metri">3 metri</option>
+              <option value="9 metri">9 metri</option>
+              <option value="18 metri">18 metri</option>
+              <option value="27 metri">27 metri</option>
+              <option value="30 metri">30 metri</option>
+              <option value="36 metri">36 metri</option>
+              <option value="45 metri">45 metri</option>
+              <option value="90 metri">90 metri</option>
+              <option value="150 metri">150 metri</option>
+              <option value="1,5 km">1,5 km</option>
+              <option value="750 km">750 km</option>
+              <option value="Illimitata">Illimitata</option>
+              <option value="Speciale">Speciale</option>
+            </select>
+          </section>
+          <hr>
+          <section>  
+            <span>Componenti = </span>
+            <label for="V">V</label>
+            <input type="checkbox" name="components" id="V">
+            <label for="S">S</label>
+            <input type="checkbox" name="components" id="S">
+            <label for="M">M</label>
+            <input type="checkbox" name="components" id="S">
+          </section>
+          <hr>
+          <section>  
+            <label for="durata">Durata</label>
+          </section>
+          <hr>
+        </form>
+      </div>
+      <div class="Titoli-Descrizione">
+        <p>Titoli / Descrizione</p>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>Footer</p>
+    </footer>
 
     <script src="./jquery350.js"></script>
     <script src="./grimorioPHB.js"></script>
@@ -22,3 +166,20 @@
   </body>
 
 </html>
+
+
+
+<!-- 
+
+- Titolo = INDIFFERENTE / SCRITTA
+- Classe = INDIFFERENTE / SELEZIONA
+- Livello = INDIFFERENTE / SELEZIONA
+- Scuola di magia = INDIFFERENTE / SELEZIONA
+- Tempo di lancio = INDIFFERENTE / SELEZIONA
+- Concentrazione = INDIFFERENTE / SI / NO
+- Rituale = INDIFFERENTE / SI / NO
+- Gittata = INDIFFERENTE / SELEZIONA 
+- Componenti = INDIFFERENTE / V / S / M 
+- Durata = INDIFFERENTE / SELEZIONA
+ 
+-->

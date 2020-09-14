@@ -15,6 +15,11 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
+// Crei un datalist per i titoli
+for (let spell of filterEveryTypeValue(grimArr, 'title')) {
+  $('.dataListTitles').append('<option value="'+spell+'"></option>');
+};
+
 
 
 // console.log(grimArr); // Tutto funziona
@@ -73,7 +78,7 @@ function grimorioCreation (grimorio) {
     grimorioArray.push({
       title : [spell.split('\n')[0]],
       magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
-      magicLevel : [Number(schoolAndLevel(spell.split('\n')[1].split(' '), 'level'))],
+      magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
       spellcastingTime : (function () {
         if (spell.split('\n')[2].split(': ')[1][2] === 'r') {
           return [spell.split('\n')[2].split(': ')[1].split(', che ')[0], spell.split('\n')[2].split(': ')[1].split(', che ')[1]];
@@ -107,7 +112,11 @@ function grimorioCreation (grimorio) {
           return [spell.split('\n')[5].split(': ')[1]];
         }
       })(),
-      description : [spell.split('\n').slice(6).join(' ')]
+      description : [spell.split('\n').slice(6).join(' ')],
+      ritual : (function () {
+        if (spell.split('\n')[1].slice(-9) === '(rituale)') return ['Si'];
+        return ['No'];
+      })()
     });
   }
 
@@ -205,7 +214,18 @@ function allSpellsUniqueArray () {
   return arrayUniqueValues(arr).sort().slice(1);
 }
 
-// filterKeyValueGrimArr: DA FINIRE PER FARLA FUNZIONARE CON TUTTO!!!!! (ogni propietà di grimArr fai in modo che come valore sia un array contenete quel che serve)
+// filterEveryTypeValue:            N.B. prende solo il primo valore dell'array della chiave in questione
+// una funzione che restituisce un array contenente i valori univoci della chiave di proprieta' inserita come argomento
+// della funzione stessa per tutte le spell di grimmArr o altra raccolta.
+function filterEveryTypeValue (collection, key) {
+  let arr = [];
+  for (let spell of collection) {
+    arr.push(spell[key][0]);
+  }
+  return arrayUniqueValues(arr);
+}
+
+// filterKeyValueGrimArr:
 // una funzione che restituisce un array contenente tutti gli incantesimi filtrati dal
 // grimorio che in quel momento viene usato come base di riferimento (quindi non necessariamente grimArr). 
 // Inserendo quindi come argomenti: il grimorio di riferimento in quel momento, 

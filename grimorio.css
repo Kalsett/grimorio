@@ -1,3 +1,72 @@
-h1 {
-  color: black
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  height: 100%;
+}
+
+body { 
+  height: 100%;
+}
+
+.responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* gap: 10px; */
+  height: 80%;
+}
+
+header {
+  background-color: cornflowerblue;
+  height: 10%;
+}
+
+
+.Specifiche {
+  background-color: darkgoldenrod;
+}
+
+
+.Titoli-Descrizione {
+  background-color: darkgray;
+}
+
+
+footer {
+  background-color: teal;
+  height: 10%;
+}
+
+
+h1 {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.contenitore {
+  display: flex; // || inline-flex 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: coral;
+}
+
+.contenitore2 {
+  display: grid;
+}
+*/
