@@ -15,10 +15,8 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
-// Crei un datalist per i titoli
-for (let spell of filterEveryTypeValue(grimArr, 'title')) {
-  $('.dataListTitles').append('<option value="'+spell+'"></option>');
-};
+// Crei tutte le voci del menù di scelta.
+datalistsBuilder ();
 
 
 
@@ -40,7 +38,7 @@ for (let spell of filterEveryTypeValue(grimArr, 'title')) {
 function arrayUniqueValues (arr) {
   let arrayUniqueValues = [];
   let state = true;
-
+  
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arrayUniqueValues.length; j++) {
       if(arr[i] === arrayUniqueValues[j]) state = false;
@@ -48,7 +46,7 @@ function arrayUniqueValues (arr) {
     if (state === true) arrayUniqueValues.push(arr[i])
     state = true;
   }
-
+  
   return arrayUniqueValues;
 };
 
@@ -57,7 +55,7 @@ function arrayUniqueValues (arr) {
 // creare un array 'grimArr' avente come indici gli incantesimi singoli in formato oggetto.
 function grimorioCreation (grimorio) {
   let grimorioArray = [];
-
+  
   function schoolAndLevel (sAl, type) {
     if (sAl[0] === 'Trucchetto' && type === 'school') {
       return sAl[2];
@@ -69,7 +67,7 @@ function grimorioCreation (grimorio) {
       return sAl[2];
     }
   }
-
+  
   for (let spell of grimorio.slice(1).split('\n\n')) {
     // if (spell.split('\n')[2].split(': ')[0] !== 'Tempo di Lancio') console.log('Qualcosa non va in "Tempo di Lancio" di: ', spell.split('\n')[0]);
     // if (spell.split('\n')[3].split(': ')[0] !== 'Gittata') console.log('Qualcosa non va in "Gittata" di: ', spell.split('\n')[0]);
@@ -119,7 +117,7 @@ function grimorioCreation (grimorio) {
       })()
     });
   }
-
+  
   // Aggiunge ad ogni incantesimo oggetto di grimorioArray chi sono gli utilizzatori
   for (let spell of grimorioArray) {
     spell.casters = [];
@@ -129,7 +127,7 @@ function grimorioCreation (grimorio) {
       }
     }
   }
-
+  
   return grimorioArray;
 }
 
@@ -158,18 +156,18 @@ function correctSpellList (spellList) {
   let obj = {};
   let arrayGrimorioSpells = []
   let objFiltered = {};
-
+  
   for (let classSpells in spellList) {
     obj[classSpells] = spellList[classSpells].slice(1).split('\n');
   }
-
+  
   for (let i of grimorioCreation(grimorioStringPHB)) {
     arrayGrimorioSpells.push(i.title);
   }
-
+  
   for (let arrayClassSpells in obj) {
     objFiltered[arrayClassSpells] = [];
-
+    
     for (let spell1 of obj[arrayClassSpells]) {
       let checkPresence = false;
       for (let spell2 of arrayGrimorioSpells) {
@@ -181,11 +179,11 @@ function correctSpellList (spellList) {
         objFiltered[arrayClassSpells].push(spell1);
       }
     }
-
+    
     if (objFiltered[arrayClassSpells].length === 0) {
       objFiltered[arrayClassSpells] = "Tutti gli incantesimi di questa lista combaciano!!!";
     }
-
+    
   }
   return objFiltered;
 }
@@ -195,11 +193,11 @@ function correctSpellList (spellList) {
 // i rispettivi valori sono array contenenti gli incantesimi di quella classe.
 function objClassesArrSpellLists (spellList) {
   let obj = {};
-
+  
   for (let classSpells in spellList) {
     obj[classSpells.slice(11)] = spellList[classSpells].toUpperCase().slice(1).split('\n');
   }
-
+  
   return obj;
 }
 
@@ -225,11 +223,51 @@ function filterEveryTypeValue (collection, key) {
   return arrayUniqueValues(arr);
 }
 
+// Crei un datalist HTML per tutte le voci, in questo modo se in futuro si aggingeranno classi o livelli o altro
+// il sistema le riconoscerà in automatico.
+function datalistsBuilder () {
+  // Crei un datalist HTML per i titoli nel DOM, in questo modo la ricerca per titoli è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'title').sort()) {
+    $('.dataListTitles').append('<option value="'+spell+'"></option>');
+  };
+  
+  // Crei un datalist HTML per i livelli nel DOM, in questo modo la ricerca per i livelli è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'magicLevel').sort()) {
+    $('.dataListmagicLevels').append('<option value="'+spell+'"></option>');
+  };
+  
+  // Crei un datalist HTML per i casters nel DOM, in questo modo la ricerca per i casters è potente
+  let castersList = Object.keys(objCastersArr).sort();
+  for (let caster of castersList) {
+    $('.dataListClasses').append('<option value="'+caster+'"></option>');
+  };
+  
+  // Crei un datalist HTML per le scuole di magia nel DOM, in questo modo la ricerca per le scuole di magia è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'magicSchool').sort()) {
+    $('.dataListmagicSchools').append('<option value="'+spell+'"></option>');
+  };
+  
+  // Crei un datalist HTML per i tempi di lancio nel DOM, in questo modo la ricerca per i tempi di lancio è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'spellcastingTime').sort()) {
+    $('.dataListSpellcastingTimes').append('<option value="'+spell+'"></option>');
+  };
+  
+  // Crei un datalist HTML per le i range nel DOM, in questo modo la ricerca per i range è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'range').sort()) {
+    $('.dataListRanges').append('<option value="'+spell+'"></option>');
+  };
+  
+  // Crei un datalist HTML per le durate nel DOM, in questo modo la ricerca per durate è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'duration').sort()) {
+    $('.dataListDurations').append('<option value="'+spell+'"></option>');
+  };
+}
+
 // filterKeyValueGrimArr:
 // una funzione che restituisce un array contenente tutti gli incantesimi filtrati dal
 // grimorio che in quel momento viene usato come base di riferimento (quindi non necessariamente grimArr). 
-// Inserendo quindi come argomenti: il grimorio di riferimento in quel momento, 
-// la chiave della proprieta' che ti interessa e il suo valore desiderato e FACOLTATIVAMENTE un altro argomento VERO, ad esempio 'U'.
+// Inserendo quindi come argomenti: il grimorio di riferimento in quel momento, la chiave della proprieta'
+// che ti interessa e il suo valore desiderato e FACOLTATIVAMENTE un altro argomento VERO, ad esempio 'U'.
 // Se aggiunto filtrera' solamente gli incantemi che avranno il valore desiderato di cui sopra come elemento univoco della proprietà. 
 // Se ad esempio vuoi tutti gli incantesimi che il paladino conosce ti basta digitare: filterKeyValueGrimArr(grimArr, 'casters', 'Paladino');
 // Se invece vuoi tutti gli incantesimi che SOLO il paladino conosce allora: filterKeyValueGrimArr(grimArr, 'casters', 'Paladino', 'U');

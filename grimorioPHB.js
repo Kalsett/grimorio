@@ -164,7 +164,7 @@ l'incantesimo termina.
 Al livelli Superiori. Quando l'incantatore lancia questo
 incantesimo usando uno slot incantesimo di 5 livello o
 superiore i danni aumentano di 1dlO per ogni slot di livello
-superiore al 4".
+superiore al 4.
 
 ALTERARE SE STESSO
 Trasmutazione di 2 livello
@@ -1234,7 +1234,7 @@ creatura entro quell'area deve effettuare un tiro salvezza
 su Costituzione. Se lo fallisce, subisce 8d6 danni necrotici,
 mentre se lo supera, subisce soltanto la metà di quei danni.
 Ai livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 7° livello o
+incantesimo usando uno slot incantesimo di 7 livello o
 superiore, i danni aumentano di 2d6 per ogni slot di livello
 superiore al 6.
 
@@ -1318,7 +1318,7 @@ decidere che la sua magia funzioni nella direzione inversa,
 impedendo a una creatura del tipo specificato di uscire dal
 cilindro e proteggendo i bersagli all'esterno.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 4" livello o
+incantesimo usando uno slot incantesimo di 4 livello o
 superiore, la durata aumenta di 1 ora per ogni slot di livello
 superiore al 3.
 
@@ -1490,7 +1490,7 @@ a non più di 9 metri runa dall'altra quando l'incantatore le
 bersaglia.
 
 COMPRENSIONE DEI LINGUAGGI
-Divinazione di r livello (rituale)
+Divinazione di 1 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un pizzico di fuliggine e di sale)
@@ -1771,7 +1771,7 @@ L'incantatore tenta di interrompere una creatura nell'atto
 di lanciare un incantesimo. Se la creatura sta lanciando
 un incantesimo di 3' livello o inferiore. l'incantesimo
 della creatura fallisce e non ha effetto. Se la creatura
-sta lanciando un incantesimo di 4" livello o superiore,
+sta lanciando un incantesimo di 4 livello o superiore,
 l'incantatore effettua una prova di caratteristica usando
 la sua caratteristica da incantatore. La CD è pari a 10 +il
 livello dell'incantesimo della creatura. In caso di successo.
@@ -2500,7 +2500,7 @@ permanentemente al suo comando: obbedirà ai suoi ordini
 verbali al meglio delle sue capacità.
 
 DIVINAZIONE
-Divinazione di 4" livello (rituale)
+Divinazione di 4 livello (rituale)
 Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (incenso e un'offerta sacrificale appropriata alla religione dell'incantatore, del valore complessivo di almeno 25 mo, che l'incantesimo consuma)
@@ -4530,7 +4530,7 @@ fuoco.
 La lama infuocata proietta luce intensa entro un raggio
 di 3 metri e luce fioca per altri 3 metri.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 4" livello o
+incantesimo usando uno slot incantesimo di 4 livello o
 superiore, i danni aumentano di ld6 per ogni due slot
 oltre il 2.
 
@@ -5879,7 +5879,7 @@ tenta di lanciare l'incantesimo in questo modo in un'area che
 non è dedicata alla sua divinità, l'incantesimo non ha effetto.
 
 PAROLA DIVINA
-Invocazione 7 livello
+Invocazione di 7 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: 9 metri
 Componenti: V
@@ -6234,7 +6234,7 @@ contemporaneamente, e può congedare ognuno di questi
 effetti con un'azione.
 
 PREVISIONE
-Divinazione di 9D livello
+Divinazione di 9 livello
 Tempo di Lancio: 1 minuto
 Gittata: Contatto
 Componenti: V, S, M (una piuma di colibrí)
@@ -6541,7 +6541,7 @@ dell'incantatore entro gittata sono purificati e liberati dai
 veleni e dalle malattie.
 
 RAFFICA DI SPINE
-Evocazione di r livello
+Evocazione di 1 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V
@@ -6552,7 +6552,7 @@ incantesimo, una raffica di spine si sprigiona dalla sua
 arma a distanza o dalle sue munizioni. In aggiunta al
 normale effetto dell'attacco, il bersaglio e ogni creatura
 entro 1,5 metri da esso devono effettuare un tiro salvezza
-su Destrezza. Chi lo fallisce subisce ldlO danni perforanti,
+su Destrezza. Chi lo fallisce subisce 1dlO danni perforanti,
 mentre chi lo supera subisce soltanto la metà di quei danni.
 Ai Livelli Superiori. Se l'incantatore lancia questo
 incantesimo usando uno slot incantesimo di 2 livello o
@@ -6692,7 +6692,7 @@ termina se l'incantatore lo lancia di nuovo o se lascia
 andare l'arma.
 
 REGGIA MERAVIGLIOSA DI MORDENKAINEN
-Evocazione di 7° livello
+Evocazione di 7 livello
 Tempo di Lancio: 1 minuto
 Gittata: 90 metri
 Componenti: V, S, M (un portale in miniatura scolpito in avorio, un frammento di marmo lucido, un cucchiaino d'argento; ognuno di questi oggetti deve avere un valore di almeno 5 mo)
@@ -6753,7 +6753,7 @@ Anche gli incantesimi desiderio, guarigione o ristorare
 superiore possono terminare questo incantesimo.
 
 REINCARNAZIONE
-Trasmutazione di se livello
+Trasmutazione di 5 livello
 Tempo di Lancio: 1 ora
 Gittata: Contatto
 Componenti: V, S, M (oli e unguenti rari del valore di almeno 1.000 mo, che l'incantesimo consuma)
@@ -7673,7 +7673,7 @@ effetto del normale lancio dell'incantesimo. L'incantatore può
 anche poggiare il globo a terra senza frantumarlo. Dopo 1
 minuto, se il globo non è già stato frantumato, esplode.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di r livello o
+incantesimo usando uno slot incantesimo di 7 livello o
 superiore, i danni aumentano di ld6 per ogni slot di livello
 superiore al 6.
 
@@ -8063,7 +8063,7 @@ da sola il modo di tornare sul piano di esistenza attuale
 dell'incantatore.
 
 SPRUZZO COLORATO
-Illusione di r livello
+Illusione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (cono di 4,5 metri)
 Componenti: V, S, M (un pizzico di sabbia o di polvere colorata di rosso, giallo e blu)
@@ -8946,7 +8946,7 @@ prova, non può muoversi. Se una creatura muovendosi esce
 dall'area, cade a terra.
 
 UNTO
-Evocazione di 1° livello
+Evocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: 18 metri
 Componenti: V, S, M (un frammento di grasso di maiale o di burro)

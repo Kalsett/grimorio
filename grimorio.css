@@ -4,24 +4,24 @@
   padding: 0;
 }
 
-html {
+/* html {
   height: 100%;
-}
+} */
 
-body { 
+/* body { 
   height: 100%;
-}
+} */
 
 .responsive {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   /* gap: 10px; */
-  height: 80%;
+  /* height: 80%; */
 }
 
 header {
   background-color: cornflowerblue;
-  height: 10%;
+  /* height: 10%; */
 }
 
 
@@ -37,7 +37,7 @@ header {
 
 footer {
   background-color: teal;
-  height: 10%;
+  /* height: 10%; */
 }
 
 
