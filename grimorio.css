@@ -27,11 +27,14 @@ header {
 
 .Specifiche {
   background-color: darkgoldenrod;
+  padding: 10px;
 }
 
 
 .Titoli-Descrizione {
   background-color: darkgray;
+  overflow: auto;
+  padding: 10px;
 }
 
 
@@ -45,7 +48,17 @@ h1 {
   color: black;
 }
 
+.componentiOnOff {
+  display: none;
+}
 
+.caratteristicheSpell {
+  font-weight: bold;
+}
+
+span {
+  font-weight: normal;
+}
 
 
 

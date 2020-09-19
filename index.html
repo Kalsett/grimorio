@@ -20,79 +20,83 @@
           <hr>
           <section>
             <label for="titolo">Titolo = </label>
-            <input type="text" id="titolo" placeholder="Indifferente" name="title" list="titleSpell">
+            <input class="trigger" type="text" id="titolo" placeholder="Indifferente" name="title" list="titleSpell">
             <datalist id="titleSpell" class="dataListTitles">
             </datalist>
           </section>
           <hr>
           <section>
             <label for="classe">Classe = </label>
-            <input type="text" id="classe" placeholder="Indifferente" name="class" list="classSpell">
+            <input class="trigger" type="text" id="classe" placeholder="Indifferente" name="class" list="classSpell">
             <datalist id="classSpell" class="dataListClasses">
             </datalist>
           </section>
           <hr>
           <section>
             <label for="livello">Livello = </label>
-            <input type="text" id="livello" placeholder="Indifferente" name="magicLevel" list="magicLevelSpell">
+            <input class="trigger" type="text" id="livello" placeholder="Indifferente" name="magicLevel" list="magicLevelSpell">
             <datalist id="magicLevelSpell" class="dataListmagicLevels">
             </datalist>
           </section>
           <hr>
           <section>
             <label for="scuolaDiMagia">Scuola di magia = </label>
-            <input type="text" id="scuolaDiMagia" placeholder="Indifferente" name="magicSchool" list="magicSchoolSpell">
+            <input class="trigger" type="text" id="scuolaDiMagia" placeholder="Indifferente" name="magicSchool" list="magicSchoolSpell">
             <datalist id="magicSchoolSpell" class="dataListmagicSchools">
             </datalist>
           </section>
           <hr>
           <section>
             <label for="tempoDiLancio">Tempo di lancio = </label>
-            <input type="text" id="tempoDiLancio" placeholder="Indifferente" name="spellcastingTime" list="spellcastingTimeSpell">
+            <input class="trigger" type="text" id="tempoDiLancio" placeholder="Indifferente" name="spellcastingTime" list="spellcastingTimeSpell">
             <datalist id="spellcastingTimeSpell" class="dataListSpellcastingTimes">
             </datalist>
           </section>
           <hr>
           <section>
             <span>Concentrazione = </span>  
+            <input class="trigger" type="radio" id="Indifferente" name="concentrazione" value="Indifferente">
             <label for="Indifferente">Indifferente</label>
-            <input type="radio" id="Indifferente" name="Concentrazione" value="Indifferente">
+            <input class="trigger" type="radio" id="Si" name="concentrazione" value="Si">
             <label for="Si">Si</label>
-            <input type="radio" id="Si" name="Concentrazione" value="Si">
+            <input class="trigger" type="radio" id="No" name="concentrazione" value="No">
             <label for="No">No</label>
-            <input type="radio" id="No" name="Concentrazione" value="No">
           </section>
           <hr>
           <section>  
             <span>Rituale = </span>  
+            <input class="trigger" type="radio" id="Indifferente" name="ritual" value="Indifferente">
             <label for="Indifferente">Indifferente</label>
-            <input type="radio" id="Indifferente" name="ritual" value="Indifferente">
+            <input class="trigger" type="radio" id="Si" name="ritual" value="Si">
             <label for="Si">Si</label>
-            <input type="radio" id="Si" name="ritual" value="Si">
+            <input class="trigger" type="radio" id="No" name="ritual" value="No">
             <label for="No">No</label>
-            <input type="radio" id="No" name="ritual" value="No">
           </section>
           <hr>
           <section>
             <label for="gittata">Gittata = </label>
-            <input type="text" id="gittata" placeholder="Indifferente" name="range" list="rangeSpell">
+            <input class="trigger" type="text" id="gittata" placeholder="Indifferente" name="range" list="rangeSpell">
             <datalist id="rangeSpell" class="dataListRanges">
             </datalist>
           </section>
           <hr>
           <section>  
             <span>Componenti = </span>
-            <label for="V">V</label>
-            <input type="checkbox" name="components" id="V">
-            <label for="S">S</label>
-            <input type="checkbox" name="components" id="S">
-            <label for="M">M</label>
-            <input type="checkbox" name="components" id="S">
+            <input class="trigger" type="checkbox" name="components" id="compInd" checked=true>
+            <label for="compInd">Indifferente</label>
+            <div class="componentiOnOff">
+              <input class="trigger" type="checkbox" name="components" id="V">
+              <label for="V">Verbali</label>
+              <input class="trigger" type="checkbox" name="components" id="S">
+              <label for="S">Somatiche</label>
+              <input class="trigger" type="checkbox" name="components" id="M">
+              <label for="M">Materiali</label>
+            </div>
           </section>
           <hr>
           <section>
             <label for="durata">Durata</label>
-            <input type="text" id="durata" placeholder="Indifferente" name="duration" list="durationSpell">
+            <input class="trigger" type="text" id="durata" placeholder="Indifferente" name="duration" list="durationSpell">
             <datalist id="durationSpell" class="dataListDurations">
             </datalist>
           </section>
@@ -101,6 +105,9 @@
       </div>
       <div class="Titoli-Descrizione">
         <p>Titoli / Descrizione</p>
+        <div class="elenco">
+        <p class="spellCompleta"></p>
+        </div>
       </div>
     </section>
 

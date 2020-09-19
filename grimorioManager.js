@@ -16,7 +16,19 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
 // Crei tutte le voci del menù di scelta.
-datalistsBuilder ();
+datalistsBuilder();
+
+// Rende indifferente la scelta delle componenti oppure mostra opzioni piu' localizzate
+$('#compInd').change(function () {
+  if ($('#compInd').prop('checked') === false) return $('.componentiOnOff').css('display', 'inline');
+  return $('.componentiOnOff').css('display', 'none');
+});
+
+// Al cambiamento del valore del campo selezionato viene triggerata la funzione.
+$('.trigger').change(function () {
+  spellFilter ();
+});
+
 
 
 
@@ -129,7 +141,7 @@ function grimorioCreation (grimorio) {
   }
   
   return grimorioArray;
-}
+};
 
 // Questa funzione serve a verificare che la 'Durata' di
 // tutti gli incantesimi sia in ogni incantesimo nella 6 riga.
@@ -144,7 +156,7 @@ function checkIfDurationIsLine6 (str) {
   }
   if (arr.length === 0) return 'Grimorio con "Durata" nella posizione giusta!!!';
   return arr;
-}
+};
 
 // correctSpellList:
 // Questa funzione raffronta le liste degli incantesimi di ogni classe presenti in listeincantesimi_grimorioPHB.js con 
@@ -186,7 +198,7 @@ function correctSpellList (spellList) {
     
   }
   return objFiltered;
-}
+};
 
 // objClassesArrSpellLists:
 // Questa funzione crea un oggetto le cui chiavi corrispondono alle classi e
@@ -199,7 +211,7 @@ function objClassesArrSpellLists (spellList) {
   }
   
   return obj;
-}
+};
 
 // allSpellsUniqueArray:
 // un array contenente tutti gli incanteimi di tutte le classi presi una sola volta e
@@ -210,7 +222,7 @@ function allSpellsUniqueArray () {
     arr = arr.concat(objCastersArr[classSpells]);
   }
   return arrayUniqueValues(arr).sort().slice(1);
-}
+};
 
 // filterEveryTypeValue:            N.B. prende solo il primo valore dell'array della chiave in questione
 // una funzione che restituisce un array contenente i valori univoci della chiave di proprieta' inserita come argomento
@@ -221,7 +233,7 @@ function filterEveryTypeValue (collection, key) {
     arr.push(spell[key][0]);
   }
   return arrayUniqueValues(arr);
-}
+};
 
 // Crei un datalist HTML per tutte le voci, in questo modo se in futuro si aggingeranno classi o livelli o altro
 // il sistema le riconoscerà in automatico.
@@ -261,7 +273,7 @@ function datalistsBuilder () {
   for (let spell of filterEveryTypeValue(grimArr, 'duration').sort()) {
     $('.dataListDurations').append('<option value="'+spell+'"></option>');
   };
-}
+};
 
 // filterKeyValueGrimArr:
 // una funzione che restituisce un array contenente tutti gli incantesimi filtrati dal
@@ -287,6 +299,87 @@ function filterKeyValueGrimArr (grim, key, value, U) {
     }
   }
   return arr;
+};
+
+// spellFilter:
+// è la funzione che permette a tutto il sistema di proporre i titoli corretti in base alla ricerca effettuata nel DOM
+// e cliccare su di essi per far comparire la spell voluta.
+function spellFilter () {
+  let filtGrim = Object.assign([], grimArr);
+  function filt (filter, key) {
+    if ($(filter).val() !== '' && $(filter).val() !== undefined && filter === "input[name=concentrazione]:checked") {
+      if ($("input[name=concentrazione]:checked").val() === 'Si') return filtGrim = filterKeyValueGrimArr (filtGrim, 'duration', 'Concentrazione');
+      if ($("input[name=concentrazione]:checked").val() === 'No') {
+        let arr = [];
+        for (let i of filtGrim) {
+          let stateB = true;
+          for (let j of i.duration) {
+            if (j === 'Concentrazione') stateB = false;   
+          }
+          if (stateB === true) arr.push(i);
+        }
+        return filtGrim = arr;
+      }
+      if ($("input[name=concentrazione]:checked").val() === 'Indifferente') return filtGrim;
+    }
+    if ($(filter).val() !== '' && $(filter).val() !== undefined && filter === "input[name=ritual]:checked") {
+      if ($("input[name=ritual]:checked").val() === 'Si') return filtGrim = filterKeyValueGrimArr (filtGrim, 'ritual', 'Si');
+      if ($("input[name=ritual]:checked").val() === 'No') return filtGrim = filterKeyValueGrimArr (filtGrim, 'ritual', 'No');
+      if ($("input[name=ritual]:checked").val() === 'Indifferente') return filtGrim;
+    }
+    if ($(filter).val() !== '' && $(filter).val() !== undefined) {
+      return filtGrim = filterKeyValueGrimArr (filtGrim, key, $(filter).val());
+    }
+  }
+
+  // function filtComponents () {
+  //   if ($('#V').prop('checked')) {
+
+  //   }
+  // }
+
+  filt('#titolo', 'title');
+  filt('#classe', 'casters');
+  filt('#livello', 'magicLevel');
+  filt('#scuolaDiMagia', 'magicSchool');
+  filt('#tempoDiLancio', 'spellcastingTime');
+  filt('input[name=concentrazione]:checked');
+  filt('input[name=ritual]:checked');
+  filt('#gittata', 'range');
+  // // $('#V').prop('checked')
+  filt('#durata', 'duration');
+
+  console.log(filtGrim);
+  $('.elenco').html('');
+  for (let spell of filtGrim) {
+    let a = $('<a>');
+    a.html(spell.title);
+    //$('.elenco').append('<a>'+spell.title+'</a><br>');
+    a.data('title', spell.title);
+    $('.elenco').append(a);
+    $('.elenco').append('<br>');
+  }
+  $('a').on('click', displaySpell);
 }
 
-
+// displaySpell:
+// funzione che recupera i data dal link cliccato e la spell corrispondente a quel determinato data. 
+// Questa funzione si occupa anche di dare un aspetto consono alla spell oggetto richiamato, 
+// permettendo cosi' una miglior lettura all'utente interessato.
+function displaySpell (event) {
+  let tagTitle = $(event.target).data('title')[0]; // lo zero perche' senza ti dava un array :)
+  $('.elenco').html('');
+  let selectedSpell = filterKeyValueGrimArr (grimArr, 'title', tagTitle)[0];
+  $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Titolo: <span>' + selectedSpell.title.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Scuola di magia: <span>' + selectedSpell.magicSchool.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Livello: <span>' + selectedSpell.magicLevel.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Tempo di lancio: <span>' + selectedSpell.spellcastingTime.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Gittata: <span>' + selectedSpell.range.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Componenti: <span>' + selectedSpell.components.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Durata: <span>' + selectedSpell.duration.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Rituale: <span>' + selectedSpell.ritual.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Utilizzatori: <span>' + selectedSpell.casters.join(' - ') + '</span></p><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Descrizione: <br><span>' + selectedSpell.description.join(' - ') + '</span></p>');
+  $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
+};
