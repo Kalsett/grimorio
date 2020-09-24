@@ -18,13 +18,22 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
-// Crei tutte le voci del menù di scelta.
+// Crei tutte le voci del menù di scelta e mostri tutti gli incantesimi.
 datalistsSelectBuilder();
+spellFilter ();
 
 // Rende indifferente la scelta delle "componenti" oppure mostra opzioni piu' localizzate (V, S, M) utilizzando il display del css;
 $('#compInd').change(function () {
-  if ($('#compInd').prop('checked') === false) return $('.componentiOnOff').css('display', 'inline');
-  return $('.componentiOnOff').css('display', 'none');
+  if ($('#compInd').prop('checked') === true) {
+    alert('ATTENZIONE: verranno elencati gli incantesimi contenenti solo le componenti selezionate, tralasciando quelli le cui componenti non sono selezionate!!!')
+    return $('.componentiOnOff').css('display', 'inline');
+  } else {
+    $('input[id="V"]')[0].checked = false;
+    $('input[id="S"]')[0].checked = false;
+    $('input[id="M"]')[0].checked = false;
+    spellFilter ();
+    return $('.componentiOnOff').css('display', 'none');
+  } 
 });
 
 // Al cambiamento del valore del campo selezionato viene triggerata la funzione.
@@ -45,14 +54,17 @@ $('.trigger').change(function () {
   });
 })()
 
-// permette di resettare i campi sottostanti
+// permette di resettare i campi sottostanti nell'interfaccia grafica dei settaggi e titoli/descrizioni
 $('h2').on('click', function () {
   for (let input of $('input')) {
-    input.value = '';
     input.checked = false;
-    $('.elenco').html('');
   }
-  $('input')[12].checked = true;
+  for (let select of $('select')) {
+    select.checked = false;
+  }
+  $('.elenco').html('');
+  spellFilter ();
+  $('.componentiOnOff').css('display', 'none');
 });
 
 
@@ -347,7 +359,9 @@ function filterKeyValueGrimArr (grim, key, value, U) {
 // è la funzione che permette a tutto il sistema di proporre i titoli corretti in base alla ricerca effettuata nel DOM
 // e cliccare su di essi per far comparire la spell voluta.
 function spellFilter () {
+
   let filtGrim = Object.assign([], grimArr);
+
   function filt (filter, key) {
     if ($(filter).val() !== '' && $(filter).val() !== undefined && filter === "input[name=concentrazione]:checked") {
       if ($("input[name=concentrazione]:checked").val() === 'Si') return filtGrim = filterKeyValueGrimArr (filtGrim, 'duration', 'Concentrazione');
@@ -377,11 +391,38 @@ function spellFilter () {
     }
   }
 
-  // function filtComponents () {
-  //   if ($('#V').prop('checked')) {
+  function filtComponents (V, S, M) {
+    if (V && !S && !M) {
+      filtGrim = filterKeyValueGrimArr (filtGrim, 'components', 'V', 1);
+    } else if (!V && S && !M) {
+      filtGrim = filterKeyValueGrimArr (filtGrim, 'components', 'S', 1);
+    } else if (!V && !S && M) {
+      filtGrim = filterKeyValueGrimArr (filtGrim, 'components', 'M', 1);
+    } else if (V && S && !M) {
+      filtGrim = [];
+      for (let spell of grimArr) {
+        if (spell.components[0] === 'V' && spell.components[1] === 'S' && spell.components[2] === undefined) filtGrim.push(spell);
+      }
+    } else if (V && !S && M) {
+      filtGrim = [];
+      for (let spell of grimArr) {
+        if (spell.components[0] === 'V' && spell.components[1] === 'M') filtGrim.push(spell);
+      }
+    } else if (!V && S && M) {
+      filtGrim = [];
+      for (let spell of grimArr) {
+        if (spell.components[0] === 'S' && spell.components[1] === 'M') filtGrim.push(spell);
+      }
+    } else if (V && S && M) {
+      filtGrim = [];
+      for (let spell of grimArr) {
+        if (spell.components[0] === 'V' && spell.components[1] === 'S' && spell.components[2] === 'M') filtGrim.push(spell);
+      }
+    }
+    return filtGrim;
+  }
 
-  //   }
-  // }
+  // V - S - M - VS - VM - SM - VSM
 
   filt('#classe', 'casters');
   filt('#livello', 'magicLevel');
@@ -390,7 +431,7 @@ function spellFilter () {
   filt('input[name=concentrazione]:checked');
   filt('input[name=ritual]:checked');
   filt('#gittata', 'range');
-  // // $('#V').prop('checked')
+  filtComponents($('#V').prop('checked'), $('#S').prop('checked'), $('#M').prop('checked'));
   filt('#durata', 'duration');
   filt('#titolo', 'title');
   
