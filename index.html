@@ -10,53 +10,71 @@
   <body>
 
     <header>
-      <h1>GRIMORIO D&d 5E [-_-] </h1>
+      <div class="headerText">
+        <h1>GRIMORIO D&d 5E</h1>
+        <p>by Juri Merello</p>
+      </div>
     </header>
 
     <section class="responsive">
       <div class="Specifiche">
-        <p>Specifiche di ricerca</p>
-        <form action="">
-          <hr>
+        <h2>Specifiche di ricerca</h2><br>
+        <form>
+          <!-- <hr> -->
           <section>
-            <label for="titolo">Titolo = </label>
+            <label for="titolo">Titolo: </label>
             <input class="trigger" type="text" id="titolo" placeholder="Indifferente" name="title" list="titleSpell">
             <datalist id="titleSpell" class="dataListTitles">
             </datalist>
           </section>
           <hr>
-          <section>
+          <!-- <section>
             <label for="classe">Classe = </label>
             <input class="trigger" type="text" id="classe" placeholder="Indifferente" name="class" list="classSpell">
             <datalist id="classSpell" class="dataListClasses">
             </datalist>
+          </section> -->
+          <section>
+            <label for="classe">Classe: </label>
+            <select class="trigger" id="classe" name="class">
+              <option value="">Tutte</option>
+            </select>
           </section>
           <hr>
           <section>
-            <label for="livello">Livello = </label>
-            <input class="trigger" type="text" id="livello" placeholder="Indifferente" name="magicLevel" list="magicLevelSpell">
+            <label for="livello">Livello: </label>
+            <!-- <input class="trigger" type="text" id="livello" placeholder="Indifferente" name="magicLevel" list="magicLevelSpell">
             <datalist id="magicLevelSpell" class="dataListmagicLevels">
-            </datalist>
+            </datalist> -->
+            <select class="trigger" id="livello" name="magicLevel">
+              <option value="">Tutti</option>
+            </select>
           </section>
           <hr>
           <section>
-            <label for="scuolaDiMagia">Scuola di magia = </label>
-            <input class="trigger" type="text" id="scuolaDiMagia" placeholder="Indifferente" name="magicSchool" list="magicSchoolSpell">
+            <label for="scuolaDiMagia">Scuola di magia: </label>
+            <!-- <input class="trigger" type="text" id="scuolaDiMagia" placeholder="Indifferente" name="magicSchool" list="magicSchoolSpell">
             <datalist id="magicSchoolSpell" class="dataListmagicSchools">
-            </datalist>
+            </datalist> -->
+            <select class="trigger" id="scuolaDiMagia" name="magicSchool">
+              <option value="">Tutte</option>
+            </select>
           </section>
           <hr>
           <section>
-            <label for="tempoDiLancio">Tempo di lancio = </label>
-            <input class="trigger" type="text" id="tempoDiLancio" placeholder="Indifferente" name="spellcastingTime" list="spellcastingTimeSpell">
+            <label for="tempoDiLancio">Tempo di lancio: </label>
+            <!-- <input class="trigger" type="text" id="tempoDiLancio" placeholder="Indifferente" name="spellcastingTime" list="spellcastingTimeSpell">
             <datalist id="spellcastingTimeSpell" class="dataListSpellcastingTimes">
-            </datalist>
+            </datalist> -->
+            <select class="trigger" id="tempoDiLancio" name="spellcastingTime">
+              <option value="">Tutte</option>
+            </select>
           </section>
           <hr>
           <section>
-            <span>Concentrazione = </span>  
+            <span>Concentrazione: </span>  
             <input class="trigger" type="radio" id="Indifferente" name="concentrazione" value="Indifferente">
-            <label for="Indifferente">Indifferente</label>
+            <label for="Indifferente">Tutti</label>
             <input class="trigger" type="radio" id="Si" name="concentrazione" value="Si">
             <label for="Si">Si</label>
             <input class="trigger" type="radio" id="No" name="concentrazione" value="No">
@@ -64,9 +82,9 @@
           </section>
           <hr>
           <section>  
-            <span>Rituale = </span>  
+            <span>Rituale: </span>  
             <input class="trigger" type="radio" id="Indifferente" name="ritual" value="Indifferente">
-            <label for="Indifferente">Indifferente</label>
+            <label for="Indifferente">Tutti</label>
             <input class="trigger" type="radio" id="Si" name="ritual" value="Si">
             <label for="Si">Si</label>
             <input class="trigger" type="radio" id="No" name="ritual" value="No">
@@ -74,14 +92,17 @@
           </section>
           <hr>
           <section>
-            <label for="gittata">Gittata = </label>
-            <input class="trigger" type="text" id="gittata" placeholder="Indifferente" name="range" list="rangeSpell">
+            <label for="gittata">Gittata: </label>
+            <!-- <input class="trigger" type="text" id="gittata" placeholder="Indifferente" name="range" list="rangeSpell">
             <datalist id="rangeSpell" class="dataListRanges">
-            </datalist>
+            </datalist> -->
+            <select class="trigger" id="gittata" name="range">
+              <option value="">Tutte</option>
+            </select>
           </section>
           <hr>
           <section>  
-            <span>Componenti = </span>
+            <span>Componenti: </span>
             <input class="trigger" type="checkbox" name="components" id="compInd" checked=true>
             <label for="compInd">Indifferente</label>
             <div class="componentiOnOff">
@@ -95,26 +116,23 @@
           </section>
           <hr>
           <section>
-            <label for="durata">Durata</label>
-            <input class="trigger" type="text" id="durata" placeholder="Indifferente" name="duration" list="durationSpell">
+            <label for="durata">Durata: </label>
+            <!-- <input class="trigger" type="text" id="durata" placeholder="Indifferente" name="duration" list="durationSpell">
             <datalist id="durationSpell" class="dataListDurations">
-            </datalist>
+            </datalist> -->
+            <select class="trigger" id="durata" name="duration">
+              <option value="">Tutte</option>
+            </select>
           </section>
-          <hr>
+          <!-- <hr> -->
         </form>
       </div>
       <div class="Titoli-Descrizione">
-        <p>Titoli / Descrizione</p>
+        <h2>Titoli / Descrizione</h2><br>
         <div class="elenco">
-        <p class="spellCompleta"></p>
         </div>
       </div>
     </section>
-
-
-    <footer>
-      <p>Footer</p>
-    </footer>
 
     <script src="./jquery350.js"></script>
     <script src="./grimorioPHB.js"></script>
@@ -124,20 +142,3 @@
   </body>
 
 </html>
-
-
-
-<!-- 
-
-- Titolo = INDIFFERENTE / SCRITTA
-- Classe = INDIFFERENTE / SELEZIONA
-- Livello = INDIFFERENTE / SELEZIONA
-- Scuola di magia = INDIFFERENTE / SELEZIONA
-- Tempo di lancio = INDIFFERENTE / SELEZIONA
-- Concentrazione = INDIFFERENTE / SI / NO
-- Rituale = INDIFFERENTE / SI / NO
-- Gittata = INDIFFERENTE / SELEZIONA 
-- Componenti = INDIFFERENTE / V / S / M 
-- Durata = INDIFFERENTE / SELEZIONA
- 
--->

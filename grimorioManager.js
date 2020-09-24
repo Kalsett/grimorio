@@ -1,6 +1,9 @@
+//----------------------------------------//
+
+
+
 // GRIMORIO ESTRAPOLATO DAL D&d 5E PLAYER HANDBOOK
-// console.log(checkIfDurationIsLine6(grimorioStringPHB)); // Tutto funziona
-// console.log(correctSpellList(listaIncantesimi)); // Tutto funziona
+
 
 
 // Oggetto contenenente il nome del caster e i suoi incantesimi in array.
@@ -16,9 +19,9 @@ let allSpellTitlesArr = allSpellsUniqueArray();
 let grimArr = grimorioCreation(grimorioStringPHB); 
 
 // Crei tutte le voci del menù di scelta.
-datalistsBuilder();
+datalistsSelectBuilder();
 
-// Rende indifferente la scelta delle componenti oppure mostra opzioni piu' localizzate
+// Rende indifferente la scelta delle "componenti" oppure mostra opzioni piu' localizzate (V, S, M) utilizzando il display del css;
 $('#compInd').change(function () {
   if ($('#compInd').prop('checked') === false) return $('.componentiOnOff').css('display', 'inline');
   return $('.componentiOnOff').css('display', 'none');
@@ -29,9 +32,39 @@ $('.trigger').change(function () {
   spellFilter ();
 });
 
+// funzione auto chiamante che fa cambiare il testo al H2
+(function () {
+  let h2_1 = $('h2')[0].innerText;
+  let h2_2 = $('h2')[1].innerText;
+  $('h2').hover(function () {
+    $('h2')[0].innerText = 'Clicca per resettare i campi';
+    $('h2')[1].innerText = 'Clicca per resettare i campi';
+  }, function () {
+    $('h2')[0].innerText = h2_1;
+    $('h2')[1].innerText = h2_2;
+  });
+})()
+
+// permette di resettare i campi sottostanti
+$('h2').on('click', function () {
+  for (let input of $('input')) {
+    input.value = '';
+    input.checked = false;
+    $('.elenco').html('');
+  }
+  $('input')[12].checked = true;
+});
 
 
 
+//----------------------------------------//
+
+
+
+// LISTA DI LOG PER CONTROLLARE CHE LA SORGENTE SIA IN ORDINE ABBASTANZA DA FUNZIONARE
+
+// console.log(checkIfDurationIsLine6(grimorioStringPHB)); // Tutto funziona
+// console.log(correctSpellList(listaIncantesimi)); // Tutto funziona
 // console.log(grimArr); // Tutto funziona
 // console.log(objCastersArr); // Tutto funziona
 // console.log(allSpellTitlesArr); // Tutto funziona
@@ -41,6 +74,8 @@ $('.trigger').change(function () {
 //----------------------------------------//
 
 
+
+// DICHIARAZIONE DELLE FUNZIONI
 
 // arrayUniqueValues: 
 // questa funzione se chiamata con un array come argomento, 
@@ -235,9 +270,10 @@ function filterEveryTypeValue (collection, key) {
   return arrayUniqueValues(arr);
 };
 
+// datalistsSelectBuilder:
 // Crei un datalist HTML per tutte le voci, in questo modo se in futuro si aggingeranno classi o livelli o altro
 // il sistema le riconoscerà in automatico.
-function datalistsBuilder () {
+function datalistsSelectBuilder () {
   // Crei un datalist HTML per i titoli nel DOM, in questo modo la ricerca per titoli è potente
   for (let spell of filterEveryTypeValue(grimArr, 'title').sort()) {
     $('.dataListTitles').append('<option value="'+spell+'"></option>');
@@ -245,33 +281,39 @@ function datalistsBuilder () {
   
   // Crei un datalist HTML per i livelli nel DOM, in questo modo la ricerca per i livelli è potente
   for (let spell of filterEveryTypeValue(grimArr, 'magicLevel').sort()) {
-    $('.dataListmagicLevels').append('<option value="'+spell+'"></option>');
+    // $('.dataListmagicLevels').append('<option value="'+spell+'"></option>');
+    $('#livello').append('<option value="'+spell+'">'+spell+'</option>');
   };
   
   // Crei un datalist HTML per i casters nel DOM, in questo modo la ricerca per i casters è potente
   let castersList = Object.keys(objCastersArr).sort();
   for (let caster of castersList) {
-    $('.dataListClasses').append('<option value="'+caster+'"></option>');
+    // $('.dataListClasses').append('<option value="'+caster+'"></option>');
+    $('#classe').append('<option value="'+caster+'">'+caster+'</option>');
   };
   
   // Crei un datalist HTML per le scuole di magia nel DOM, in questo modo la ricerca per le scuole di magia è potente
   for (let spell of filterEveryTypeValue(grimArr, 'magicSchool').sort()) {
-    $('.dataListmagicSchools').append('<option value="'+spell+'"></option>');
+    // $('.dataListmagicSchools').append('<option value="'+spell+'"></option>');
+    $('#scuolaDiMagia').append('<option value="'+spell+'">'+spell+'</option>');
   };
   
   // Crei un datalist HTML per i tempi di lancio nel DOM, in questo modo la ricerca per i tempi di lancio è potente
   for (let spell of filterEveryTypeValue(grimArr, 'spellcastingTime').sort()) {
-    $('.dataListSpellcastingTimes').append('<option value="'+spell+'"></option>');
+    // $('.dataListSpellcastingTimes').append('<option value="'+spell+'"></option>');
+    $('#tempoDiLancio').append('<option value="'+spell+'">'+spell+'</option>');
   };
   
   // Crei un datalist HTML per le i range nel DOM, in questo modo la ricerca per i range è potente
   for (let spell of filterEveryTypeValue(grimArr, 'range').sort()) {
-    $('.dataListRanges').append('<option value="'+spell+'"></option>');
+    // $('.dataListRanges').append('<option value="'+spell+'"></option>');
+    $('#gittata').append('<option value="'+spell+'">'+spell+'</option>');
   };
   
   // Crei un datalist HTML per le durate nel DOM, in questo modo la ricerca per durate è potente
   for (let spell of filterEveryTypeValue(grimArr, 'duration').sort()) {
-    $('.dataListDurations').append('<option value="'+spell+'"></option>');
+    // $('.dataListDurations').append('<option value="'+spell+'"></option>');
+    $('#durata').append('<option value="'+spell+'">'+spell+'</option>');
   };
 };
 
@@ -327,6 +369,9 @@ function spellFilter () {
       if ($("input[name=ritual]:checked").val() === 'No') return filtGrim = filterKeyValueGrimArr (filtGrim, 'ritual', 'No');
       if ($("input[name=ritual]:checked").val() === 'Indifferente') return filtGrim;
     }
+    if ($(filter).val() !== '' && $(filter).val() !== undefined && filter === "#titolo") {
+      return filtGrim = filterKeyValueGrimArr (grimArr, key, $(filter).val());
+    }
     if ($(filter).val() !== '' && $(filter).val() !== undefined) {
       return filtGrim = filterKeyValueGrimArr (filtGrim, key, $(filter).val());
     }
@@ -338,7 +383,6 @@ function spellFilter () {
   //   }
   // }
 
-  filt('#titolo', 'title');
   filt('#classe', 'casters');
   filt('#livello', 'magicLevel');
   filt('#scuolaDiMagia', 'magicSchool');
@@ -348,13 +392,13 @@ function spellFilter () {
   filt('#gittata', 'range');
   // // $('#V').prop('checked')
   filt('#durata', 'duration');
-
+  filt('#titolo', 'title');
+  
   console.log(filtGrim);
   $('.elenco').html('');
   for (let spell of filtGrim) {
     let a = $('<a>');
-    a.html(spell.title);
-    //$('.elenco').append('<a>'+spell.title+'</a><br>');
+    a.html('- ' + spell.title);
     a.data('title', spell.title);
     $('.elenco').append(a);
     $('.elenco').append('<br>');
@@ -371,15 +415,19 @@ function displaySpell (event) {
   $('.elenco').html('');
   let selectedSpell = filterKeyValueGrimArr (grimArr, 'title', tagTitle)[0];
   $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Titolo: <span>' + selectedSpell.title.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Scuola di magia: <span>' + selectedSpell.magicSchool.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Livello: <span>' + selectedSpell.magicLevel.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Tempo di lancio: <span>' + selectedSpell.spellcastingTime.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Gittata: <span>' + selectedSpell.range.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Componenti: <span>' + selectedSpell.components.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Durata: <span>' + selectedSpell.duration.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Rituale: <span>' + selectedSpell.ritual.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Utilizzatori: <span>' + selectedSpell.casters.join(' - ') + '</span></p><br>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Descrizione: <br><span>' + selectedSpell.description.join(' - ') + '</span></p>');
+  $('.elenco').append('<hr><br><p class="caratteristicheSpell"> Titolo: <span>' + selectedSpell.title.join(' - ') + '</span></p><br><hr><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Scuola di magia: <span>' + selectedSpell.magicSchool.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Livello: <span>' + selectedSpell.magicLevel.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Tempo di lancio: <span>' + selectedSpell.spellcastingTime.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Gittata: <span>' + selectedSpell.range.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Componenti: <span>' + selectedSpell.components.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Durata: <span>' + selectedSpell.duration.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Rituale: <span>' + selectedSpell.ritual.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Utilizzatori: <span>' + selectedSpell.casters.join(' - ') + '</span></p><br><hr><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Descrizione: <br><span>' + selectedSpell.description.join(' - ') + '</span></p><br><hr>');
   $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
 };
+
+
+
+//----------------------------------------//

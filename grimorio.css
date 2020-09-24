@@ -4,52 +4,84 @@
   padding: 0;
 }
 
-/* html {
+html, body {
   height: 100%;
-} */
+  background-color: #1d1d1d;
+  line-height: 1.6;
+}
 
-/* body { 
+
+header {
+  background-image: url(./dragon.jpg);
+  background-color: gray;
   height: 100%;
-} */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headerText {
+  color: white;
+  text-align: left;
+  position: absolute;
+  top: 85%;
+  left: 6%;
+  background-color: #3838387a;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .responsive {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  /* gap: 10px; */
-  /* height: 80%; */
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  background-color: #1d1d1d;
+  height: 100%;
+  padding: 10px;
 }
 
-header {
-  background-color: cornflowerblue;
-  /* height: 10%; */
+h2 {
+  cursor: pointer;
 }
 
+h2:hover {
+  color: black;
+  background-color: white;
+  content: 'Resetta i campi';
+}
 
 .Specifiche {
-  background-color: darkgoldenrod;
+  background-color: #b7b7b7;
   padding: 10px;
+  margin: 6px;
+  font-size: 1em;
 }
 
-
-.Titoli-Descrizione {
-  background-color: darkgray;
-  overflow: auto;
-  padding: 10px;
-}
-
-
-footer {
-  background-color: teal;
-  /* height: 10%; */
-}
-
-
-h1 {
-  color: black;
+form {
+  padding: 5px;
 }
 
 .componentiOnOff {
   display: none;
+}
+
+.Titoli-Descrizione {
+  background-color: #333333;
+  padding: 10px;
+  overflow: scroll;
+  margin: 6px;
+  color: white;
+
+}
+
+a {
+  cursor: pointer;
+  padding: 5px;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
 }
 
 .caratteristicheSpell {
@@ -61,25 +93,51 @@ span {
 }
 
 
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 812px) { 
 
+    .headerText {
+      color: white;
+      text-align: left;
+      position: absolute;
+      top: 85%;
+      left: 6%;
+      background-color: #3838387a;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 2em;
+    }
 
+    .Specifiche {
+      background-color: #b7b7b7;
+      padding: 10px;
+      margin: 6px;
+      font-size: 3em;
+    }
 
+    input, select {
+      font-size: 0.75em;
+    }
 
+    .responsive {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+      background-color: #1d1d1d;
+      height: 150%;
+      padding: 10px;
+    }
 
+    div.Titoli-Descrizione h2 {
+      font-size: 4em;
+    }
 
+    input[type="radio"],  input[type=checkbox]{
+      transform: scale(3);
+      margin: 10px;
+    }
 
-
-
-/*
-.contenitore {
-  display: flex; // || inline-flex 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: coral;
+    button {
+      font-size: 2.5em;
+    }
 }
-
-.contenitore2 {
-  display: grid;
-}
-*/
