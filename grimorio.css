@@ -74,12 +74,12 @@ form {
 
 }
 
-a {
+.p {
   cursor: pointer;
   padding: 5px;
 }
 
-a:hover {
+.p:hover {
   color: black;
   background-color: white;
 }

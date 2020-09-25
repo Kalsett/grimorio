@@ -56,6 +56,13 @@ $('.trigger').change(function () {
 
 // permette di resettare i campi sottostanti nell'interfaccia grafica dei settaggi e titoli/descrizioni
 $('h2').on('click', function () {
+  $('select[id="classe"]').val('');
+  $('select[id="livello"]').val('');
+  $('select[id="scuolaDiMagia"]').val('');
+  $('select[id="tempoDiLancio"]').val('');
+  $('select[id="gittata"]').val('');
+  $('select[id="durata"]').val('');
+  $('#titolo').val('');
   for (let input of $('input')) {
     input.checked = false;
   }
@@ -438,13 +445,13 @@ function spellFilter () {
   console.log(filtGrim);
   $('.elenco').html('');
   for (let spell of filtGrim) {
-    let a = $('<a>');
-    a.html('- ' + spell.title);
-    a.data('title', spell.title);
-    $('.elenco').append(a);
-    $('.elenco').append('<br>');
+    let p = $('<p class="p">');
+    p.html('- ' + spell.title);
+    p.data('title', spell.title);
+    $('.elenco').append(p);
+    // $('.elenco').append('<br>');
   }
-  $('a').on('click', displaySpell);
+  $('.p').on('click', displaySpell);
 }
 
 // displaySpell:
