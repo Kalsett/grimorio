@@ -12,7 +12,7 @@ html, body {
 
 
 header {
-  background-image: url(./dragon.jpg);
+  background-image: url(../MEDIA/dragon.jpg);
   background-color: gray;
   height: 100%;
   background-position: center;
