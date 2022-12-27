@@ -10365,3 +10365,7 @@ Tempo di Lancio: 1 reazione, che l'incantatore effettua quando subisce danni da 
 L'incantesimo cattura parte dell'energia in arrivo, ammortizzando i suoi effetti sull'incantatore e consentendogli di incamerarla per il suo attacco in mischia successivo. L'incantatore possiede resistenza al tipo di danno innescante fino all'inizio del proprio turno successivo. Inoltre, la prima volta che colpisce con un attacco in mischia nel suo turno successivo, il bersaglio subisce ld6 danni extra del tipo innescante e l'incantesimo termina.
 
 Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando uno slot incantesimo di 2 livello o superiore, i danni extra aumentano di ld6 per ogni slot di livello superiore al 1 °.
+
+
+
+*/
