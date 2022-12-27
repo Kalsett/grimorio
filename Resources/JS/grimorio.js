@@ -4,8 +4,26 @@
 // di quelli sopra. È molto importante che gli incantesimi aggiunti siano scritti fra 
 // l'ultimo incantesimo presente e la virgoletta rispettivamente a capo.
 // Se non si rispettano le regole di cui sopra, l'incantesimo non sarà gestito ottimamente.
+// Stai attento che quando vai a capo nelle liste non ti metta degli spazi in automatico che fra le template literals ``
 
-let grimorioStringPHB = `
+// grimorioAllBooks è un oggetto contenente un oggetto per ogni manuale con 2 proprieta' dentro,
+// la lista incantesimi di quel manuale e la stringa contenente tutti gli incantesimi.
+
+
+// Migliora la regex per matchare i titoli con piu' di 2 parole
+// let formattazione = function (str) {
+//     str = str.split('\n\n').join('\n').split('\n°\n').join('\n').split('Gittata').join('\nGittata').split('Componenti').join('\nComponenti').split('Durata').join('\nDurata');
+//     let strArr = str.match(/[A-Z][A-Z]+ *[A-Z][A-Z]+/g);
+//     for (let title of strArr) {
+//         str = str.split(title).join('\n'+title);
+//     }
+//     return str;
+// }
+
+
+const grimorioAllBooks = {
+  playerHandBook: {
+    grimorioString: `
 AIUTO
 Abiurazione di 2 livello
 Tempo di Lancio: 1 azione
@@ -9153,4 +9171,1197 @@ e pub quindi evitare di rispondere alle domande a cui
 normalmente risponderebbe mentendo. Una tale creatura
 può fornire risposte sfuggenti, purché rimanga entro i
 confini della verità.
-`;
+`,
+    listaIncantesimi: {
+  incantesimiBardo: `
+Frantumare
+Individuazione dei Pensieri
+Invisibilità
+Localizza Animali o Vegetali
+Localizza Oggetto
+Amicizia
+Nube di Pugnali
+Beffa Crudele
+Riscaldare il Metallo
+Colpo Accurato
+Ristorare Inferiore
+Illusione Minore
+Scassinare
+Interdizione alle Lame
+Silenzio
+Luce
+Suggestione
+Luci Danzanti
+Vedere Invisibilità
+Mano Magica
+Zona di Verità
+Messaggio
+Prestidigitazione
+Riparare
+Anti-Individuazione
+Capanna di Leomund
+Chiaroveggenza
+Amicizia con gli Animali
+Crescita Vegetale
+Anatema
+Dissolvi Magie
+Caduta Morbida
+Glifo di Interdizione
+Camuffare Se Stesso
+Immagine Maggiore
+Charme su Persone
+Inviare
+Comprensione dei linguaggi
+Linguaggi
+Cura Ferite
+Morte Apparente
+Eroismo
+Nube Maleodorante
+Identificare
+Parlare con i Morti
+Immagine Silenziosa
+Parlare con i Vegetali
+Individuazione del Magico
+Paura
+Luminescenza
+Scagliare Maledizione
+Onda Tonante
+Trama Ipnotica
+Parlare con gli Animali
+Parola Guaritrice
+Passo Veloce
+Compulsione
+Risata Incontenibile di Tasha
+Confusione
+Scritto Illusorio
+Invisibilità Superiore
+Servitore Inosservato
+Libertà di Movimento
+Sonno
+Localizza Creatura
+Sussurri Dissonanti
+Metamorfosi
+Porta Dimensionale
+Terreno Illusorio
+Allucinazione di Forza
+Animale Messaggero
+Blocca Persone
+Animare Oggetti
+Bocca Magica
+Blocca Mostri
+Calmare Emozioni
+Cerchio di Teletrasporto
+Caratteristica Potenziata
+Conoscenza delle Leggende
+Cecità/Sordità
+Costrizione
+Corona di Follia
+Cura Ferite di Massa
+Estasiare
+Dominare Persone
+Fuorviare
+Legame Planare
+Modificare Memoria
+Rianimare Morti
+Ristorare Superiore
+Risveglio
+Scrutare
+Sembrare
+Sogno
+Danza Irresistibile di Otto
+Illusione Programmata
+Scopri il Percorso
+Sguardo Penetrante
+Suggestione di Massa
+Vigilanza e Interdizione
+Visione del Vero
+Forma Eterea
+Gabbia di Forza
+Immagine Proiettata
+Miraggio Arcano
+Reggia Meravigliosa di Mordenkainen
+Resurrezione
+Rigenerazione
+Simbolo
+Spada di Mordenkainen
+Teletrasporto
+Dominare Mostri
+Loquacità
+Parola del Potere Stordire
+Regressione Mentale
+Vuoto Mentale
+Metamorfosi Pura
+Parola del Potere Guarire
+Parola del Potere Uccidere
+Previsione
+`,
+  incantesimiChierico: `
+Fiamma Sacra
+Guida
+Luce
+Resistenza
+Riparare
+Salvare i Morenti
+Taumaturgia
+Anatema
+Benedizione
+Comando
+Creare o Distruggere Acqua
+Cura Ferite
+Dardo Tracciante
+Individuazione del Bene e del Male
+Individuazione del Magico
+Individuazione delle Malattie e dei Veleni
+Infliggi Ferite
+Parola Guaritrice
+Protezione dal Bene e dal Male
+Purificare Cibo e Bevande
+Santuario
+Scudo della Fede
+Aiuto
+Arma Spirituale
+Blocca Persone
+Calmare Emozioni
+Caratteristica Potenziata
+Cecità/Sordità
+Fiamma Perenne
+Localizza Oggetto
+Preghiera di Guarigione
+Presagio
+Protezione dai Veleni
+Riposo Inviolato
+Ristorare Inferiore
+Scopri Trappole
+Silenzio
+Vincolo di interdizione
+Zona di Verità
+Animare Morti
+Camminare sull'Acqua
+Cerchio Magico
+Chiaroveggenza
+Creare Cibo e Acqua
+Dissolvi Magie
+Faro di Speranza
+Fondersi nella Pietra
+Glifo di interdizione
+Guardiani Spirituali
+Inviare
+linguaggi
+Luce Diurna
+Morte Apparente
+Parlare con i Morti
+Parola Guaritrice di Massa
+Protezione dall'Energia
+Rimuovi Maledizione
+Rinascita
+Scagliare Maledizione
+Controllare Acqua
+Divinazione
+Esilio
+Guardiano della Fede
+Interdizione alla Morte
+Libertà di Movimento
+Localizza Creatura
+Scolpire Pietra
+Colpo Infuocato
+Comunione
+Conoscenza delle Leggende
+Contagio
+Costrizione
+Cura Ferite di Massa
+Dissolvi il Bene e il Male
+Legame Planare
+Piaga degli Insetti
+Rianimare Morti
+Ristorare Superiore
+Santificare
+Scrutare
+Alleato Planare
+Banchetto degli Eroi
+Barriera di Lame
+Creare Non Morti
+Ferire
+Guarigione
+Parola del Ritiro
+Proibizione
+Scopri il Percorso
+Visione del Vero
+Evoca Celestiale
+Forma Eterea
+Parola Divina
+Resurrezione
+Rigenerazione
+Simbolo
+Spostamento Planare
+Tempesta di Fuoco
+Aura Sacra
+Campo Anti-Magia
+Controllare Tempo Atmosferico
+Terremoto
+Guarigione di Massa
+Portale
+Proiezione Astrale
+Resurrezione Pura
+`,
+  incantesimiDruido: `
+Artificio Druidico
+Frusta di Spine
+Guida
+Produrre Fiamma
+Randello Incantato
+Resistenza
+Riparare
+Spruzzo Velenoso
+Amicizia con gli Animali
+Bacche Benefiche
+Charme su Persone
+Creare o Distruggere Acqua
+Cura Ferite
+Individuazione del Magico
+Individuazione delle Malattie e dei Veleni
+Intralciare
+Luminescenza
+Nube di Nebbia
+Onda Tonante
+Parlare con gli Animali
+Parola Guaritrice
+Passo Veloce
+Purificare Cibo e Bevande
+Saltare
+Animale Messaggero
+Bagliore Lunare
+Blocca Persone
+Caratteristica Potenziata
+Crescita di Spine
+Folata di Vento
+Lama Infuocata
+Localizza Animali o Vegetali
+Localizza Oggetto
+Passare Senza Tracce
+Pelle Coriacea
+Percezione delle Bestie
+Protezione dai Veleni
+Riscaldare il Metallo
+Ristorare Inferiore
+Scopri Trappole
+Scurovisione
+Sfera Infuocata
+Camminare sull'Acqua
+Crescita Vegetale
+Dissolvi Magie
+Evoca Animali
+Fondersi nella Pietra
+Invocare il Fulmine
+Luce Diurna
+Morte Apparente
+Muro di Vento
+Parlare con i Vegetali
+Protezione dall'Energia
+Respirare sott'Acqua
+Tempesta di Nevischio
+Confusione
+Controllare Acqua
+Dominare Bestie
+Evoca Creature Boschive
+Evoca Elementali Minori
+Inaridire
+Insetto Gigante
+Libertà di Movimento
+Localizza Creatura
+Metamorfosi
+Muro di Fuoco
+Pelle di Pietra
+Rampicante Afferrante
+Scolpire Pietra
+Tempesta di Ghiaccio
+Terreno Illusorio
+Comunione con la Natura
+Contagio
+Costrizione
+Cura Ferite di Massa
+Evoca Elementale
+Guscio Anti-Vita
+Legame Planare
+Muro di Pietra
+Piaga degli Insetti
+Reincarnazione
+Ristorare Superiore
+Risveglio
+Scrutare
+Traslazione Arborea
+Bagliore Solare
+Banchetto degli Eroi
+Camminare nel Vento
+Evoca Folletto
+Guarigione
+Muovere il Terreno
+Muro di Spine
+Scopri il Percorso
+Trasporto Vegetale
+Inversione della Gravità
+Miraggio Arcano
+Rigenerazione
+Spostamento Planare
+Tempesta di Fuoco
+Antipatia / Simpatia
+Controllare Tempo Atmosferico
+Esplosione Solare
+Forme Animali
+Regressione Mentale
+Terremoto
+Tsunami
+Previsione
+Resurrezione Pura
+Tempesta di Vendetta
+Trasformazione
+`,
+  incantesimiMago: `
+Amicizia
+Colpo Accurato
+Dardo di Fuoco
+Fiotto Acido
+Illusione Minore
+Interdizione alle Lame
+Luce
+Luci Danzanti
+Mano Magica
+Messaggio
+Prestidigitazione
+Raggio di Gelo
+Riparare
+Spruzzo Velenoso
+Stretta Folgorante
+Tocco Gelido
+Allarme
+Armatura Magica
+Caduta Morbida
+Camuffare Se Stesso
+Charme su Persone
+Comprensione dei Linguaggi
+Dardo Incantato
+Dardo Stregato
+Disco Fluttuante di Tenser
+Globo Cromatico
+Identificare
+Immagine Silenziosa
+Individuazione del Magico
+Mani Brucianti
+Nube di Nebbia
+Onda Tonante
+Passo Veloce
+Protezione dal Bene e dal Male
+Raggio di Infermità
+Risata Incontenibile di Tasha
+Ritirata Rapida
+Saltare
+Scritto Illusorio
+Scudo
+Servitore Inosservato
+Sonno
+Spruzzo Colorato
+Trova Famiglio
+Unto
+Vita Falsata
+Allucinazione di Forza
+Alterare Se Stesso
+Arma Magica
+Aura Magica di Nystul
+Blocca Persone
+Bocca Magica
+Cecità/Sordità
+Corona di Follia
+Fiamma Perenne
+Folata di Vento
+Frantumare
+Freccia Acida di Melf
+Immagine Speculare
+Individuazione dei Pensieri
+Ingrandire/Ridurre
+Invisibilità
+Levitazione
+Localizza Oggetto
+Movimenti del Ragno
+Nube di Pugnali
+Oscurità
+Passo Velato
+Raggio di Affaticamento
+Raggio Rovente
+Ragnatela
+Riposo Inviolato
+Scassinare
+Scurovisione
+Serratura Arcana
+Sfera Infuocata
+Sfocatura
+Suggestione
+Trucco della Corda
+Vedere Invisibilità
+Animare Morti
+Anti-Individuazione
+Capanna di Leomund
+Cerchio Magico
+Chiaroveggenza
+Contro Incantesimo
+Destriero Fantomatico
+Dissolvi Magie
+Forma Gassosa
+Fulmine
+Glifo di Interdizione
+Immagine Maggiore
+Intermittenza
+Inviare
+lentezza
+linguaggi
+Morte Apparente
+Nube Maleodorante
+Palla di Fuoco
+Paura
+Protezione dall'Energia
+Respirare sott'Acqua
+Rimuovi Maledizione
+Scagliare Maledizione
+Tempesta di Nevischio
+Tocco del Vampiro
+Trama Ipnotica
+Velocità
+Volare
+Allucinazione Mortale
+Confusione
+Controllare Acqua
+Esilio
+Evoca Elementali Minori
+Fabbricare
+Inaridire
+Invisibilità Superiore
+Localizza Creatura
+Metamorfosi
+Muro di Fuoco
+Occhio Arcano
+Pelle di Pietra
+Porta Dimensionale
+Santuario Privato di Mordenkainen
+Scolpire Pietra
+Scrigno Segreto di Leomund
+Scudo di Fuoco
+Segugio Fedele di Mordenkainen
+Sfera Elastica di Otiluke
+Tempesta di Ghiaccio
+Tentacoli Neri di Evard
+Terreno Illusorio
+Animare Oggetti
+Blocca Mostri
+Cerchio di Teletrasporto
+Cono di Freddo
+Conoscenza delle Leggende
+Contattare Altri Piani
+Costrizione
+Creazione
+Dominare Persone
+Evoca Elementale
+Fuorviare
+Legame Planare
+Legame Telepatico di Rary
+Mano di Bigby
+Modificare Memoria
+Muro di Forza
+Muro di Pietra
+Nube Mortale
+Passapareti
+Scrutare
+Sembrare
+Sogno
+Telecinesi
+Bagliore Solare
+Carne in Pietra
+Catena di Fulmini
+Cerchio di Morte
+Contingenza
+Creare Non Morti
+Danza Irresistibile di Otto
+Disintegrazione
+Evocazioni Istantanee di Drawmij
+Giara Magica
+Globo di Invulnerabilità
+Illusione Programmata
+Muovere il Terreno
+Muro di Ghiaccio
+Portale Arcano
+Sfera Congelante di Otiluke
+Sguardo Penetrante
+Suggestione di Massa
+Vigilanza e Interdizione
+Visione del Vero
+Celare
+Dito della Morte
+Forma Eterea
+Gabbia di Forza
+Immagine Proiettata
+Inversione della Gravità
+Miraggio Arcano
+Palla di Fuoco Ritardata
+Reggia Meravigliosa di Mordenkainen
+Simbolo
+Simulacro
+Spada di Mordenkainen
+Spostamento Planare
+Spruzzo Prismatico
+Teletrasporto
+Antipatia / Simpatia
+Campo Anti-Magia
+Clone
+Controllare Tempo Atmosferico
+Dominare Mostri
+Esplosione Solare
+Labirinto
+Nube Incendiaria
+Parola del Potere Stordire
+Regressione Mentale
+Semipiano
+Telepatia
+Vuoto Mentale
+Desiderio
+Fatale
+Fermare il Tempo
+Imprigionare
+Metamorfosi Pura
+Muro Prismatico
+Parola del Potere Uccidere
+Portale
+Previsione
+Proiezione Astrale
+Sciame di Meteore
+Trasformazione
+`,
+  incantesimiPaladino: `
+Benedizione
+Comando
+Cura Ferite
+Duello Obbligato
+Eroismo
+Favore Divino
+Individuazione del Bene e del Male
+Individuazione del Magico
+Individuazione delle Malattie e dei Veleni
+Protezione dal Bene e dal Male
+Punizione Collerica
+Punizione Incandescente
+Punizione Tonante
+Purificare Cibo e Bevande
+Scudo della Fede
+Aiuto
+Arma Magica
+localizza Oggetto
+Protezione dai Veleni
+Punizione Marchiante
+Ristorare Inferiore
+Trova Cavalcatura
+Zona di Verità
+Arma Elementale
+Aura di Vitalità
+Cerchio Magico
+Creare Cibo e Acqua
+Dissolvi Magie
+Luce Diurna
+Manto del Crociato
+Punizione Accecante
+Rimuovi Maledizione
+Rinascita
+Aura di Purezza
+Aura di Vita
+Esilio
+Interdizione alla Morte
+Localizza Creatura
+Punizione Demoralizzante
+Cerchio di Potere
+Costrizione
+Dissolvi il Bene e il Male
+Onda Distruttiva
+Punizione Esiliante
+Rianimare Morti
+`,
+  incantesimiRanger: `
+Allarme
+Amicizia con gli Animali
+Bacche Benefiche
+Colpo Intrappolante
+Cura Ferite
+Individuazione del Magico
+Individuazione delle Malattie e dei Veleni
+Marchio del Cacciatore
+Nube di Nebbia
+Parlare con gli Animali
+Passo Veloce
+Raffica di Spine
+Saltare
+Animale Messaggero
+Cordone di Frecce
+Crescita di Spine
+Localizza Animali o Vegetali
+Localizza Oggetto
+Passare Senza Tracce
+Pelle Coriacea
+Percezione delle Bestie
+Protezione dai Veleni
+Ristorare Inferiore
+Scopri Trappole
+Scurovisione
+Silenzio
+Anti-Individuazione
+Camminare sull'Acqua
+Crescita Vegetale
+Evoca Animali
+Evoca Raffica
+Freccia Folgorante
+luce Diurna
+Muro di Vento
+Parlare con i Vegetali
+Protezione dall'Energia
+Respirare sott'Acqua
+Evoca Creature Boschive
+Libertà di Movimento
+Localizza Creatura
+Pelle di Pietra
+Rampicante Afferrante
+Comunione con la Natura
+Evoca Pioggia di Armi
+Faretra Rapida
+Traslazione Arborea
+`,
+  incantesimiStregone: `
+Amicizia
+Colpo Accurato
+Dardo di Fuoco
+Fiotto Acido
+Illusione Minore
+Interdizione alle lame
+luce
+Luci Danzanti
+Mano Magica
+Messaggio
+Prestidigitazione
+Raggio di Gelo
+Riparare
+Spruzzo Velenoso
+Stretta Folgorante
+Tocco Gelido
+Armatura Magica
+Caduta Morbida
+Camuffare Se Stesso
+Charme su Persone
+Comprensione dei Linguaggi
+Dardo Incantato
+Dardo Stregato
+Globo Cromatico
+Immagine Silenziosa
+Individuazione del Magico
+Mani Brucianti
+Nube di Nebbia
+Onda Tonante
+Raggio di Infermità
+Ritirata Rapida
+Saltare
+Scudo
+Sonno
+Spruzzo Colorato
+Vita Falsata
+Allucinazione di Forza
+Alterare Se Stesso
+Blocca Persone
+Caratteristica Potenziata
+Cecità/Sordità
+Corona di Follia
+Folata di Vento
+Frantumare
+Immagine Speculare
+Individuazione dei Pensieri
+Ingrandire/Ridurre
+Invisibilità
+levitazione
+Movimenti del Ragno
+Nube di Pugnali
+Oscurità
+Passo Velato
+Raggio Rovente
+Ragnatela
+Scassinare
+Scurovisione
+Sfocatura
+Suggestione
+Vedere Invisibilità
+Camminare sull'Acqua
+chiaroveggenza
+Contro Incantesimo
+Dissolvi Magie
+Forma Gassosa
+Fulmine
+Immagine Maggiore
+Intermittenza
+Lentezza
+Linguaggi
+Luce Diurna
+Nube Maleodorante
+Palla di Fuoco
+Paura
+Protezione dall'Energia
+Respirare sott'Acqua
+Tempesta di Nevischio
+Trama Ipnotica
+Velocità
+Volare
+Confusione
+Dominare Bestie
+Esilio
+Inaridire
+Invisibilità Superiore
+Metamorfosi
+Muro di Fuoco
+Pelle di Pietra
+Porta Dimensionale
+Tempesta di Ghiaccio
+Animare Oggetti
+Blocca Mostri
+Cerchio di Teletrasporto
+Cono di Freddo
+Creazione
+Dominare Persone
+Muro di Pietra
+Nube Mortale
+Piaga degli Insetti
+Sembrare
+Telecinesi
+Bagliore Solare
+Catena di Fulmini
+Cerchio di Morte
+Disintegrazione
+Globo di Invulnerabilità
+Muovere il Terreno
+Portale Arcano
+Sguardo Penetrante
+Suggestione di Massa
+Visione del Vero
+Dito della Morte
+Forma Eterea
+Inversione della Gravità
+Palla di Fuoco Ritardata
+Spostamento Planare
+Spruzzo Prismatico
+Teletrasporto
+Tempesta di Fuoco
+Dominare Mostri
+Esplosione Solare
+Nube Incendiaria
+Parola del Potere Stordire
+Terremoto
+desiderio
+Fermare il Tempo
+Parola del Potere Uccidere
+Portale
+Sciame di Meteore
+`,
+  incantesimiWarlock: `
+Amicizia
+Colpo Accurato
+Deflagrazione Occulta
+Illusione Minore
+Interdizione alle Lame
+Mano Magica
+Prestidigitazione
+Spruzzo Velenoso
+Tocco Gelido
+Armatura di Agathys
+Braccia di Hadar
+Charme su Persone
+Comprensione dei Linguaggi
+Dardo Stregato
+Intimorire Infernale
+Protezione dal Bene e dal Male
+Ritirata Rapida
+Scritto Illusorio
+Servitore Inosservato
+Sortilegio
+Blocca Persone
+Corona di Follia
+Estasiare
+Frantumare
+Immagine Speculare
+Invisibilità
+Movimenti del Ragno
+Nube di Pugnali
+Oscurità
+Passo Velato
+Raggio di Affaticamento
+Suggestione
+Cerchio Magico
+Contro Incantesimo
+Dissolvi Magie
+Fame di Hadar
+Forma Gassosa
+Immagine Maggiore
+Linguaggi
+Paura
+Rimuovi Maledizione
+Tocco del Vampiro
+Trama Ipnotica
+Volare
+Esilio
+Inaridire
+Porta Dimensionale
+Terreno Illusorio
+Blocca Mostri
+Contattare Altri Piani
+Scrutare
+Sogno
+Carne in Pietra
+Cerchio di Morte
+Creare Non Morti
+Evoca Folletto
+Portale Arcano
+Sguardo Penetrante
+Suggestione di Massa
+Visione del Vero
+Dito della Morte
+Forma Eterea
+Gabbia di Forza
+Spostamento Planare
+Dominare Mostri
+Loquacità
+Parola del Potere Stordire
+Regressione Mentale
+Semipiano
+Imprigionare
+Metamorfosi Pura
+Parola del Potere Uccidere
+Previsione
+Proiezione Astrale
+`
+    }
+  },
+  xanatar: {
+    listaIncantesimi: {
+      incantesimiBardo: `
+Rombo di tuono
+Scossa tellurica
+Pirotecnica
+Scritta celeste
+Vento di interdizione
+Nemici in abbondanza
+Sonnellino
+Charme sui mostri
+Abilità potenziata
+Scossa sinaptica
+Metamorfosi di massa
+Urlo psichico
+`,
+      incantesimiChierico: `
+Parola radiosa
+Rintocco dei morti
+Cerimonia
+Trasferimento di vita
+Alba
+Arma sacra
+Tempio degli dèi
+`,
+      incantesimiDruido: `
+Controllare fiamme
+Creare falò
+Ferocia primordiale
+Folata
+Infestazione
+Modellare acqua
+Modellare terra
+Morsa del gelo
+Pietra magica
+Rombo di tuono
+Assorbire elementi
+Coltello di ghiaccio
+Legame con le bestie
+Scossa tellurica
+Trabocchetto
+Diavoletto di polvere
+Scritta celeste
+Spirito guaritore
+Vento di interdizione
+Vincolo della terra
+Eruzione terrestre
+Frecce infuocate
+Muro d'acqua
+Onda di marea
+Anatema elementale
+Charme sui mostri
+Guardiano della natura
+Sfera acquea
+Collera della natura
+Controllare venti
+Maelstrom
+Trasmutare roccia
+Boschetto druidico
+Interdizione primordiale
+Investitura del ghiaccio
+Investitura del vento
+Investitura della fiamma
+Investitura della pietra
+Ossa della terra
+Turbine
+`,
+      incantesimiMago: `
+Controllare fiamme
+Creare falò
+Folata
+Infestazione
+Modellare acqua
+Modellare terra
+Morsa del gelo
+Rintocco dei morti
+Rombo di tuono
+Assorbire elementi
+Catapulta
+Coltello di ghiaccio
+Incuti paura
+Scossa tellurica
+Trabocchetto
+Aculeo mentale
+Diavoletto di polvere
+Investitura della pietra
+Prigione mentale
+Lama d'ombra
+Pirotecnica
+Sciame di palle di neve di Snilloc
+Scritta celeste
+Soffio del drago
+Stretta della terra di Maximilian
+Trasformazione di Tenser
+Corona di stelle
+Parola del potere dolore
+Turbine
+Vampa di Aganazzar
+Vento di interdizione
+Vincolo della terra
+Eruzione terrestre
+Evoca demoni minori
+Frecce infuocate
+Minuscole meteore di Melf
+Muro d'acqua
+Muro di sabbia
+Nemici in abbondanza
+Onda di marea
+Passo del tuono
+Servitore minuscolo
+Sonnellino
+Trasferimento di vita
+Anatema elementale
+Charme sui mostri
+Evoca demone maggiore
+Fulgore nauseante
+Sfera acquea
+Sfera al vetriolo
+Sfera della tempesta
+Abilità potenziata
+Alba
+Colpo del vento d'acciaio
+Controllare venti
+Danza macabra
+Debilitazione
+Flusso di energia negativa
+Immolazione
+Muro di luce
+Passo remoto
+Richiamo infernale
+Scossa sinaptica
+Trasmutare roccia
+Creare omuncolo
+Disperdere
+Gabbia dell'anima
+Investitura del ghiaccio
+Investitura del vento
+Investitura della fiamma
+Drago illusorio
+Fortezza possente
+Orrido avvizzimento di Abi-Dalzim
+Oscurità della follia
+Invulnerabilità
+Metamorfosi di massa
+Urlo psichico
+`,
+      incantesimiPaladino: `
+Cerimonia
+Trova cavalcatura superiore
+Arma sacra
+`,
+      incantesimiRanger: `
+Assorbire elementi
+Colpo dello zefiro
+Legame con le bestie
+Trabocchetto
+Spirito guaritore
+Frecce infuocate
+Guardiano della natura
+Collera della natura
+Colpo del vento d'acciaio
+`,
+      incantesimiStregone: `
+Controllarefiamme
+Creare falò
+Folata
+Infestazione
+Modellare acqua
+Modellare terra
+Morsa del gelo
+Rombo di tuono
+Assorbire elementi
+Catapulta
+Coltello di ghiaccio
+Dardo di caos
+Scossa tellurica
+Aculeo mentale
+Diavoletto di polvere
+Lama d'ombra
+Pirotecnica
+Sciame di palle di neve di Snilloc
+Soffio del drago
+Stretta della terra di Maximilian
+Vampa di Aganazzar
+Vento di interdizione
+Vincolo della terra
+Eruzione terrestre
+Frecce infuocate
+Minuscole meteore di Meif
+Muro d'acqua
+Nemici in abbondanza
+Onda di marea
+Passo del tuono
+Sonnellino
+Charme sui mostri
+Fulgore nauseante
+Sfera acquea
+Sfera al vetriolo
+Sfera della tempesta
+Abilità potenziata
+Controllare venti
+Debilitazione
+Immolazione
+Muro di luce
+Passo remoto
+Scossa sinaptica
+Disperdere
+Investitura del ghiaccio
+Investitura del vento
+Investitura della fiamma
+Investitura della pietra
+Prigione mentale
+Corona di stelle
+Parola del potere dolore
+Turbine
+Orrido avvizzimento di Abi-Dalzim
+Metamorfosi di massa
+Urlo psichico
+`,
+      incantesimiWarlock: `
+Creare falò
+Infestazione
+Morsa del gelo
+Pietra magica
+Rintocco dei morti
+Rombo di tuono
+Incuti paura
+Aculeo mentale
+Lama d'ombra
+Vincolo della terra
+Evoca demoni minori
+Nemici in abbondanza
+Passo del tuono
+Anatema elementale
+Charme sui mostri
+Evoca demone maggiore
+Fulgore nauseante
+Ombra di Moil
+Danza macabra
+Debilitazione
+Flusso di energia negativa
+Muro di luce
+Passo remoto
+Richiamo infernale
+Scossa sinaptica
+Disperdere
+Gabbia dell'anima
+Investitura del ghiaccio
+Investitura del vento
+Investitura della fiamma
+Investitura della pietra
+Prigione mentale
+Corona di stelle
+Parola del potere dolore
+Oscurità della follia
+Urlo psichico
+`
+    }  
+  },
+  tasha: {
+
+  }
+};
+
+
+
+/*
+
+ABILITÀ POTENZIATA
+Trasmutazione di 5 livello
+Tempo di Lancio: 1 azione 
+Gittata: Contatto 
+Componenti: V, S 
+Durata: Concentrazione, fino a 1 ora
+Grazie alla magia, l'incantatore consente a una creatura di sviluppare una maggiore comprensione delle proprie doti. L'incantatore tocca una creatura consenziente e le conferisce maestria in un'abilità a scelta dell'incantatore· finché l'incantesimo non termina, la creatura raddoppia il suo bonus di competenza nelle prove di caratteristica che effettua per usare l'abilità scelta.
+L'incantatore deve scegliere un'abilità in cui il bersaglio sia competente e che non benefici già di un effetto, come per esempio Maestria, che raddoppia il suo bonus di competenza.
+
+ACULEO MENTALE
+Divinazione di 2 livello
+Tempo di Lancio: 1 azione 
+Gittata: 18 metri 
+Componenti: S 
+Durata: Concentrazione, fino a 1 ora
+L'incantatore si insinua nella mente di una creatura situata entro gittata e che egli sia in grado di vedere. Il bersaglio deve effettuare un tiro salvezza su Saggezza; se lo fallisce, subisce 3d8 danni psichici, mentre se lo supera, subisce la metà di quei danni. Se lo fallisce, l'incantatore sa sempre dove si trova il bersaglio fino alla fine dell'incantesimo, ma solo se entrambi si trovano sullo stesso piano d'esistenza. Finché l'incantatore è in possesso di queste conoscenze, il bersaglio non può nascondersi da lui e, se è invisibile, non ottiene alcun beneficio da quella condizione contro di lui.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2 °.
+
+ALBA
+
+Invocazione di 5° livello
+
+Tempo di Lancio: 1 azione Gittata: 18 metri Componenti: V, S, M (un pendente che raffigura un sole splendente del valore di almeno 100 mo) Durata: Concentrazione, fino a 1 minuto
+
+La luce dell'alba risplende su un luogo specificato dall'incantatore entro gittata. Finché l'incantesimo non termina, un cilindro del raggio di 9 metri e alto 12 metri di luce intensa risplende in quel luogo. La sua luce è considerata luce del sole.
+
+Quando il cilindro compare, ogni creatura al suo interno deve effettuare un tiro salvezza su Costituzione; se lo fallisce, subisce 4dl0 danni radiosi, mentre se lo supera, subisce la metà di quei danni. Una creatura deve effettuare questo tiro salvezza anche ogni volta che termina il proprio turno nel cilindro.
+
+Se l'incantatore si trova entro 18 metri dal cilindro, può muoverlo di un massimo di 18 metri come azione bonus nel proprio turno.
+
+ANATEMA ELEMENTALE
+
+Trasmutazione di 4 livello
+
+°
+
+Tempo di Lancio: 1 azione Gittata: 27 metri Componenti: V, S Durata: Concentrazione, fino a 1 minuto
+
+f
+
+L'incantatore sceglie una creatura situata entro gittata e che egli sia in grado di vedere e sceglie uno dei tipi di danno seguenti: acido, freddo, fulmine, fuoco o tuono. Il bersaglio deve superare un tiro salvezza su Costituzione, altrimenti sarà influenzato dall'incantesimo per la sua durata. La prima volta in ogni turno in cui il bersaglio influenzato subisce danni del tipo scelto, esso subisce 2d6 danni extra di quel ti�o. Il bersaglio perde inoltre qualsiasi resistenza a quel tipo d1 danno finché l'incantesimo non termina.
+
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 ° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando l'incantatore le bersaglia.
+
+ARMA SACRA ° Invocazione di 5 livello
+
+Tempo di Lancio: 1 azione bonus Gittata: Contatto Componenti: V, S Durata: Concentrazione, fino a 1 ora
+
+L'incantatore infonde di potere sacro un'arma che sta toccando. Finché l'incantesimo non termina, l'arma emette luce intensa in un raggio di 9 metri e luce fioca per altri 9 metri. Inoltre, gli attacchi effettuati con l'arma infliggono 2d8 danni radiosi extra se colpiscono. Se l'arma non è già un'arma magica, diventa tale per la durata dell'incantesimo.
+
+Come azione bonus nel proprio turno, l'incantatore può congedare l'incantesimo e fare in modo che dall'arma si sprigioni un'esplosione radiosa. Ogni creatura a sua scelta ' situata entro 9 metri e che egli sia in grado di vedere, deve effettuare un tiro salvezza su Costituzione: se lo fallisce, subisce 4d8 danni radiosi ed è accecata per 1 minuto, mentre se lo supera, subisce la metà di quei danni e non è accecata. Alla fine di ogni suo turno, una creatura accecata può effettuare un tiro salvezza su Costituzione; se lo supera, l'effetto su se stessa termina.
+
+ASSORBIRE ELEMENTI
+
+Abiurazione di 1 ° livello
+
+Tempo di Lancio: 1 reazione, che l'incantatore effettua quando subisce danni da acido, freddo, fulmine, fuoco o tuono Gittata: Incantatore Componenti: S Durata: 1 round
+
+L'incantesimo cattura parte dell'energia in arrivo, ammortizzando i suoi effetti sull'incantatore e consentendogli di incamerarla per il suo attacco in mischia successivo. L'incantatore possiede resistenza al tipo di danno innescante fino all'inizio del proprio turno successivo. Inoltre, la prima volta che colpisce con un attacco in mischia nel suo turno successivo, il bersaglio subisce ld6 danni extra del tipo innescante e l'incantesimo termina.
+
+Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando uno slot incantesimo di 2 livello o superiore, i danni extra aumentano di ld6 per ogni slot di livello superiore al 1 °.

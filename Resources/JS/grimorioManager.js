@@ -8,15 +8,17 @@
 
 // Oggetto contenenente il nome del caster e i suoi incantesimi in array.
 // Lasciare in questa pozione perche' serve successivamente nel codice alla creazione di grimArr.
-let objCastersArr = objClassesArrSpellLists(listaIncantesimi);
+// Qui va modifcato e messo una chiamata di funzione con tutti i manuali presenti
+let objCastersArr = objClassesArrSpellLists(grimorioAllBooks);
 
 // Array contenente i nomi di tutti gli incantesimi presi una volta sola e ordinati alfabeticamente.
 // N.B. non e' stato fabbricato da grimArr ma da listeIncantesimi_grimorioPHB.js, in modo da avere un riscontro a due fattori
-// Lasciare in questa pozione perche' serve successivamente nel codice alla creazione grimArr.
+// QUESTO NON PUO PIU FUNZIONARE D QUANDO HAI CAMBIATO LA STRUTTURA DI TUTTO.
 let allSpellTitlesArr = allSpellsUniqueArray();
 
 // Grimorio:  array con indici tutti gli oggetti contenenti gli incantesimi.
-let grimArr = grimorioCreation(grimorioStringPHB); 
+// Qui va modifcato e messo una chiamata di funzione con tutti i manuali presenti
+let grimArr = grimorioCreation(grimorioAllBooks); 
 
 // Crei tutte le voci del menù di scelta e mostri tutti gli incantesimi.
 datalistsSelectBuilder();
@@ -94,7 +96,7 @@ $('h2').on('click', function () {
 
 
 
-// DICHIARAZIONE DELLE FUNZIONI
+// DICHIARAZIONE DELLE FUNZIONI - FUNCTION DECLARATIONS
 
 // arrayUniqueValues: 
 // questa funzione se chiamata con un array come argomento, 
@@ -121,7 +123,7 @@ function arrayUniqueValues (arr) {
 // creare un array 'grimArr' avente come indici gli incantesimi singoli in formato oggetto.
 function grimorioCreation (grimorio) {
   let grimorioArray = [];
-  
+
   function schoolAndLevel (sAl, type) {
     if (sAl[0] === 'Trucchetto' && type === 'school') {
       return sAl[2];
@@ -134,54 +136,78 @@ function grimorioCreation (grimorio) {
     }
   }
   
-  for (let spell of grimorio.slice(1).split('\n\n')) {
-    // if (spell.split('\n')[2].split(': ')[0] !== 'Tempo di Lancio') console.log('Qualcosa non va in "Tempo di Lancio" di: ', spell.split('\n')[0]);
-    // if (spell.split('\n')[3].split(': ')[0] !== 'Gittata') console.log('Qualcosa non va in "Gittata" di: ', spell.split('\n')[0]);
-    // if (spell.split('\n')[4].split(': ')[0] !== 'Componenti') console.log('Qualcosa non va in "Componenti" di: ', spell.split('\n')[0]);
-    // if (spell.split('\n')[5].split(': ')[0] !== 'Durata') console.log('Qualcosa non va in "Durata" di: ', spell.split('\n')[0]);
-    grimorioArray.push({
-      title : [spell.split('\n')[0]],
-      magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
-      magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
-      spellcastingTime : (function () {
-        if (spell.split('\n')[2].split(': ')[1][2] === 'r') {
-          return [spell.split('\n')[2].split(': ')[1].split(', che ')[0], spell.split('\n')[2].split(': ')[1].split(', che ')[1]];
-        } else if (spell.split('\n')[2].split(': ')[1] === '1 azione o 8 ore') {
-          return [spell.split('\n')[2].split(': ')[1].split(' o ')[0], spell.split('\n')[2].split(': ')[1].split(' o ')[1]];
-        } else {
-          return [spell.split('\n')[2].split(': ')[1]];
-        }
-      })(),
-      range : (function () {
-        if (spell.split('\n')[3].split(': ')[1].split('(')[0] === 'Incantatore ') {
-          return [spell.split('\n')[3].split(': ')[1].split(' (')[0], spell.split('\n')[3].split(': ')[1].split(' (')[1].slice(0,-1)];
-        }
-        return [spell.split('\n')[3].split(': ')[1]];
-      })(),
-      components : (function () {
-        let arr = spell.split('\n')[4].split(': ')[1].split(', ');
-        let arr2 = [];
-        for (let i=0; i<arr.length; i++) { 
-          if (arr[i][0] === 'V' || arr[i][0] === 'S' || arr[i][0] === 'M') {
-            arr2.push(arr[i][0]);
+  // Questo ciclo scandaglia tutti i manuali in grimorioAllBooks,
+  // crea un oggetto con tutte le voci contenute in una spell e lo aggiunge a grimorioArr.
+  for (let manual in grimorio) {
+    // Questo IF verifica che negli oggetti dentro a grimorioAllBooks,
+    // ci sia effettivamente una stringa con tutte le spell di quel manuale.
+    if (grimorio[manual].grimorioString !== undefined) {
+      for (let spell of grimorio[manual].grimorioString.slice(1).split('\n\n')) {
+        // if (spell.split('\n')[2].split(': ')[0] !== 'Tempo di Lancio') console.log('Qualcosa non va in "Tempo di Lancio" di: ', spell.split('\n')[0]);
+        // if (spell.split('\n')[3].split(': ')[0] !== 'Gittata') console.log('Qualcosa non va in "Gittata" di: ', spell.split('\n')[0]);
+        // if (spell.split('\n')[4].split(': ')[0] !== 'Componenti') console.log('Qualcosa non va in "Componenti" di: ', spell.split('\n')[0]);
+        // if (spell.split('\n')[5].split(': ')[0] !== 'Durata') console.log('Qualcosa non va in "Durata" di: ', spell.split('\n')[0]);
+
+        // Loop che verifica che in caso di incantesimi doppi da diversi manuali si modifichi solo la proprieta' chiave 'handBook', 
+        // aggiungendo il manuale in questione
+        let checkIfSpellAlreadyRegistered = false; 
+        for (let existingSpell of grimorioArray) {
+          if (existingSpell.title[0] === spell.split('\n')[0]) {
+            existingSpell.handBook.push(manual);
+            checkIfSpellAlreadyRegistered = true;
           }
         }
-        if(spell.split('\n')[4].split(': ')[1].split(' (')[1]) arr2.push(spell.split('\n')[4].split(': ')[1].split(' (')[1].slice(0,-1));
-        return arr2; 
-      })(),
-      duration : (function () {
-        if (spell.split('\n')[5].split(': ')[1].split(', ')[0] === 'Concentrazione') {
-          return [spell.split('\n')[5].split(': ')[1].split(', ')[0], spell.split('\n')[5].split(': ')[1].split(', ')[1]];
-        } else {
-          return [spell.split('\n')[5].split(': ')[1]];
+
+        if (checkIfSpellAlreadyRegistered === false) {
+          grimorioArray.push({
+            title : [spell.split('\n')[0]],
+            handBook : [manual],
+            magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
+            magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
+            spellcastingTime : (function () {
+              if (spell.split('\n')[2].split(': ')[1][2] === 'r') {
+                return [spell.split('\n')[2].split(': ')[1].split(', che ')[0], spell.split('\n')[2].split(': ')[1].split(', che ')[1]];
+              } else if (spell.split('\n')[2].split(': ')[1] === '1 azione o 8 ore') {
+                return [spell.split('\n')[2].split(': ')[1].split(' o ')[0], spell.split('\n')[2].split(': ')[1].split(' o ')[1]];
+              } else {
+                return [spell.split('\n')[2].split(': ')[1]];
+              }
+            })(),
+            range : (function () {
+              if (spell.split('\n')[3].split(': ')[1].split('(')[0] === 'Incantatore ') {
+                return [spell.split('\n')[3].split(': ')[1].split(' (')[0], spell.split('\n')[3].split(': ')[1].split(' (')[1].slice(0,-1)];
+              }
+              return [spell.split('\n')[3].split(': ')[1]];
+            })(),
+            components : (function () {
+              let arr = spell.split('\n')[4].split(': ')[1].split(', ');
+              let arr2 = [];
+              for (let i=0; i<arr.length; i++) { 
+                if (arr[i][0] === 'V' || arr[i][0] === 'S' || arr[i][0] === 'M') {
+                  arr2.push(arr[i][0]);
+                }
+              }
+              if(spell.split('\n')[4].split(': ')[1].split(' (')[1]) arr2.push(spell.split('\n')[4].split(': ')[1].split(' (')[1].slice(0,-1));
+              return arr2; 
+            })(),
+            duration : (function () {
+              if (spell.split('\n')[5].split(': ')[1].split(', ')[0] === 'Concentrazione') {
+                return [spell.split('\n')[5].split(': ')[1].split(', ')[0], spell.split('\n')[5].split(': ')[1].split(', ')[1]];
+              } else {
+                return [spell.split('\n')[5].split(': ')[1]];
+              }
+            })(),
+            description : [spell.split('\n').slice(6).join(' ')],
+            ritual : (function () {
+              if (spell.split('\n')[1].slice(-9) === '(rituale)') return ['Si'];
+              return ['No'];
+            })()
+          });
         }
-      })(),
-      description : [spell.split('\n').slice(6).join(' ')],
-      ritual : (function () {
-        if (spell.split('\n')[1].slice(-9) === '(rituale)') return ['Si'];
-        return ['No'];
-      })()
-    });
+
+
+      }
+    }
   }
   
   // Aggiunge ad ogni incantesimo oggetto di grimorioArray chi sono gli utilizzatori
@@ -193,7 +219,7 @@ function grimorioCreation (grimorio) {
       }
     }
   }
-  
+
   return grimorioArray;
 };
 
@@ -257,25 +283,34 @@ function correctSpellList (spellList) {
 // objClassesArrSpellLists:
 // Questa funzione crea un oggetto le cui chiavi corrispondono alle classi e
 // i rispettivi valori sono array contenenti gli incantesimi di quella classe.
-function objClassesArrSpellLists (spellList) {
+// Pesca da tutti i manuali presenti in grimorioAllBooks.
+function objClassesArrSpellLists (grimorio) {
   let obj = {};
-  
-  for (let classSpells in spellList) {
-    obj[classSpells.slice(11)] = spellList[classSpells].toUpperCase().slice(1).split('\n');
+
+  for (let manual in grimorio) {
+    for (let classSpells in grimorio[manual].listaIncantesimi) {
+      // slice(11) cosi tiene solo il nome della classe ed elimina la parola incantesimi, ad esempio incantesimiBardo rimane Bardo
+      if (!obj[classSpells.slice(11)]) obj[classSpells.slice(11)] = [];
+      let list = grimorio[manual].listaIncantesimi[classSpells].toUpperCase().slice(1).split('\n');
+      for (let title of list) {
+        if (title !== '') obj[classSpells.slice(11)].push(title);
+      }
+    }
   }
-  
+
   return obj;
 };
 
 // allSpellsUniqueArray:
 // un array contenente tutti gli incanteimi di tutte le classi presi una sola volta e
 // ordinati in ordine alfabetico.
+// QUESTO NON PUO PIU FUNZIONARE D QUANDO HAI CAMBIATO LA STRUTTURA DI TUTTO.
 function allSpellsUniqueArray () {
   let arr = [];
   for (let classSpells in objCastersArr) {
     arr = arr.concat(objCastersArr[classSpells]);
   }
-  return arrayUniqueValues(arr).sort().slice(1);
+  return arrayUniqueValues(arr).sort();
 };
 
 // filterEveryTypeValue:            N.B. prende solo il primo valore dell'array della chiave in questione
@@ -442,7 +477,7 @@ function spellFilter () {
   filt('#durata', 'duration');
   filt('#titolo', 'title');
   
-  console.log(filtGrim);
+  // console.log(filtGrim);
   $('.elenco').html('');
   for (let spell of filtGrim) {
     let p = $('<p class="p">');
