@@ -2,7 +2,7 @@
 
 
 
-// GRIMORIO ESTRAPOLATO DAL D&d 5E PLAYER HANDBOOK
+// GRIMORIO ESTRAPOLATO DA D&d 5E
 
 
 
@@ -335,6 +335,11 @@ function datalistsSelectBuilder () {
   for (let spell of filterEveryTypeValue(grimArr, 'title').sort()) {
     $('.dataListTitles').append('<option value="'+spell+'"></option>');
   };
+
+  // Crei un datalist HTML per i manuali usati nel DOM, in questo modo la ricerca per manuali è potente
+  for (let spell of filterEveryTypeValue(grimArr, 'handBook').sort()) {
+    $('#manuali').append('<option value="'+spell+'">'+spell+'</option>');
+  };
   
   // Crei un datalist HTML per i livelli nel DOM, in questo modo la ricerca per i livelli è potente
   for (let spell of filterEveryTypeValue(grimArr, 'magicLevel').sort()) {
@@ -471,6 +476,7 @@ function spellFilter () {
 
   filt('#classe', 'casters');
   filt('#livello', 'magicLevel');
+  filt('#manuali', 'handBook');
   filt('#scuolaDiMagia', 'magicSchool');
   filt('#tempoDiLancio', 'spellcastingTime');
   filt('input[name=concentrazione]:checked');
@@ -509,7 +515,8 @@ function displaySpell (event) {
   $('.elenco').append('<p class="caratteristicheSpell"> Componenti: <span>' + selectedSpell.components.join(' - ') + '</span></p>');
   $('.elenco').append('<p class="caratteristicheSpell"> Durata: <span>' + selectedSpell.duration.join(' - ') + '</span></p>');
   $('.elenco').append('<p class="caratteristicheSpell"> Rituale: <span>' + selectedSpell.ritual.join(' - ') + '</span></p>');
-  $('.elenco').append('<p class="caratteristicheSpell"> Utilizzatori: <span>' + selectedSpell.casters.join(' - ') + '</span></p><br><hr><br>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Utilizzatori: <span>' + selectedSpell.casters.join(' - ') + '</span></p>');
+  $('.elenco').append('<p class="caratteristicheSpell"> Manuali: <span>' + selectedSpell.handBook.join(' - ') + '</span></p><br><hr><br>');
   $('.elenco').append('<p class="caratteristicheSpell"> Descrizione: <br><span>' + selectedSpell.description.join(' - ') + '</span></p><br><hr>');
   $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
 };

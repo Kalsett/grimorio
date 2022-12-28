@@ -10041,7 +10041,7 @@ Proiezione Astrale
 ABILITÀ POTENZIATA
 Trasmutazione di 5 livello
 Tempo di Lancio: 1 azione 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 Grazie alla magia, l'incantatore consente a una creatura di sviluppare una maggiore comprensione delle proprie doti. L'incantatore tocca una creatura consenziente e le conferisce maestria in un'abilità a scelta dell'incantatore· finché l'incantesimo non termina, la creatura raddoppia il suo bonus di competenza nelle prove di caratteristica che effettua per usare l'abilità scelta.
@@ -10078,7 +10078,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 ARMA SACRA
 Invocazione di 5 livello
 Tempo di Lancio: 1 azione bonus 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore infonde di potere sacro un'arma che sta toccando. Finché l'incantesimo non termina, l'arma emette luce intensa in un raggio di 9 metri e luce fioca per altri 9 metri. Inoltre, gli attacchi effettuati con l'arma infliggono 2d8 danni radiosi extra se colpiscono. Se l'arma non è già un'arma magica, diventa tale per la durata dell'incantesimo.
@@ -10096,7 +10096,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 BOSCHETTO DRUIDICO
 Abiurazione di 6 livello
 Tempo di Lancio: 10 minuti 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S, M (vischio, che l'incantesimo consuma, raccolto con un falcetto d'oro alla luce della luna piena) 
 Durata: 24 ore
 L ' incantatore invoca gli spiriti della natura per proteggere un'area esterna o sotterranea. L'area può variare da un minimo di un cubo con spigolo di 9 metri a un massimo di un cubo con spigolo di 27 metri. Gli edifici e le altre strutture sono esclusi dall'area influenzata. Se l'incantatore lancia questo incantesimo nella stessa area ogni giorno per un anno, l'effetto dura finché non viene dissolto.
@@ -10122,7 +10122,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 CERIMONIA 
 Abiurazione di 1 livello (rituale)
 Tempo di Lancio: 1 ora 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S, M (polvere argentata per un valore di 25 mo, che l'incantesimo consuma) 
 Durata: Istantanea
 L'incantatore effettua una cerimonia religiosa speciale infusa di magia. Quando lancia l'incantesimo, sceglie uno dei riti seguenti, il cui bersaglio deve trovarsi entro 3 metri da lui per tutto il tempo di lancio.
@@ -10226,7 +10226,7 @@ I danni dell'incantesimo aumentano di ld8 quando ° l'incantatore raggiunge il 5
 CREARE OMUNCOLO
 Trasmutazione di 6 livello
 Tempo di Lancio: 1 ora 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S, M (argilla, cenere e radice di mandragora, che l'incantesimo consuma tutte, e un pugnale ingioiellato del valore di almeno 1.000 mo) 
 Durata: Istantanea
 Recitando una complicata formula, l'incantatore si taglia con un pugnale ingioiellato, subendo 2d4 danni perforanti che non possono essere ridotti in alcun modo. Poi versa il suo sangue sulle altre componenti dell'incantesimo e le tocca, trasformandole in uno speciale costrutto chiamato omuncolo.
@@ -10346,8 +10346,8 @@ Durata: Istantanea
 L'incantatore incanala la magia primordiale e sviluppa denti o unghie affilate con cui sferrare un attacco corrosivo. L'incantatore effettua un attacco con incantesimo in mischia contro una creatura situata entro 1,5 metri da lui. Se colpisce, il bersaglio subisce ldlO danni da acido. Dopo che l'incantatore ha effettuato questo attacco, i suoi denti o le sue unghie tornano alla normalità.
 I danni dell'incantesimo aumentano di ldlO quando l'incantatore raggiunge il 5° livello (2d10), 1'11° livello (3d10) ° e il 17 livello (4d10).
 
-FLUSSO DI ENERGIA 
-NEGATIVA Necromanzia di 5° livello
+FLUSSO DI ENERGIA NEGATIVA
+Necromanzia di 5° livello
 Tempo di Lancio: 1 azione 
 Gittata: 18 metri 
 Componenti: V, M (un osso spezzato e un quadretto di seta nera) 
@@ -10383,7 +10383,7 @@ Lanciando questo incantesimo nello stesso punto una volta ogni 7 giorni per un a
 FRECCE INFUOCATE
 Trasmutazione di 3 livello
 Tempo di Lancio: 1 azione 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore tocca una faretra contenente frecce o quadrelli. Quando un bersaglio è colpito da un attacco con arma a distanza che usa una munizione estratta dalla faretra, quel bersaglio subisce ld6 danni da fuoco extra. La magia dell'incantesimo sulla munizione termina quando colpisce o manca e l'incantesimo termina quando dodici munizioni sono state estratte dalla faretra.
@@ -10525,7 +10525,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 LEGAME CON LE  BESTIE
 Divinazione di 1 ° livello
 Tempo di Lancio: 1 azione 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S, M (un ciuffo di pelliccia avvolto in un pezzo di stoffa) 
 Durata: Concentrazione, fino a 10 minuti
 L'incantatore stabilisce un legame telepatico con una bestia con cui è in contatto, che è stata da lui affascinata o è amichevole nei suoi confronti. L'incantesimo fallisce se l'Intelligenza della bestia è pari o superiore a 4. Finché l'incantesimo non termina, il legame resta attivo fintanto che l'incantatore e la bestia rimangono entro linea di vista l'uno dall'altra. Attraverso il legame, la bestia può capire i messaggi telepatici che l'incantatore le invia e può a sua volta comunicare telepaticamente le emozioni e i concetti più semplici all'incantatore. Fintanto che il legame è attivo, la bestia dispone di vantaggio ai tiri per colpire contro qualsiasi creatura situata entro 1,5 metri dall'incantatore e che quest'ultimo sia in grado di vedere.
@@ -10564,7 +10564,7 @@ Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione 
 Gittata: 9 metri 
 Componenti: S 
-Durata: Istantanea or 1 ora (vedi sotto)
+Durata: Istantanea o 1 ora (vedi sotto)
 L'incantatore sceglie un'area d'acqua situata entro gittata, che egli sia in grado di vedere e che sia contenuta in un cubo con spigolo di 1,5 metri. Manipola quell'acqua in uno dei modi seguenti:
 L'incantatore muove istantaneamente o cambia in altri modi il corso dell'acqua in base al suo comando, fino a 1,5 metri in ogni direzione. Questo movimento non ha abbastanza forza da infliggere danni.
 L'incantatore ricava dall'acqua delle semplici forme che anima in base alle sue indicazioni. Questo cambiamento dura 1 ora.
@@ -10717,7 +10717,7 @@ L'incantatore si teletrasporta di un massimo di 18 metri fino a uno spazio liber
 PIETRA MAGICA
 Trucchetto di Trasmutazione
 Tempo di Lancio: 1 azione bonus 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S 
 Durata: 1 minuto
 L'incantatore tocca da uno a tre sassolini, infondendo in essi un flusso di magia. L'incantatore o qualcun altro può effettuare un attacco con incantesimo a distanza con uno dei sassolini scagliandolo a mano o con una fionda. Se scagliato a mano, ha una gittata di 18 metri.
@@ -10802,7 +10802,7 @@ Ai LiveJJi Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 SCRITTA CELESTE
 Trasmutazione di 2 livello (rituale)
 Tempo di Lancio: 1 azione 
-Gittata: Vista 
+Gittata: Vista
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore fa comparire un massimo di dieci parole in una parte del cielo che è in grado di vedere. Le parole sembrano fatte di nuvole e rimangono al loro posto per la durata dell'incantesimo. Le parole si dissolvono quando l'incantesimo termina. Un vento forte può disperdere le nuvole e porre fine all'incantesimo anticipatamente.
@@ -10810,7 +10810,7 @@ L'incantatore fa comparire un massimo di dieci parole in una parte del cielo che
 SERVITORE MINUSCOLO
 Trasmutazione di 3 livello
 Tempo di Lancio: 1 minuto 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S 
 Durata: 8 ore
 L'incantatore tocca un oggetto Minuscolo non magico che non sia attaccato a un altro oggetto o superficie e non sia trasportato da un'altra creatura. Il bersaglio si anima, sviluppa piccole braccia e gambe e diventa una creatura sotto il controllo dell'incantatore finché l'incantesimo non termina o la creatura non scende a O punti ferita. Vedi la scheda delle statistiche per le sue statistiche.
@@ -10861,7 +10861,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 SOFFIO DEL DRAGO
 Trasmutazione di 2 livello
 Tempo di Lancio: 1 azione bonus 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: V, S, M (un peperoncino) 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore tocca una creatura consenziente e infonde in essa il potere di esalare energia magica dalla bocca, purché ne possieda una. L'incantatore sceglie tra acido, freddo, fulmine, fuoco o veleno. Finché l'incantesimo non termina, la creatura può usare un'azione per esalare l'energia del tipo scelto in un cono di 4,5 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 3d6 danni del tipo scelto, mentre se lo supera, subisce la metà di quei danni.
@@ -10916,7 +10916,7 @@ Lanciando questo incantesimo nello stesso punto ogni giorno per un anno, questo 
 TRABOCCHETTO
 Abiurazione di 1 livello
 Tempo di Lancio: 1 minuto 
-Gittata: Contatto 
+Gittata: Contatto
 Componenti: S, M (7,5 metri di corda, che l'incantesimo consuma) 
 Durata: 8 ore
 Quando lancia questo incantesimo, l'incantatore usa la corda per creare un cerchio del raggio di 1,5 metri sul terreno o sul pavimento. Una volta completato il lancio, la corda scompare e il cerchio diventa una trappola magica.
