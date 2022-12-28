@@ -84,11 +84,10 @@ $('h2').on('click', function () {
 
 // LISTA DI LOG PER CONTROLLARE CHE LA SORGENTE SIA IN ORDINE ABBASTANZA DA FUNZIONARE
 
-// console.log(checkIfDurationIsLine6(grimorioStringPHB)); // Tutto funziona
-// console.log(correctSpellList(listaIncantesimi)); // Tutto funziona
-// console.log(grimArr); // Tutto funziona
-// console.log(objCastersArr); // Tutto funziona
-// console.log(allSpellTitlesArr); // Tutto funziona
+// check(grimorioAllBooks); // Tutto funziona
+// console.log('grimArr, grimorio completo di tutti i manuali\nsuddiviso in oggetti per ogni spell: ', grimArr); // Tutto funziona
+// console.log('objCastersArr: ', objCastersArr); // Tutto funziona
+// console.log('allSpellTitlesArr: ', allSpellTitlesArr); // Tutto funziona
 
 
 
@@ -247,8 +246,8 @@ function checkIfDurationIsLine6 (str) {
 };
 
 // correctSpellList:
-// Questa funzione raffronta le liste degli incantesimi di ogni classe presenti in listeincantesimi_grimorioPHB.js con 
-// i titoli degli incantesimi presenti in grimorioPHB.js restituendo un log con le liste divise per classe e array dei
+// Questa funzione raffronta le liste degli incantesimi di ogni classe presenti in grimorioString con 
+// i titoli degli incantesimi presenti in listaIncantesimi di ogni manuale di grimorioAllBooks restituendo un log con le liste divise per classe e array dei
 // corrispettivi incantesimi per lista che non combaciano con quelli scritti nel grimorio. Quelli che non combaciono,
 // sono errori da sistemare. Se invece non ci sono risultati vuol dire che tutto combacia e ogni lista resituira'
 // la scritta "Tutti gli incantesimi di questa lista combaciano!!!"
@@ -261,16 +260,22 @@ function correctSpellList (spellList) {
     obj[classSpells] = spellList[classSpells].slice(1).split('\n');
   }
   
-  for (let i of grimorioCreation(grimorioStringPHB)) {
-    arrayGrimorioSpells.push(i.title);
+  for (let i of grimArr) {
+    arrayGrimorioSpells.push(i.title[0]);
   }
+
+  // console.log('obj: ', obj); //
+  // console.log('arrayGrimorioSpells: ', arrayGrimorioSpells); //
   
   for (let arrayClassSpells in obj) {
     objFiltered[arrayClassSpells] = [];
+    // console.log('objFiltered: ', objFiltered);//
     
     for (let spell1 of obj[arrayClassSpells]) {
       let checkPresence = false;
+      // console.log('spell1: ', spell1); //
       for (let spell2 of arrayGrimorioSpells) {
+        // console.log('spell2: ', spell2); //
         if (spell1.toUpperCase() === spell2.toUpperCase()) {
           checkPresence = true;
         }
@@ -526,6 +531,16 @@ function displaySpell (event) {
   $('.elenco').append('<br><button onclick="spellFilter()">Indietro</button><br><br>');
 };
 
-
+// chech:
+// funzione che effettua una serie di controlli per verificare che la posizione delle voci nei grimorioString
+// di tutti i manuali siano a posto controllando se la voce 'durata' è nella linea numero 6 e controlla che tutti i
+// titoli delle spell nelle varie listaIncantesimi combacino a quelli nei grimorioString.
+function check (grim) {
+  let grimHandBooks = Object.keys(grim);
+  for (let manual of grimHandBooks) {
+      if (grim[manual].grimorioString) console.log(manual + ': ', checkIfDurationIsLine6(grim[manual].grimorioString));
+      if (grim[manual].listaIncantesimi) console.log(manual + ': ', correctSpellList(grim[manual].listaIncantesimi));
+  }
+};
 
 //----------------------------------------//

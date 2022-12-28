@@ -10119,7 +10119,7 @@ L'incantatore sceglie un oggetto di peso compreso tra 0,5 e 2,5 kg, situato entr
 Se lo fallisce, l'oggetto colpisce il bersaglio e smette di muoversi. In ogni caso, sia l'oggetto che la creatura o la superficie solida subiscono 3d8 danni contundenti.
 Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, il peso massimo degli oggetti che può bersagliare con questo incantesimo aumenta di 2,5 kg e i danni aumentano di ld8, per ogni slot di livello superiore al 1°.
 
-CERIMONIA 
+CERIMONIA
 Abiurazione di 1 livello (rituale)
 Tempo di Lancio: 1 ora 
 Gittata: Contatto
@@ -10142,7 +10142,7 @@ Durata: 1 ora
 L'incantatore tenta di affascinare una creatura entro gittata e che egli sia in grado di vedere. La creatura deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lei. Se lo fallisce, è affascinata dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non la danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.
 Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 ° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando l'incantatore le bersaglia.
 
-COLLERA DELLA NATURA 
+COLLERA DELLA NATURA
 Invocazione di 5° livello
 Tempo di Lancio: 1 azione 
 Gittata: 36 metri 
@@ -10522,7 +10522,7 @@ Se l'incantatore lascia cadere l'arma o la lancia, essa si dissipa alla fine del
 LAMA o'OMBRA
 Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° o 4° livello, i danni aumentano a 3d8. Quando lo lancia usando uno slot incantesimo di 5° o 6° livello, i danni aumentano a 4d8. Quando lo lancia usando uno slot incantesimo di 7 ° livello o superiore, i danni aumentano a 5d8.
 
-LEGAME CON LE  BESTIE
+LEGAME CON LE BESTIE
 Divinazione di 1 ° livello
 Tempo di Lancio: 1 azione 
 Gittata: Contatto
@@ -11183,7 +11183,7 @@ Collera della natura
 Colpo del vento d'acciaio
 `,
       incantesimiStregone: `
-Controllarefiamme
+Controllare fiamme
 Creare falò
 Folata
 Infestazione
@@ -11208,7 +11208,7 @@ Vento di interdizione
 Vincolo della terra
 Eruzione terrestre
 Frecce infuocate
-Minuscole meteore di Meif
+Minuscole meteore di Melf
 Muro d'acqua
 Nemici in abbondanza
 Onda di marea
