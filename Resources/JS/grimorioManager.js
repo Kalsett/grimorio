@@ -153,10 +153,15 @@ function grimorioCreation (grimorio) {
 
         // Loop che verifica che in caso di incantesimi doppi da diversi manuali si modifichi solo la proprieta' chiave 'handBook', 
         // aggiungendo il manuale in questione
+        let handBookName = function (manual) {
+          if (manual === 'playerHandBook') return 'Manuale del Giocatore';
+          if (manual === 'xanathar') return 'Guida Omnicomprensiva di Xanathar';
+          if (manual === 'tasha') return 'Calderone Omnicomprensivo di Tasha';
+        };
         let checkIfSpellAlreadyRegistered = false; 
         for (let existingSpell of grimorioArray) {
           if (existingSpell.title[0] === spell.split('\n')[0]) {
-            existingSpell.handBook.push(manual);
+            existingSpell.handBook.push(handBookName(manual));
             checkIfSpellAlreadyRegistered = true;
           }
         }
@@ -164,7 +169,7 @@ function grimorioCreation (grimorio) {
         if (checkIfSpellAlreadyRegistered === false) {
           grimorioArray.push({
             title : [spell.split('\n')[0]],
-            handBook : [manual],
+            handBook : [handBookName(manual)],
             magicSchool : [schoolAndLevel(spell.split('\n')[1].split(' '), 'school')],
             magicLevel : [schoolAndLevel(spell.split('\n')[1].split(' '), 'level')],
             spellcastingTime : (function () {

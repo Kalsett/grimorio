@@ -10036,7 +10036,7 @@ Proiezione Astrale
 `
     }
   },
-  xanatar: {
+  xanathar: {
     grimorioString: `
 ABILITÀ POTENZIATA
 Trasmutazione di 5 livello
