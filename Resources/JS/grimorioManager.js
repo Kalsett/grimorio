@@ -143,6 +143,9 @@ function grimorioCreation (grimorio) {
     // ci sia effettivamente una stringa con tutte le spell di quel manuale.
     if (grimorio[manual].grimorioString !== undefined) {
       for (let spell of grimorio[manual].grimorioString.slice(1).split('\n\n')) {
+
+        // Serie di log per verificare a che punto della lista il programma si incasina
+        // console.log(spell.split('\n')[0]);
         // if (spell.split('\n')[2].split(': ')[0] !== 'Tempo di Lancio') console.log('Qualcosa non va in "Tempo di Lancio" di: ', spell.split('\n')[0]);
         // if (spell.split('\n')[3].split(': ')[0] !== 'Gittata') console.log('Qualcosa non va in "Gittata" di: ', spell.split('\n')[0]);
         // if (spell.split('\n')[4].split(': ')[0] !== 'Componenti') console.log('Qualcosa non va in "Componenti" di: ', spell.split('\n')[0]);
