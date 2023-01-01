@@ -522,7 +522,7 @@ effettuare un attacco in mischia con questo incantesimo
 contro una creatura entro 1,5 metri dall'arma. Se colpisce,
 il bersaglio subisce ld8 danni da forza+ il modificatore di
 caratteristica da incantatore.
-Con un1 azione bonus nel suo turno, l'incantatore può
+Con un' azione bonus nel suo turno, l'incantatore può
 muovere l'arma di un massimo di 6 metri e ripetere l'attacco
 contro una creatura situata entro 1,5 metri da essa.
 L'arma pub assumere la forma che l'incantatore preferisce.
@@ -1996,7 +1996,7 @@ grado di porre termine all'incantesimo.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
 incantesimo usando uno slot incantesimo di 7' o s• livello,
 la durata è pari a 1 anno. Quando l'incantatore lancia
-questo incantesimo usando uno slot incantesimo di 9°
+questo incantesimo usando uno slot incantesimo di 9
 livello, l'incantesimo dura finché uno degli incantesimi
 menzionati più sopra non vi pone termine.
 
@@ -2488,7 +2488,7 @@ Componenti: V, S
 Durata: Istantanea
 L'incantatore sceglie una creatura, oggetto o effetto
 magico situalo entro gittata. Ogni incantesimo di 3"' livello
-o inferiore termina. Per ogni incantesimo di 4° livello o
+o inferiore termina. Per ogni incantesimo di 4 livello o
 superiore presente sul bersaglio, l'incantatore effettua una
 prova di caratteristica usando la propria caratteristica da
 incantatore. La CD è pari a 10 +il livello dell'incantesimo.
@@ -4584,9 +4584,9 @@ piano di esistenza diverso, la creatura torna nel luogo in cui è
 stata vincolata e vi rimane finché l'incantesimo non termina.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
 incantesimo usando uno slot incantesimo di un livello
-superiore, la durata aumenta a 10 giorni con uno slot di 6°
+superiore, la durata aumenta a 10 giorni con uno slot di 6
 livello, a 30 giorni con uno slot di .,. livello, a 180 giorni con uno
-slot di 8° livello e a un anno e un giorno con uno slot di 9° livello.
+slot di 8 livello e a un anno e un giorno con uno slot di 9 livello.
 
 LEGAME TELEPATICO DI RARY
 Divinazione di 5 livello (rituale)
@@ -5176,7 +5176,7 @@ insensato per influenzare la creatura in modo significativo.
 Un incantesimo rimuovi maledizione o ristorare superiore
 lanciato sul bersaglio ripristina i veri ricordi della creatura.
 Al Livelli Superiori. Se l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 6° livello o
+incantesimo usando uno slot incantesimo di 6 livello o
 superiore, può alterare i ricordi del bersaglio relativi a un
 evento risalente fino a 7 giorni fa (6 livello), 30 giorni fa (7 livello), 1 anno fa es· livello) o a un qualsiasi momento del
 suo passato (9 livello).
@@ -5537,7 +5537,7 @@ nebbia permane per la durata dell'incantesimo o finché un
 vento moderato o superiore (almeno 15 km all'ora) non la
 disperde.
 Al Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 2° livello o
+incantesimo usando uno slot incantesimo di 2 livello o
 superiore, il raggio della sfera di nebbia aumenta di 6 metri
 per ogni slot di livello superiore al 1.
 
@@ -5553,7 +5553,7 @@ entro gittata. Una creatura subisce 4d4 danni taglienti
 quando entra nell'area dell'incantesimo per la prima volta
 in un turno o inizia il proprio turno al suo interno.
 Ai Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 3° livello o
+incantesimo usando uno slot incantesimo di 3 livello o
 superiore, i danni aumentano di 2d4 per ogni slot di livello
 superiore al 2.
 
@@ -7262,14 +7262,14 @@ un effetto alternativo per la maledizione, che però non
 dovrebbe risultare più potente di quelli descritti sopra.
 Il DM ha l'ultima parola su tali effetti della maledizione.
 Ai Livelli Superiori. Se l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 4° livello
+incantesimo usando uno slot incantesimo di 4 livello
 o superiore, la durata diventa concentrazione, fino a
 10 minuti. Se usa uno slot incantesimo di s􀀴 livello
 o superiore, la durata diventa 8 ore. Se usa uno slot
 incantesimo di 7• livello o superiore, la durata è 24 ore.
 Se usa uno slot incantesimo di 9 livello o superiore,
 l'incantesimo dura finché non viene dissolto. L'uso di uno
-slot incantesimo di 5° livello o superiore conferisce una
+slot incantesimo di 5 livello o superiore conferisce una
 durata che non richiede concentrazione.
 
 SCASSINARE
@@ -8668,7 +8668,7 @@ punti ferita pari alla metà dei danni necrotici inflitti. Finché
 l'incantesimo non termina, l'incantatore può effettuare
 l'attacco di nuovo a ogni suo turno con un'azione.
 Al Livelli Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 4° livello o
+incantesimo usando uno slot incantesimo di 4 livello o
 superiore, i danni aumentano di ld6 per ogni slot di livello
 superiore al 3.
 
@@ -10180,7 +10180,7 @@ Ristorare Superiore
     grimorioString: `
 ABILITÀ POTENZIATA
 Trasmutazione di 5 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
@@ -10189,17 +10189,17 @@ L'incantatore deve scegliere un'abilità in cui il bersaglio sia competente e ch
 
 ACULEO MENTALE
 Divinazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore si insinua nella mente di una creatura situata entro gittata e che egli sia in grado di vedere. Il bersaglio deve effettuare un tiro salvezza su Saggezza; se lo fallisce, subisce 3d8 danni psichici, mentre se lo supera, subisce la metà di quei danni. Se lo fallisce, l'incantatore sa sempre dove si trova il bersaglio fino alla fine dell'incantesimo, ma solo se entrambi si trovano sullo stesso piano d'esistenza. Finché l'incantatore è in possesso di queste conoscenze, il bersaglio non può nascondersi da lui e, se è invisibile, non ottiene alcun beneficio da quella condizione contro di lui.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2 °.
 
 ALBA
-Invocazione di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Invocazione di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S, M (un pendente che raffigura un sole splendente del valore di almeno 100 mo) 
 Durata: Concentrazione, fino a 1 minuto
 La luce dell'alba risplende su un luogo specificato dall'incantatore entro gittata. Finché l'incantesimo non termina, un cilindro del raggio di 9 metri e alto 12 metri di luce intensa risplende in quel luogo. La sua luce è considerata luce del sole.
@@ -10208,8 +10208,8 @@ Se l'incantatore si trova entro 18 metri dal cilindro, può muoverlo di un massi
 
 ANATEMA ELEMENTALE
 Trasmutazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore sceglie una creatura situata entro gittata e che egli sia in grado di vedere e sceglie uno dei tipi di danno seguenti: acido, freddo, fulmine, fuoco o tuono. Il bersaglio deve superare un tiro salvezza su Costituzione, altrimenti sarà influenzato dall'incantesimo per la sua durata. La prima volta in ogni turno in cui il bersaglio influenzato subisce danni del tipo scelto, esso subisce 2d6 danni extra di quel ti�o. Il bersaglio perde inoltre qualsiasi resistenza a quel tipo d1 danno finché l'incantesimo non termina.
@@ -10217,7 +10217,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 ARMA SACRA
 Invocazione di 5 livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
@@ -10235,7 +10235,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 
 BOSCHETTO DRUIDICO
 Abiurazione di 6 livello
-Tempo di Lancio: 10 minuti 
+Tempo di Lancio: 10 minuti
 Gittata: Contatto
 Componenti: V, S, M (vischio, che l'incantesimo consuma, raccolto con un falcetto d'oro alla luce della luna piena) 
 Durata: 24 ore
@@ -10251,17 +10251,17 @@ A una creatura immune a questo effetto, i venti appaiono come una brezza fragran
 
 CATAPULTA
 Trasmutazione di 1 ° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: S 
 Durata: Istantanea
 L'incantatore sceglie un oggetto di peso compreso tra 0,5 e 2,5 kg, situato entro gittata e che non sia indossato o trasportato. L'oggetto vola in linea retta fino a 27 metri in una direzione a scelta dell'incantatore prima di cadere a terra, fermandosi prima se impatta contro una superficie solida. Se l'oggetto sta per colpire una creatura, quella creatura deve effettuare un tiro salvezza su Destrezza.
 Se lo fallisce, l'oggetto colpisce il bersaglio e smette di muoversi. In ogni caso, sia l'oggetto che la creatura o la superficie solida subiscono 3d8 danni contundenti.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, il peso massimo degli oggetti che può bersagliare con questo incantesimo aumenta di 2,5 kg e i danni aumentano di ld8, per ogni slot di livello superiore al 1°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2 livello o superiore, il peso massimo degli oggetti che può bersagliare con questo incantesimo aumenta di 2,5 kg e i danni aumentano di ld8, per ogni slot di livello superiore al 1°.
 
 CERIMONIA
 Abiurazione di 1 livello (rituale)
-Tempo di Lancio: 1 ora 
+Tempo di Lancio: 1 ora
 Gittata: Contatto
 Componenti: V, S, M (polvere argentata per un valore di 25 mo, che l'incantesimo consuma) 
 Durata: Istantanea
@@ -10275,17 +10275,17 @@ Rito Funebre. L'incantatore tocca un cadavere e, per i 7 giorni successivi, il b
 
 CHARME SUI MOSTRI
 Ammaliamento di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S 
 Durata: 1 ora
 L'incantatore tenta di affascinare una creatura entro gittata e che egli sia in grado di vedere. La creatura deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lei. Se lo fallisce, è affascinata dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non la danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.
 Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 ° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando l'incantatore le bersaglia.
 
 COLLERA DELLA NATURA
-Invocazione di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Invocazione di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore si appella agli spiriti della natura e li scaglia contro i suoi nemici. Sceglie un punto situato entro gittata e che sia in grado di vedere e gli spiriti faranno in modo che gli alberi, le rocce e l'erba entro un cubo con spigolo di 18 metri centrato su quel punto diventino animati finché l'incantesimo non termina.
@@ -10295,9 +10295,9 @@ Radici e Rampicanti. Alla fine di ogni turno dell'incantatore, una creatura a su
 Rocce. Come azione bonus nel proprio turno, l'incantatore può fare in modo che una roccia smossa all'interno del cubo si scagli contro una creatura situata all'interno del cubo e che egli sia in grado di vedere. L'incantatore effettua un attacco con incantesimo a distanza contro il bersaglio. Se lo colpisce, il bersaglio subisce 3d8 danni contundenti non magici e deve superare un tiro salvezza su Forza, altrimenti cade a terra prono.
 
 COLPO DEL VENTO D'ACCIAIO
-Evocazione di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Evocazione di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: S, M (un'arma da mischia del valore di almeno 1 ma) 
 Durata: Istantanea
 L'incantatore agita nell'aria l'arma usata per lanciare l'incantesimo e poi svanisce per colpire come il vento. L'incantatore sceglie fino a cinque creature situate entro gittata e che egli sia in grado di vedere. Effettua un attacco con incantesimo in mischia contro ogni bersaglio. Se colpito, un bersaglio subisce 6d10 danni da forza.
@@ -10305,7 +10305,7 @@ L'incantatore può poi teletrasportarsi fino a uno spazio libero che sia in grad
 
 COLPO DELLO ZEFIRO
 Trasmutazione di 1 ° livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
@@ -10314,8 +10314,8 @@ Una volta, prima che l'incantesimo termini, l'incantatore può conferire a se st
 
 COLTELLO DI GHIACCIO
 Evocazione di 1 ° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: S, M (una goccia d'acqua o un frammento di ghiaccio) 
 Durata: Istantanea
 L'incantatore crea un frammento di ghiaccio e lo scaglia contro una creatura entro gittata, effettuando un attacco con incantesimo a distanza contro il bersaglio. Se lo colpisce, il bersaglio subisce ldlO danni perforanti. Che colpisca o manchi il bersaglio, il frammento poi esplode. Il bersaglio e ogni creatura entro 1,5 metri dal punto in cui il ghiaccio è esploso devono superare un tiro salvezza su Destrezza, altrimenti subiscono 2d6 danni da freddo.
@@ -10323,8 +10323,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 CONTROLLARE FIAMME
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: S 
 Durata: Istantanea o 1 ora (vedi sotto)
 L'incantatore sceglie una fiamma non magica situata entro gittata, che egli sia in grado di vedere e che sia contenuta in un cubo con spigolo di 1,5 metri. L'incantatore la influenza in uno dei modi seguenti:
@@ -10334,8 +10334,8 @@ Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fin
 
 CONTROLLARE VENTI
 Trasmutazione di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 90 metri 
+Tempo di Lancio: 1 azione
+Gittata: 90 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore prende il controllo dell'aria all'interno di un cubo con spigolo di 30 metri situato entro gittata e che egli sia in grado di vedere. Quando l'incantatore lancia l'incantesimo, sceglie uno degli effetti seguenti. L'effetto permane per la durata dell'incantesimo, a meno che l'incantatore non usi la sua azione in un turno successivo per passare a un effetto diverso. Può anche usare la sua azione per interrompere temporaneamente un effetto o per riavviare un effetto interrotto.
@@ -10345,18 +10345,18 @@ Corrente Ascendente. L'incantatore genera una sostenuta raffica di vento che sof
 
 CORONA DI STELLE
 Invocazione di 7 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: 1 ora
 Sette scintille di luce simili a stelle appaiono e orbitano attorno alla testa dell'incantatore finché l'incantesimo non termina. L'incantatore può usare un'azione bonus per inviare una delle scintille sfrecciando verso una creatura o un oggetto situato entro 36 metri da lui. Quando lo fa, effettua un attacco con incantesimo a distanza. Se colpisce, il bersaglio subisce 4dl2 danni radiosi. Sia che colpisca, sia che manchi, la scintilla è consumata. L'incantesimo termina anticipatamente se l'incantatore consuma l'ultima scintilla.
 Se all'incantatore rimangono quattro o più scintille, esse proiettano luce intensa nel raggio di 9 metri e luce fioca per altri 9 metri. Se all'incantatore rimangono da una a tre scintille, esse proiettano luce fioca nel raggio di 9 metri.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 8° o superiore, il numero di scintille create aumenta di due per ogni slot di livello superiore al 7'.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 8 o superiore, il numero di scintille create aumenta di due per ogni slot di livello superiore al 7'.
 
 CREARE FALÒ
 Trucchetto di Evocazione
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore crea un falò su un punto del terreno situato entro gittata e che egli sia in grado di vedere. Finché l'incantesimo non termina, il falò occupa un cubo con spigolo di 1,5 metri. Ogni creatura nello spazio del falò nel momento in cui l'incantatore lancia l'incantesimo deve superare un tiro salvezza su Destrezza, altrimenti subisce ld8 danni da fuoco. Una creatura deve effettuare il tiro salvezza anche quando entra nello spazio del falò per la prima volta in un turno o vi termina il proprio turno.
@@ -10365,7 +10365,7 @@ I danni dell'incantesimo aumentano di ld8 quando ° l'incantatore raggiunge il 5
 
 CREARE OMUNCOLO
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 ora 
+Tempo di Lancio: 1 ora
 Gittata: Contatto
 Componenti: V, S, M (argilla, cenere e radice di mandragora, che l'incantesimo consuma tutte, e un pugnale ingioiellato del valore di almeno 1.000 mo) 
 Durata: Istantanea
@@ -10374,21 +10374,21 @@ Le statistiche dell'omuncolo sono riportate nel Monster Manual. L'omuncolo è un
 L'incantatore può possedere solo un omuncolo alla volta. Se lancia questo incantesimo mentre il suo omuncolo è vivo, l'incantesimo fallisce.
 
 DANZA MACABRA
-Necromanzia di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Necromanzia di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 Filamenti di energia oscura si sprigionano dalle dita dell'incantatore e raggiungono fino a cinque cadaveri di taglia Media o Piccola situati entro gittata e che l'incantatore sia in grado di vedere. Ogni cadavere si alza immediatamente e diventa un non morto. L'incantatore può decidere se si tratta di uno zombi o di uno scheletro
 (le statistiche degli zombi e degli scheletri sono contenute nel Monster Manual). Ognuno di qu�sti non morti ottiene un bonus ai tiri per colpire e ai tiri per i danni pari al modificatore di caratteristica da incantatore del personaggio.
 L'incantatore può usare un'azione bonus per comandare mentalmente le creature ricavate da questo incantesimo, impartendo lo stesso comando a tutte. Per ricevere il comando, una creatura deve trovarsi entro 18 metri dall'incantatore. È l'incantatore a decidere quale azione le creature intraprendono e dove si muoveranno durante il loro turno successivo; in alternativa, l'incantatore può impartire un comando generale, come per esempio sorvegliare una camera o proteggere un corridoio dai suoi nemici. Se l'incantatore non impartisce alcun comando, le creature non fanno altro che difendersi dalle creature ostili. Una volta ricevuto un ordine, le creature continuano a seguirlo finché non completano il loro compito.
 Le creature sono sotto il controllo dell'incantatore finché l'incantesimo non termina, dopodiché tornano a essere inanimate.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, anima fino a due cadaveri aggiuntivi per ogni slot di livello superiore al 5 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6 livello o superiore, anima fino a due cadaveri aggiuntivi per ogni slot di livello superiore al 5 °.
 
 DARDO DI CAOS
 Invocazione di 1 ° livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore scaglia una massa tremolante e gorgogliante di energia caotica contro una creatura entro gittata, effettuando un attacco con incantesimo a distanza contro il bersaglio. Se lo colpisce, il bersaglio subisce 2d8 + ld6 danni. L'incantatore sceglie uno dei d8. Il risultato ottenuto col tiro di quel dado determina il tipo di danno dell'attacco, come indicato di seguito.
@@ -10398,41 +10398,41 @@ Tipo di Danno
 Acido Forza Freddo Fulmine Fuoco Psichico Tuono Veleno
 Se l'incantatore ottiene lo stesso risultato con entrambi i d8, l'energia caotica balza dal bersaglio a una creatura diversa a scelta dell'incantatore situata entro 9 metri da esso. L'incantatore effettua un nuovo tiro per colpire contro il nuovo bersaglio e un nuovo tiro per i danni, che potrebbe far balzare di nuovo l'energia caotica.
 Una creatura può essere bersagliata soltanto una volta da ogni lancio di questo incantesimo.
-Ai LiveJJi Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, ogni bersaglio subisce ld6 danni extra del tipo ottenuto con il tiro per ogni slot di livello superiore al 1 °.
+Ai LiveJJi Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2 livello o superiore, ogni bersaglio subisce ld6 danni extra del tipo ottenuto con il tiro per ogni slot di livello superiore al 1 °.
 
 DEBILITAZIONE
 Necromanzia di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 Un tentacolo di densa oscurità si protende dall'incantatore e tocca una creatura situata entro gittata e che egli sia in grado di vedere per prosciugare la sua energia vitale. Il bersaglio deve effettuare un tiro salvezza su Destrezza; se lo supera, subisce 2d8 danni necrotici e l'incantesimo termina. Se lo fallisce, il bersaglio subisce 4d8 danni necrotici e, finché l'incantesimo non termina, l'incantatore può usare la sua azione a ogni suo turno per infliggere automaticamente 4d8 danni necrotici al bersaglio. L'incantesimo termina se l'incantatore usa la sua azione per fare qualsiasi altra cosa, se il bersaglio si trova per qualsiasi motivo al di fuori della gittata dell'incantesimo o se il bersaglio beneficia di copertura totale dall'incantatore.
 Ogni volta che l'incantesimo infligge danni a un bersaglio, l'incantatore recupera un ammontare di punti ferita pari alla metà dei danni necrotici subiti dal bersaglio.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni aumentano di ld8 per ogni slot incantesimo superiore al 5 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6 livello o superiore, i danni aumentano di ld8 per ogni slot incantesimo superiore al 5 °.
 
 DIAVOLETTO DI POLVERE
 Evocazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S, M (un pizzico di polvere) 
 Durata: Concentrazione, fino a 1 minuto
 I.:incantatore sceglie un cubo d'aria con spigolo di 1,5 metri libero, situato entro gittata e che egli sia in grado di vedere. Una forza elementale simile a un diavoletto di polvere compare nel cubo e permane per la durata dell'incantesimo.
 Ogni creatura che termina il suo turno entro 1,5 metri dal diavoletto di polvere deve effettuare un tiro salvezza su Forza; se lo fallisce, subisce ld8 danni contundenti e viene spinta lontano di 3 metri, mentre se lo supera, subisce la metà di quei danni e non viene spinta.
 Come azione bonus, l'incantatore può muovere il diavoletto di polvere fino a 9 metri in qualsiasi direzione. Se il diavoletto di polvere si muove su sabbia, polvere, terriccio o ghiaia, risucchia il materiale e forma attorno a se stesso una nube di detriti del raggio di 3 metri che permane fino all'inizio del prossimo turno dell'incantatore. L'area occupata dalla nube è pesantemente oscurata.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2°.
 
 DISPERDERE
 Evocazione di 6 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V 
 Durata: Istantanea
 I.:aria vibra attorno a un massimo di cinque creature a scelta dell'incantatore, situate entro gittata e che egli sia in grado di vedere. Una creatura non consenziente deve superare un tiro salvezza su Saggezza per resistere a questo incantesimo. I.:incantatore teletrasporta ogni bersaglio influenzato in uno spazio libero situato entro 36 metri da sé e che egli sia in grado di vedere. Quello spazio deve trovarsi a terra o su un piano.
 
 DRAGO ILLUSORIO
 Illusione di 8 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: S 
 Durata: Concentrazione, fino a 1 minuto
 Radunando filamenti di sostanza d'ombra dalla Coltre Oscura, l'incantatore crea un drago Enorme fatto d'ombra in uno spazio libero entro gittata che egli sia in grado di vedere. I.:illusione permane per la durata dell'incantesimo e occupa il suo spazio come se fosse una creatura.
@@ -10442,17 +10442,17 @@ L'illusione è tangibile grazie alla sostanza d'ombra usata per crearla, ma gli 
 
 ERUZIONE TERRESTRE
 Trasmutazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (un frammento d'ossidiana) 
 Durata: Istantanea
 L'incantatore sceglie un punto sul terreno situato entro gittata e che egli sia in grado di vedere. Una fontana di terra e di pietre turbinanti sgorga in un cubo con spigolo di 6 metri centrato su quel punto. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 3dl2 danni contundenti, mentre se lo supera, subisce la metà di quei danni. Inoltre, il terreno in quell'area diventa terreno difficile finché non viene sgombrato. Ogni porzione quadrata con lato di 1,5 metri dell'area richiede almeno 1 minuto per essere sgombrata a mano.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, i danni aumentano di ld12 per ogni slot di livello superiore al 3°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello o superiore, i danni aumentano di ld12 per ogni slot di livello superiore al 3°.
 
 EVOCA DEMONE MAGGIORE
 Evocazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S, M (una fiala di sangue di un umanoide ucciso entro le ultime 24 ore) 
 Durata: Concentrazione, fino a 1 ora
 Pronunciando empie parole, l'incantatore evoca un demone dal caos dell'Abisso. Sceglie il tipo del demone, che deve avere un grado di sfida pari o inferiore a 5, come un demone d'ombra o un barlgura. Il demone compare in uno spazio libero situato entro gittata che l'incantatore sia in grado di vedere e scompare quando scende a O punti ferita o quando l'incantesimo termina.
@@ -10463,8 +10463,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 EVOCA DEMONI MINORI
 Evocazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S, M (una fiala di sangue di un umanoide ucciso entro le ultime 24 ore) 
 Durata: Concentrazione, fino a 1 ora
 Pronunciando empie parole, l'incantatore evoca alcuni demoni dal caos dell'Abisso. Si tira sulla tabella seguente per determinare cosa compare.
@@ -10479,7 +10479,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 FEROCIA PRIMORDIALE
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: S 
 Durata: Istantanea
@@ -10487,9 +10487,9 @@ L'incantatore incanala la magia primordiale e sviluppa denti o unghie affilate c
 I danni dell'incantesimo aumentano di ldlO quando l'incantatore raggiunge il 5° livello (2d10), 1'11° livello (3d10) ° e il 17 livello (4d10).
 
 FLUSSO DI ENERGIA NEGATIVA
-Necromanzia di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Necromanzia di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, M (un osso spezzato e un quadretto di seta nera) 
 Durata: Istantanea
 L'incantatore invia dei filamenti di energia negativa verso una creatura situata entro gittata e che egli sia in grado di vedere. Se non è un non morto, il bersaglio deve effettuare un tiro salvezza su Costituzione; se lo fallisce, subisce 5d12 danni necrotici, mentre se lo supera, subisce la metà di quei danni. Un bersaglio ucciso da questi danni si anima come zombi all'inizio del turno successivo dell'incantatore. Lo zombi persegue qualsiasi creatura che sia in grado di vedere a lui più vicina. Le statistiche dello zombi sono contenute nel Monster Manual.
@@ -10497,8 +10497,8 @@ Se l'incantatore bersaglia un non morto con questo incantesimo, il bersaglio non
 
 FOLATA
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore stringe il pugno nell'aria e la obbliga a generare uno degli effetti seguenti in un punto situato entro gittata e che egli sia in grado di vedere:
@@ -10507,8 +10507,8 @@ L'incantatore genera una piccola raffica di vento in grado di muovere un oggetto
 
 FORTEZZA POSSENTE
 Evocazione di 8 livello
-Tempo di Lancio: 1 minuto 
-Gittata: 1,5 km 
+Tempo di Lancio: 1 minuto
+Gittata: 1,5 km
 Componenti: V, S, M (un diamante del valore di almeno 500 mo, che l'incantesimo consuma) 
 Durata: Istantanea
 Una fortezza di pietra prorompe da un'area quadrata di terreno a scelta dell'incantatore, situata entro gittata e che l'incantatore sia in grado di vedere. L'area misura 36 metri su ogni lato e deve essere sgombra da edifici o altre strutture. Ogni creatura nell'area viene sollevata in alto senza subire danni man mano che la fortezza emerge.
@@ -10522,17 +10522,17 @@ Lanciando questo incantesimo nello stesso punto una volta ogni 7 giorni per un a
 
 FRECCE INFUOCATE
 Trasmutazione di 3 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore tocca una faretra contenente frecce o quadrelli. Quando un bersaglio è colpito da un attacco con arma a distanza che usa una munizione estratta dalla faretra, quel bersaglio subisce ld6 danni da fuoco extra. La magia dell'incantesimo sulla munizione termina quando colpisce o manca e l'incantesimo termina quando dodici munizioni sono state estratte dalla faretra.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il numero di munizioni che può influenzare con questo incantesimo aumenta di due per ogni slot di livello superiore al 3°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello o superiore, il numero di munizioni che può influenzare con questo incantesimo aumenta di due per ogni slot di livello superiore al 3°.
 
 FULGORE NAUSEANTE
 Invocazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri· 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 10 minuti
 Una fioca luce verdastra si irradia entro una sfera con raggio di 9 metri centrata su un punto a scelta dell'incantatore entro gittata. La luce si diffonde oltre gli angoli e dura finché l'incantesimo non termina.
@@ -10541,7 +10541,7 @@ Quando una creatura entra nell'area dell'incantesimo per la prima volta in un tu
 GABBIA DELL'ANIMA
 Necromanzia di 6 livello
 Tempo di Lancio: 1 reazione, che l'incantatore effettua quando vede morire un umanoide entro 18 metri da sé 
-Gittata: 18 metri 
+Gittata: 18 metri
 Componenti: V, S, M (una minuscola gabbia d'argento del valore di 100 mo) 
 Durata: 8 ore
 Questo incantesimo ghermisce l'anima di un umanoide al momento della morte e la intrappola nella minuscola gabbia usata come componente materiale. Un'anima rubata rimane all'interno della gabbia finché l'incantesimo non termina o finché l'incantatore non distrugge la gabbia, atto che termina l'incantesimo. Finché c'è un'anima intrappolata nella gabbia, l'incantatore può sfruttarla nei vari modi descritti di seguito. Un'anima intrappolata può essere usata fino a un massimo di sei volte. Una volta sfruttata un'anima per la sesta volta, essa viene liberata e l'incantesimo termina. Mentre un'anima è intrappolata, l'umanoide morto a cui essa apparteneva non può essere riportato in vita.
@@ -10554,7 +10554,7 @@ Una creatura in grado di vedere il sensore (per esempio, una creatura che usi ve
 
 GUARDIANO DELLA NATURA
 Trasmutazione di 4 livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
@@ -10568,8 +10568,8 @@ Mentre si trova a terra, il terreno entro 4,5 metri da lui è considerato terren
 
 IMMOLAZIONE
 Invocazione di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
 Una creatura situata entro gittata e che l'incantatore sia in grado di vedere viene avviluppata dalle fiamme. Il bersaglio deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 8d6 danni da fuoco, mentre se lo supera, subisce la metà di quei danni. Inoltre, in caso di tiro salvezza fallito, il bersaglio brucia per la durata dell'incantesimo. Un bersaglio in fiamme proietta luce intensa nel raggio di 9 metri e luce fioca per altri 9 metri. Alla fine di ogni suo turno, il bersaglio ripete il tiro salvezza. Subisce 4d6 danni da fuoco in caso di tiro salvezza fallito, mentre l'incantesimo termina in caso di tiro salvezza riuscito. Queste fiamme magiche non possono essere estinte tramite mezzi non magici.
@@ -10577,8 +10577,8 @@ Se i danni di questo incantesimo uccidono un bersaglio, il bersaglio è ridotto 
 
 INCUTI PAURA
 Necromanzia di 1 ° livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore risveglia la percezione della mortalità in una creatura situata entro gittata e che egli sia in grado di vedere. Un costrutto o un non morto è immune a questo effetto. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti diventa spaventato dall'incantatore finché l'incantesimo non termina. Il bersaglio spaventato può ripetere il tiro salvezza alla fine di ogni suo turno, terminando l'effetto su se stesso in caso di successo.
@@ -10587,8 +10587,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 INFESTAZIONE
 Trucchetto di Evocazione
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S, M (una pulce viva) 
 Durata: Istantanea
 L'incantatore fa apparire temporaneamente una nube di termiti, pulci e altri parassiti su una creatura situata entro gittata e che egli sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Costituzione, altrimenti subisce ld6 danni da veleno e si muove di 1,5 metri in una direzione casuale se è in grado di muoversi e la sua velocità è di almeno 1,5 metri. Si tira un d4 per la direzione: 1, nord; 2, sud; 3, est; o 4, ovest. Questo movimento non provoca attacchi di opportunità e, se la direzione indicata dal tiro è bloccata, il bersaglio non si muove.
@@ -10596,7 +10596,7 @@ I danni dell'incantesimo aumentano di ld6 quando l'incantatore raggiunge il 5 °
 
 INTERDIZIONE PRIMORDIALE
 Abiurazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
@@ -10605,7 +10605,7 @@ Quando l'incantatore subisce danni di uno di quei tipi, può usare la sua reazio
 
 INVESTITURA DEL GHIACCIO
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 10 minuti
@@ -10617,7 +10617,7 @@ L'incantatore può usare la sua azione per creare un cono di 4,5 metri di vento 
 
 INVESTITURA DEL VENTO
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 10 minuti
@@ -10626,7 +10626,7 @@ Gli attacchi con arma a distanza effettuati contro l'incantatore subiscono svant
 
 INVESTITURA DELLA FIAMMA
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 10 minuti
@@ -10636,7 +10636,7 @@ Ogni creatura che giunge entro 1,5 metri dall'incantatore per la prima volta in 
 
 INVESTITURA DELLA PIETRA
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 10 minuti
@@ -10645,7 +10645,7 @@ L'incantatore possiede resistenza ai danni contundenti, perforanti e taglienti d
 
 INVULNERABILITÀ
 Abiurazione di 9 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (un piccolo frammento di adamantio del valore di almeno 500 mo, che l'incantesimo consuma) 
 Durata: Concentrazione, fino a 10 minuti
@@ -10653,18 +10653,18 @@ L'incantatore è immune a tutti i danni finché l'incantesimo non termina.
 
 LAMA D'OMBRA
 Illusione di 2 livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore intreccia assieme dei filamenti d'ombra per creare una spada di oscurità solidificata nella sua mano. Questa spada magica dura finché l'incantesimo non termina. Conta come arma da mischia semplice in cui l'incantatore possiede competenza. Infligge 2d8 danni psichici se colpisce e possiede le proprietà accurata, leggera e da lancio (gittata 6/18). Inoltre, quando l'incantatore usa la spada per attaccare un bersaglio che si trova nella luce fioca o nell'oscurità, ottiene vantaggio al tiro per colpire.
 Se l'incantatore lascia cadere l'arma o la lancia, essa si dissipa alla fine del turno. Da allora in poi, finché l'incantesimo permane, l'incantatore può usare un'azione bonus per far ricomparire la spada nella sua mano.
 LAMA o'OMBRA
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° o 4° livello, i danni aumentano a 3d8. Quando lo lancia usando uno slot incantesimo di 5° o 6° livello, i danni aumentano a 4d8. Quando lo lancia usando uno slot incantesimo di 7 ° livello o superiore, i danni aumentano a 5d8.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 o 4° livello, i danni aumentano a 3d8. Quando lo lancia usando uno slot incantesimo di 5 o 6° livello, i danni aumentano a 4d8. Quando lo lancia usando uno slot incantesimo di 7 ° livello o superiore, i danni aumentano a 5d8.
 
 LEGAME CON LE BESTIE
 Divinazione di 1 ° livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Contatto
 Componenti: V, S, M (un ciuffo di pelliccia avvolto in un pezzo di stoffa) 
 Durata: Concentrazione, fino a 10 minuti
@@ -10672,16 +10672,16 @@ L'incantatore stabilisce un legame telepatico con una bestia con cui è in conta
 
 MAELSTROM
 Invocazione di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (un foglio di carta o una foglia a forma di imbuto) 
 Durata: Concentrazione, fino a 1 minuto
 Una massa d'acqua profonda 1,5 metri compare e turbina in un raggio di 9 metri centrato su un punto entro gittata e che l'incantatore sia in grado di vedere. Il punto deve trovarsi sul terreno o su una massa d'acqua. Finché l'incantesimo non termina, quell'area è considerata terreno difficile e ogni creatura che vi inizi il proprio turno deve superare un tiro salvezza su Forza, altrimenti subisce 6d6 danni contundenti e viene trascinata di 3 metri verso il centro.
 
 METAMORFOSI DI MASSA
 Trasmutazione di 9 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (il bozzolo di un bruco) 
 Durata: Concentrazione, fino a 1 ora
 L'incantatore trasforma fino a dieci creature a sua scelta entro gittata e che sia in grado di vedere. Un bersaglio non consenziente deve superare un tiro salvezza su Saggezza per resistere alla trasformazione. Un mutaforma non consenziente supera automaticamente il tiro salvezza.
@@ -10692,17 +10692,17 @@ L'equipaggiamento del bersaglio si fonde nella nuova forma. Il bersaglio non pu�
 
 MINUSCOLE METEORE DI MELF
 Invocazione di 3 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (salnitro, zolfo e pece di pino mescolati in una biglia) 
 Durata: Concentrazione, fino a 10 minuti
 L'incantatore crea sei minuscole meteore nel suo spazio. Le meteore fluttuano nell'aria e orbitano attorno all'incantatore per la durata dell'incantesimo. Quando l'incantatore lancia l'incantesimo (e come azione bonus a ogni suo turno successivo) può spendere una o due meteore, inviandole verso uno o più punti a sua scelta entro 36 metri da lui. Quando una meteora raggiunge la sua destinazione o impatta contro una superficie solida, esplode. Ogni creatura entro 1,5 metri dal punto in cui la meteora è esplosa deve effettuare un tiro salvezza su Destrezza; se lo f a llisce, subisce 2d6 danni da fuoco, mentre se lo supera, subisce la metà di quei danni.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il numero di meteore create aumenta di due per ogni slot di livello superiore al 3 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello o superiore, il numero di meteore create aumenta di due per ogni slot di livello superiore al 3 °.
 
 MODELLARE ACQUA
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: S 
 Durata: Istantanea o 1 ora (vedi sotto)
 L'incantatore sceglie un'area d'acqua situata entro gittata, che egli sia in grado di vedere e che sia contenuta in un cubo con spigolo di 1,5 metri. Manipola quell'acqua in uno dei modi seguenti:
@@ -10714,8 +10714,8 @@ Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fin
 
 MODELLARE TERRA
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: S 
 Durata: Istantanea o 1 ora (vedi sotto)
 L'incantatore sceglie una parte di terra o di pietra situata entro gittata, che egli sia in grado di vedere e che sia contenuta entro un cubo con spigolo di 1,5 metri. Manipola quella terra in uno dei modi seguenti:
@@ -10725,8 +10725,8 @@ Se l'incantatore lancia questo incantesimo più volte, non può avere attivi pi�
 
 MORSA DEL GELO
 Trucchetto di Invocazione
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore crea una patina di gelo che intorpidisce su una creatura situata entro gittata e che egli sia in grado di vedere. Il bersaglio deve effettuare un tiro salvezza su Costituzione; se lo fallisce, subisce ld6 danni da freddo e subisce svantaggio al prossimo tiro per colpire con un'arma che effettua prima della fine del suo turno successivo.
@@ -10734,8 +10734,8 @@ I danni dell'incantesimo aumentano di ld6 quando l'incantatore raggiunge il 5 °
 
 MURO D'ACQUA
 Invocazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S, M (una goccia d'acqua) 
 Durata: Concentrazione, fino a 10 minuti
 L'incantatore evoca un muro d'acqua su un punto del terreno situato entro gittata e che egli sia in grado di vedere. Il muro può essere lungo fino a 9 metri, alto fino a 3 metri e spesso 30 cm; in alternativa, l'incantatore può creare un muro circolare del diametro massimo di 6 metri, alto 6 metri e spesso 30 cm. Il muro svanisce quando l'incantesimo termina. Lo spazio del muro è considerato terreno difficile.
@@ -10743,8 +10743,8 @@ Ogni attacco con arma a distanza che entra nello spazio del muro subisce svantag
 
 MURO DI LUCE
 Invocazione di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (uno specchietto) 
 Durata: Concentrazione, fino a 10 minuti
 Uno scintillante muro di luce intensa compare in un punto a scelta dell'incantatore entro gittata. Il muro compare in qualsiasi orientamento a scelta dell'incantatore: orizzontalmente, verticalmente o diagonalmente. Può fluttuare nell'aria o poggiare su una superficie solida. Il muro può essere al massimo lungo 18 metri, alto 3 metri e spesso 1,5 metri. Il muro blocca le linee di vista, ma le creature e gli oggetti possono passarci attraverso. Emette luce intensa entro 36 metri e luce fioca per altri 36 metri.
@@ -10755,16 +10755,16 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 
 MURO DI SABBIA
 Invocazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V, S, M (una manciata di sabbia) 
 Durata: Concentrazione, fino a 10 minuti
 L'incantatore evoca un muro di sabbia turbinante su un punto del terreno situato entro gittata e che egli sia in grado di vedere. Il muro può essere lungo fino a 9 metri, alto fino a 3 metri e spesso fino a 3 metri e svanisce quando l'incantesimo termina. Blocca le linee di vista ma non i movimenti. Finché una creatura si trova nello spazio del 1 muro, è accecata e deve spendere 90 cm di movimento per ogni 30 cm di cui si muove all'interno del muro.
 
 NEMICI IN ABBONDANZA
 Ammaliamento di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore si insinua nella mente di una creatura che egli sia in grado di vedere e la obbliga a effettuare un tiro salvezza su Intelligenza. La creatura supera automaticamente il tiro se è immune alla condizione di spaventato. Se lo fallisce, perde la capacità di distinguere gli amici dai nemici e considera tutte le creature che vede sue nemiche, finché l'incantesimo non termina. Ogni volta che il bersaglio subisce danni, può ripetere il tiro salvezza; se lo supera, l'effetto su se stesso termina.
@@ -10772,7 +10772,7 @@ Ogni volta che la creatura influenzata sceglie un'altra creatura come bersaglio,
 
 OMBRA DI MOIL
 Necromanzia di 4 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (il globo oculare di un non morto racchiuso in una gemma del valore di almeno 150 mo) 
 Durata: Concentrazione, fino a 1 minuto
@@ -10781,16 +10781,16 @@ Finché l'incantesimo non termina, l'incantatore possiede resistenza ai danni ra
 
 ONDA DI MAREA
 Evocazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (una goccia d'acqua) 
 Durata: Istantanea
 L'incantatore evoca un'onda d'acqua che si riversa su un'area entro gittata. L'area può essere lunga fino a 9 metri, larga fino a 3 metri e alta fino a 3 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 4d8 danni contundenti ed è buttata a terra prona, mentre se lo supera, subisce la metà di quei danni e non è buttata a terra prona. L'acqua si riversa sul terreno in tutte le direzioni, estinguendo le fiamme non protette nella sua area ed entro 9 metri da essa, per poi svanire.
 
 ORRIDO AVVIZZIMENTO DI ABI-DALZIM
 Necromanzia di 8 livelJo
-Tempo di Lancio: 1 azione 
-Gittata: 45 metri 
+Tempo di Lancio: 1 azione
+Gittata: 45 metri
 Componenti: V, S, M (un frammento di spugna) 
 Durata: Istantanea
 L'incantatore estrae l'umidità da ogni creatura in un cubo con spigolo di 9 metri centrato su un punto a sua scelta che egli sia in grado di vedere. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. I costrutti e i non morti non sono influenzati da questo incantesimo, mentre i vegetali e gli elementali dell'acqua subiscono svantaggio a questo tiro salvezza. Se una creatura fallisce il tiro salvezza, subisce 12d8 danni necrotici, mentre se lo supera, subisce la metà di quei danni.
@@ -10798,17 +10798,17 @@ I vegetali non magici presenti nell'area che non sono creature, come gli alberi 
 
 OSCURITÀ DELLA FOLLIA
 Invocazione di 8 livello
-Tempo di Lancio: 1 azione 
-Gittata: 45 metri 
+Tempo di Lancio: 1 azione
+Gittata: 45 metri
 Componenti: V, M (una goccia di pece mescolata a una goccia di mercurio) 
 Durata: Concentrazione, fino a 10 minuti
-Un'oscurità magica si diffonde partendo da un punto a scelta dell'incantatore situato entro gittata e riempie una sfera del raggio di 18 metri finché l'incantesimo non termina. I:oscurità si diffonde oltre gli angoli. Una creatura dotata di scurovisione non può vedere attraverso quest'oscurità. Le luci non magiche, nonché quelle create da incantesimi di 8° livello o inferiore, non possono illuminare l'area.
+Un'oscurità magica si diffonde partendo da un punto a scelta dell'incantatore situato entro gittata e riempie una sfera del raggio di 18 metri finché l'incantesimo non termina. I:oscurità si diffonde oltre gli angoli. Una creatura dotata di scurovisione non può vedere attraverso quest'oscurità. Le luci non magiche, nonché quelle create da incantesimi di 8 livello o inferiore, non possono illuminare l'area.
 Grida, voci f a rfuglianti e folli risate echeggiano all'interno di tutta la sfera. Ogni volta che una creatura inizia il suo turno nella sfera, deve effettuare un tiro salvezza su Saggezza; se lo fallisce, subisce 8d8 danni psichici, mentre se lo supera, subisce la metà di quei danni.
 
 OSSA DELLA TERRA
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore fa emergere fino a sei colonne di pietra da altrettanti punti del terreno entro gittata e che egli sia in grado di vedere. Ogni colonna è un cilindro del diametro di 1,5 metri e di un'altezza massima di 9 metri. Il terreno da cui la colonna emerge deve essere abbastanza largo da contenere il diametro della colonna; l'incantatore può bersagliare il terreno sotto una creatura se quella creatura è di taglia Media o inferiore. Ogni colonna possiede CA 5 e 30 punti ferita. Quando una colonna scende a O punti ferita, si sbriciola in frammenti, creando un'area di terreno difficile nel raggio di 3 metri. I detriti permangono finché non sono sgombrati. Ogni porzione dell'area del diametro di 1,5 metri richiede almeno 1 minuto per essere sgombrata.
@@ -10818,8 +10818,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 PAROLA DEL POTERE DOLORE
 Ammaliamento di 7 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V 
 Durata: Istantanea
 L'incantatore pronuncia una parola del potere che trasmette ondate di dolore intenso a una creatura situata entro gittata e che egli sia in grado di vedere. Se il bersaglio possiede 100 punti ferita o meno, è soggetto a dolori lancinanti. Altrimenti, l'incantesimo non ha effetto su di lui. Anche un bersaglio che è immune alla condizione di affascinato non subisce alcun effetto.
@@ -10828,8 +10828,8 @@ Un bersaglio soggetto a questi dolori può effettuare un tiro salvezza su Costit
 
 PAROLA RADIOSA
 Trucchetto di Invocazione
-Tempo di Lancio: 1 azione 
-Gittata: 1,5 metri 
+Tempo di Lancio: 1 azione
+Gittata: 1,5 metri
 Componenti: V, M (un simbolo sacro) 
 Durata: Istantanea
 L'incantatore pronuncia una parola divina e un bagliore radioso e bruciante compare attorno alla sua figura.
@@ -10838,8 +10838,8 @@ I danni dell'incantesimo aumentano di ld6 quando l'incantatore raggiunge il 5 °
 
 PASSO DEL TUONO
 Evocazione di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V 
 Durata: Istantanea
 L'incantatore si teletrasporta in uno spazio libero situato entro gittata e che egli sia in grado di vedere. Immediatamente dopo la sua scomparsa, echeggia il rombo di un tuono e ogni creatura entro 3 metri dallo spazio che egli ha lasciato deve effettuare un tiro salvezza su Costituzione; se lo fallisce, subisce 3d10 danni da tuono, mentre se lo supera, subisce la metà di quei danni. Il tuono può essere udito fino a 90 metri di distanza.
@@ -10848,7 +10848,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 PASSO REMOTO
 Evocazione di 5 livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
@@ -10856,7 +10856,7 @@ L'incantatore si teletrasporta di un massimo di 18 metri fino a uno spazio liber
 
 PIETRA MAGICA
 Trucchetto di Trasmutazione
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
 Componenti: V, S 
 Durata: 1 minuto
@@ -10866,8 +10866,8 @@ Se l'incantatore lancia di nuovo questo incantesimo, l'incantesimo termina antic
 
 PIROTECNICA
 Trasmutazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore sceglie un'area di fiamme non magiche situata entro gittata, che egli sia in grado di vedere e che sia contenuta in un cubo con spigolo di 1,5 metri. Può estinguere le fiamme in quell'area e creare fuochi d'artificio o fumo.
@@ -10876,28 +10876,28 @@ Fumo. Un denso fumo nero scaturisce dal bersaglio e si diffonde in un raggio di 
 
 PRIGIONE MENTALE
 Illusione di 6 livello
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore tenta di vincolare una creatura in una cella illusoria che soltanto essa può percepire. Una creatura situata entro gittata e che l'incantatore sia in grado di vedere deve effettuare un tiro salvezza su Intelligenza. Se il bersaglio è immune alla condizione di affascinato, lo supera automaticamente. Se il bersaglio supera il tiro salvezza, subisce 5d10 danni psichici e l'incantesimo termina. Se lo fallisce, subisce 5d10 danni psichici e l'incantatore fa sembrare l'area attorno ad esso pericolosa in qualche modo. Il bersaglio potrebbe percepire di essere circondato dal fuoco, da lame fluttuanti o da orrende fauci zannute e sbavanti. Qualunque forma assuma l'illusione, il bersaglio non può vedere o sentire nulla oltre di essa ed è trattenuto per la durata dell'incantesimo. Se il bersaglio viene mosso al di fuori dell'illusione, effettua un attacco in mischia attraverso di essa o protende una qualsiasi parte del suo corpo attraverso di essa, subisce lOdlO danni psichici e l'incantesimo termina.
 
 RICHIAMO INFERNALE
 Evocazione di 5 livello
-Tempo di Lancio: 1 minuto 
-Gittata: 27 metri 
+Tempo di Lancio: 1 minuto
+Gittata: 27 metri
 Componenti: V, S, M (un rubino del valore di almeno 999 mo) 
 Durata: Concentrazione, fino a 1 ora
 Pronunciando una formula oscura, l'incantatore evoca un diavolo dai Nove Inferi. Sceglie il tipo del diavolo, che deve avere un grado di sfida pari a o inferiore a 6, come un diavolo uncinato o un diavolo barbuto. Il diavolo compare in uno spazio libero situato entro gittata che l'incantatore sia in grado di vedere e scompare quando scende a O punti ferita o quando l'incantesimo termina.
 Il diavolo è maldisposto verso l'incantatore e i suoi compagni. Il DM tira per l'iniziativa del diavolo, che agisce nei propri turni. Si trova sotto il controllo del Dungeon Master e agisce in base alla sua natura a ogni suo turno, cosa che potrebbe portarlo ad attaccare l'incantatore, se pensa che possa prevalere, o a tentarlo affinché compia un atto malvagio in cambio di un servizio limitato. Il DM ha le statistiche della creatura.
 A ogni suo turno, l'incantatore può tentare di impartire al diavolo un comando verbale (senza che sia richiesta alcuna azione). Il diavolo obbedisce al comando se l'esito più probabile è compatibile con i suoi desideri, specialmente se il risultato condurrà l'incantatore verso il male. Altrimenti, l'incantatore deve effettuare una prova di Carisma (Inganno, Intimidire o Persuasione) contrapposta alla prova di Saggezza (Intuizione) del diavolo. L'incantatore effettua la prova con vantaggio se pronuncia il vero nome del diavolo. Se la prova dell'incantatore fallisce, il diavolo diventa immune ai suoi comandi verbali per la durata dell'incantesimo, ma può comunque obbedire ai suoi ordini, se decide di farlo. Se la prova ha successo, il diavolo esegue il comando dell'incantatore, come "attacca i miei nemici", "esplora la stanza davanti a noi" o " porta questo messaggio alla regina" finché non completa l'attività; a quel punto, fa ritorno dall'incantatore per riferire ciò che ha fatto.
 Se la concentrazione dell'incantatore termina prima che l'incantesimo raggiunga la fine della sua durata, il diavolo non scompare se è diventato immune ai suoi comandi verbali. Agisce invece nel modo che preferisce per 3d6 minuti e poi scompare. Se l'incantatore possiede il talismano di un diavolo individuale, può evocare quel diavolo se esso è del grado di sfida appropriato più 1; il diavolo obbedirà a tutti i suoi comandi, senza alcuna prova di Carisma richiesta.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, il grado di sfida aumenta di 1 per ogni slot di livello superiore al 5°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6 livello o superiore, il grado di sfida aumenta di 1 per ogni slot di livello superiore al 5°.
 
 RINTOCCO DEI MORTI
 Trucchetto di Necromanzia
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore indica una creatura situata entro gittata e che egli sia in grado di vedere e il lugubre rintocco di una campana echeggia attorno ad essa per un istante. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti subisce ld8 danni necrotici. Se al bersaglio mancano uno o più punti ferita, subisce invece ld12 danni necrotici.
@@ -10905,8 +10905,8 @@ I danni dell'incantesimo aumentano di un dado quando ° l'incantatore raggiunge 
 
 ROMBO DI TUONO
 Trucchetto di Invocazione
-Tempo di Lancio: 1 azione 
-Gittata: 1,5 metri 
+Tempo di Lancio: 1 azione
+Gittata: 1,5 metri
 Componenti: S 
 Durata: Istantanea
 L'incantatore genera un'esplosione tonante, che può essere udita a 30 metri di distanza. Ogni creatura situata entro gittata, ad eccezione dell'incantatore, deve effettuare un tiro salvezza su Costituzione; se lo fallisce, subisce ld6 danni da tuono.
@@ -10914,17 +10914,17 @@ I danni dell'incantesimo aumentano di ld6 quando l'incantatore raggiunge il 5° 
 
 SCIAME DI PALLE DI NEVE DI SNILLOC
 Invocazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V, S, M (un pezzo di ghiaccio o una scheggia di pietra bianca) 
 Durata: Istantanea
 Una raffica di palle di neve magiche prorompe da un punto a scelta dell'incantatore entro gittata. Ogni creatura in una sfera del raggio di 1,5 metri centrata su quel punto deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 3d6 danni da freddo, mentre se lo supera, subisce la metà di quei danni.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di ld6 per ogni slot di livello superiore al 2°.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, i danni aumentano di ld6 per ogni slot di livello superiore al 2°.
 
 SCOSSA SINAPTICA
 Ammaliamento di 5 livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore sceglie un punto entro gittata e genera un'esplosione di energia psichica in quel punto. Ogni creatura entro una sfera con raggio di 6 metri centrata su quel punto deve effettuare un tiro salvezza su Intelligenza. Una creatura con un punteggio di Intelligenza pari o inferiore a 2 non può essere influenzata da questo incantesimo. Un bersaglio subisce 8d6 danni psichici se fallisce il tiro salvezza, mentre se lo supera, subisce la metà di quei danni.
@@ -10932,8 +10932,8 @@ Dopo un tiro salvezza fallito, i pensieri del bersaglio restano offuscati per 1 
 
 SCOSSA TELLURICA
 Invocazione di 1 livello
-Tempo di Lancio: 1 azione 
-Gittata: 3 metri 
+Tempo di Lancio: 1 azione
+Gittata: 3 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore provoca una scossa tellurica sul terreno entro gittata. Ogni creatura entro l'area, a eccezione dell'incantatore, deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce ld6 danni contundenti e cade a terra prona. Se il terreno in quell'area è di pietra o terriccio smosso, diventa terreno difficile finché non viene sgombrato. Ogni porzione dell'area del diametro di 1,5 metri richiede almeno 1 minuto per essere sgombrata.
@@ -10941,7 +10941,7 @@ Ai LiveJJi Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 
 SCRITTA CELESTE
 Trasmutazione di 2 livello (rituale)
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Vista
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 ora
@@ -10949,7 +10949,7 @@ L'incantatore fa comparire un massimo di dieci parole in una parte del cielo che
 
 SERVITORE MINUSCOLO
 Trasmutazione di 3 livello
-Tempo di Lancio: 1 minuto 
+Tempo di Lancio: 1 minuto
 Gittata: Contatto
 Componenti: V, S 
 Durata: 8 ore
@@ -10970,8 +10970,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 SFERA ACQUEA
 Evocazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V, S, M (una goccia d'acqua) 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore evoca una sfera d'acqua del raggio di 1,5 metri in un punto entro gittata che egli sia in grado di vedere. La spera può fluttuare in aria, ma non a più di 3 metri dal terreno. La sfera permane per la durata dell'incantesimo.
@@ -10980,17 +10980,17 @@ La sfera può trattenere un massimo di quattro creature di taglia Media o inferi
 
 SFERA AL VETRIOLO
 Invocazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 45 metri 
+Tempo di Lancio: 1 azione
+Gittata: 45 metri
 Componenti: V, S, M (una goccia di bile di una lumaca gigante) 
 Durata: Istantanea
 L'incantatore indica un punto entro gittata e una sfera luminescente di acido smeraldino del diametro di 30 cm sfreccia verso quel punto, dove esplode in un raggio di 6 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 10d4 danni da acido e 5d4 danni da acido alla fine del suo turno successivo, mentre se lo supera, subisce la metà dei danni iniziali e nessun danno alla fine del suo turno successivo.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni iniziali aumentano di 2d4 per ogni slot di livello superiore al 4 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 livello o superiore, i danni iniziali aumentano di 2d4 per ogni slot di livello superiore al 4 °.
 
 SFERA DELLA TEMPESTA
 Invocazione di 4 livello
-Tempo di Lancio: 1 azione 
-Gittata: 45 metri 
+Tempo di Lancio: 1 azione
+Gittata: 45 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 Dal nulla si forma una sfera di aria turbinante del raggio di 6 metri, centrata su un punto entro gittata a scelta dell'incantatore. La sfera permane per la durata dell'incantesimo. Ogni creatura che si trova nella sfera quando questa compare o che vi termina il proprio turno deve superare un tiro salvezza su Forza, altrimenti subisce 2d6 danni contundenti. Lo spazio della sfera è terreno difficile.
@@ -11000,7 +11000,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo ° incantesimo usando u
 
 SOFFIO DEL DRAGO
 Trasmutazione di 2 livello
-Tempo di Lancio: 1 azione bonus 
+Tempo di Lancio: 1 azione bonus
 Gittata: Contatto
 Componenti: V, S, M (un peperoncino) 
 Durata: Concentrazione, fino a 1 minuto
@@ -11009,8 +11009,8 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 SONNELLINO
 Ammaliamento di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: S, M (un pizzico di sabbia) 
 Durata: 10 minuti
 L'incantatore fa un gesto tranquillizzante e fino a tre creature consenzienti a sua scelta situate entro gittata e che egli sia in grado di vedere cadono prive di sensi per la durata dell'incantesimo. L'incantesimo termina anticipatamente su un bersaglio se esso subisce danni o se qualcuno usa un'azione per risvegliarlo scuotendolo o schiaffeggiandolo. Se un bersaglio rimane privo di sensi per l'intera durata, ottiene i benefici di un riposo breve e non può essere influenzato di nuovo da questo incantesimo finché non completa un riposo lungo.
@@ -11018,19 +11018,19 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 SPIRITO GUARITORE
 Evocazione di 2 livello
-Tempo di Lancio: 1 azione bonus 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione bonus
+Gittata: 18 metri
 Componenti: V, S 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore chiama a sé uno spirito della natura per lenire i feriti. Lo spirito intangibile compare in uno spazio delle dimensioni di un cubo con spigolo di 1,5 metri entro gittata e che l'incantatore sia in grado di vedere. Lo spirito ha l'aspetto di una bestia o di un folletto trasparente (a scelta dell'incantatore).
 Finché l'incantesimo non termina, ogni volta che l'incantatore o una creatura che egli sia in grado di vedere entrano nello spazio dello spirito per la prima volta in un turno o vi iniziano il proprio turno, l'incantatore può decidere che lo spirito ripristini ld6 punti ferita di quella creatura (non è richiesta alcuna azione). Lo spirito non può curare i costrutti o i non morti.
 Come azione bonus nel proprio turno, l'incantatore può muovere lo spirito di un massimo di 9 metri fino a uno spazio che egli sia in grado di vedere.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, la guarigione aumenta di ld6 per ogni slot di livello superiore al 2 °.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, la guarigione aumenta di ld6 per ogni slot di livello superiore al 2 °.
 
 STRETTA DELLA TERRA DI MAXIMILIAN
 Trasmutazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S, M (una mano in miniatura modellata in argilla) 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore sceglie sul terreno uno spazio libero quadrato con lato di 1,5 metri situato entro gittata e che egli sia in grado di vedere. Una mano Media fatta di terriccio compresso emerge dal terreno e si protende verso una creatura situata entro 1,5 metri da essa e che l'incantatore sia in grado di vedere. Il bersaglio deve effettuare un tiro salvezza su Forza; se lo fallisce, subisce 2d6 danni contundenti ed è trattenuto per la durata dell'incantesimo.
@@ -11040,8 +11040,8 @@ Con un'azione, l'incantatore può fare in modo che la mano si protenda verso una
 
 TEMPIO DEGLI DÈI
 Evocazione di 7 livello
-Tempo di Lancio: 1 ora 
-Gittata: 36 metri 
+Tempo di Lancio: 1 ora
+Gittata: 36 metri
 Componenti: V, S, M (un simbolo sacro del valore di almeno 5 mo) 
 Durata: 24 ore
 L'incantatore fa materializzare un tempio splendente su un terreno situato entro gittata che egli sia in grado di vedere. Il tempio deve entrare in un cubo di spazio libero con spigolo fino a 36 metri. Il tempio permane finché l'incantesimo non termina ed è dedicato al dio, al pantheon o alla filosofia rappresentata dal simbolo sacro usato per lanciare l'incantesimo.
@@ -11049,13 +11049,13 @@ L'incantatore prende tutte le decisioni relative all'aspetto del tempio. L'inter
 L'interno del tempio è uno spazio aperto con un indolo o un altare a un'estremità. L'incantatore decide se il tempio è illuminato e se l'illuminazione equivale a luce intensa o fioca. All'interno, l'odore di incenso bruciato aleggia nell'aria e la temperatura è mite.
 Il tempio si oppone ai tipi di creature scelti dall'incantatore al momento del lancio dell'incantesimo. L'incantatore sceglie uno o più dei tipi di creature seguenti: celestiali, elementali, folletti, immondi o non morti. Se una creatura del tipo scelto tenta di entrare nel tempio, quella creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, non può entrare nel tempio per le 24 ore successive. Anche se una creatura riesce a entrare nel tempio, la magia all'interno del tempio la ostacola; ogni volta che la creatura effettua un tiro per colpire, una prova di caratteristica o un tiro salvezza all'interno del tempio, deve tirare un d4 e sottrarre il risultato ottenuto dal tiro del d20.
 Inoltre, i sensori creati dagli incantesimi di divinazione non possono comparire all'interno del tempio e le creature all'interno non possono essere bersagliate dagli incantesimi di divinazione.
-Infine, ogni volta che una creatura nel tempio recupera punti ferita grazie a un incantesimo di 1° livello o superiore, quella creatura recupera un ammontare di punti ferita aggiuntivi pari al modificatore di Saggezza dell'incantatore (fino a un minimo di 1 punto ferita).
+Infine, ogni volta che una creatura nel tempio recupera punti ferita grazie a un incantesimo di 1 livello o superiore, quella creatura recupera un ammontare di punti ferita aggiuntivi pari al modificatore di Saggezza dell'incantatore (fino a un minimo di 1 punto ferita).
 Il tempio è fatto di una forza magica opaca che si estende sul Piano Etereo, cosa che blocca i viaggi eterei verso l'interno del tempio. Nulla può passare fisicamente attraverso l'esterno del tempio. Dissolvi magie non lo dissolve e campo anti-magia non ha alcun effetto su di esso. Un incantesimo disintegrazione distrugge il tempio istantaneamente.
 Lanciando questo incantesimo nello stesso punto ogni giorno per un anno, questo effetto diventa permanente.
 
 TRABOCCHETTO
 Abiurazione di 1 livello
-Tempo di Lancio: 1 minuto 
+Tempo di Lancio: 1 minuto
 Gittata: Contatto
 Componenti: S, M (7,5 metri di corda, che l'incantesimo consuma) 
 Durata: 8 ore
@@ -11067,8 +11067,8 @@ Dopo che la trappola è stata innescata, l'incantesimo termina quando nessuna cr
 
 TRASFERIMENTO DI VITA
 Necromanzia di 3 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore sacrifica parte della sua salute per risanare le ferite di un'altra creatura. Subisce 4d8 danni necrotici e una creatura a sua scelta situata entro gittata e che egli sia in grado di vedere recupera un numero di punti ferita pari al doppio dei danni necrotici che l'incantatore subisce.
@@ -11076,7 +11076,7 @@ Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno 
 
 TRASFORMAZIONE DI TENSER
 Trasmutazione di 6 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V, S, M (alcuni peli di un toro) 
 Durata: Concentrazione, fino a 10 minuti
@@ -11090,9 +11090,9 @@ Può attaccare due volte, invece di una, quando effettua l'azione di Attacco nel
 Immediatamente dopo che l'incantesimo è terminato, l'incantatore deve superare un tiro salvezza su Costituzione con CD 15, altrimenti subisce un livello di indebolimento.
 
 TRASMUTARE ROCCIA
-Trasmutazione di 5° livello
-Tempo di Lancio: 1 azione 
-Gittata: 36 metri 
+Trasmutazione di 5 livello
+Tempo di Lancio: 1 azione
+Gittata: 36 metri
 Componenti: V, S, M (argilla e acqua) 
 Durata: Finché non viene dissolto
 L'incantatore sceglie un'area di pietra o di fango situata entro gittata, che egli sia in grado di vedere e che sia contenuta in un cubo con spigolo di 12 metri, e sceglie uno degli effetti seguenti.
@@ -11103,8 +11103,8 @@ Trasmutare Fango in Roccia. Il fango o le sabbie mobili non magici situati nell'
 
 TROVA CAVALCATURA SUPERIORE
 Evocazione di 4 livello
-Tempo di Lancio: 10 minuti 
-Gittata: 9 metri 
+Tempo di Lancio: 10 minuti
+Gittata: 9 metri
 Componenti: V, S 
 Durata: Istantanea
 L'incantatore evoca uno spirito che assume la forma di una cavalcatura fedele e maestosa. La cavalcatura appare in uno spazio libero entro gittata e assume una forma a scelta dell'incantatore tra un grifone, un pegaso, un peryton, un lupo feroce, un rinoceronte o una tigre dai denti a sciabola. La cavalcatura usa le statistiche della forma scelta riportate nel Monster Manual, anche se si tratta di un celestiale, un folletto o un immondo (a scelta dell'incantatore), anziché di un normale tipo di creatura. Inoltre, se la cavalcatura ha un'Intelligenza pari o inferiore a 5, la sua Intelligenza diventa 6 e ottiene la capacità di capire un linguaggio a scelta dell'incantatore e che l'incantatore sia in grado di parlare.
@@ -11114,8 +11114,8 @@ Ogni volta che la cavalcatura scompare, lascia dietro di sé ogni oggetto che in
 
 TURBINE
 Invocazione di 7 livello
-Tempo di Lancio: 1 azione 
-Gittata: 90 metri 
+Tempo di Lancio: 1 azione
+Gittata: 90 metri
 Componenti: V, M (una pagliuzza) 
 Durata: Concentrazione, fino a 1 minuto
 Un turbine scende urlando fino a un punto del terreno entro gittata che l'incantatore sia in grado di vedere. Il turbine è un cilindro del raggio di 3 metri e alto 9 metri centrato su quel punto. Finché l'incantesimo non termina, l'incantatore può usare la sua azione per muovere il turbine di un massimo di 9 metri in qualsiasi direzione lungo il terreno. Il turbine risucchia ogni oggetto di taglia Media o inferiore che non sia assicurato a qualcosa e che non sia indossato o trasportato da qualcuno.
@@ -11124,8 +11124,8 @@ Una creatura trattenuta può usare un'azione per effettuare una prova di Forza o
 
 URLO PSICHICO
 Ammaliamento di 9 livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: S 
 Durata: Istantanea
 L'incantatore scatena il potere della sua mente contro l'intelletto di un massimo di dieci creature a sua scelta, situate entro gittata e che egli sia in grado di vedere. Le creature con un punteggio di Intelligenza pari o inferiore a 2 non sono influenzate.
@@ -11133,16 +11133,16 @@ Ogni bersaglio deve effettuare un tiro salvezza su Intelligenza; se lo f a llisc
 
 VAMPA DI AGANAZZAR
 Invocazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 9 metri 
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
 Componenti: V, S, M (una scaglia di drago rosso) 
 Durata: Istantanea
 Una linea di fiamme rombanti lunga 9 metri e larga 1,5 metri viene emanata dall'incantatore in una direzione a sua scelta. Ogni creatura sulla linea deve effettuare un tiro salvezza su Destrezza; se lo fallisce, subisce 3d8 danni da fuoco, mentre se lo supera, subisce la metà di quei danni.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2'.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, i danni aumentano di ld8 per ogni slot di livello superiore al 2'.
 
 VENTO DI INTERDIZIONE
 Invocazione di 2 livello
-Tempo di Lancio: 1 azione 
+Tempo di Lancio: 1 azione
 Gittata: Incantatore
 Componenti: V 
 Durata: Concentrazione, fino a 10 minuti
@@ -11155,8 +11155,8 @@ I tiri per colpire degli attacchi con arma a distanza subiscono svantaggio se en
 
 VINCOLO DELLA TERRA
 Trasmutazione di 2 livello
-Tempo di Lancio: 1 azione 
-Gittata: 90 metri 
+Tempo di Lancio: 1 azione
+Gittata: 90 metri
 Componenti: V 
 Durata: Concentrazione, fino a 1 minuto
 L'incantatore sceglie una creatura entro gittata e che egli sia in grado di vedere. Alcune strisce gialle di energia magica avviluppano la creatura. Il bersaglio deve superare un tiro salvezza su Forza, altrimenti la sua velocità di volare (se ne possiede una) è ridotta a O metri per la durata dell'incantesimo. Una creatura in volo influenzata da questo incantesimo scende di 18 metri per round finché non arriva a terra o finché l'incantesimo non termina.    
@@ -11440,7 +11440,7 @@ Trasmutare roccia
   tasha: {
     grimorioString: `
 ABITO ULTRATERRENO DI TASHA
-Trasmutazione di 6° livello
+Trasmutazione di 6 livello
 Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V, S, M (un oggetto sul quale @ inciso un simbolo dei Piani Esterni, del valore di almeno 500 mo) 
@@ -11455,14 +11455,14 @@ o Destrezza per iltiro per colpire e iltiro per idanni.
 + Lincantatore pud attaccare due volte invece di una quando effettua l'azione di Attacco nel proprio turno.
 
 EVOCA ABERRAZIONE
-Evocazione di 4° livello
+Evocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un tentacolo in salamoia e un bulbo oculare in una fiala intarsiata di platino del valore di almeno 400 mo)
 Durata: Concentrazione, fino a 1 ora
 L'incantatore evoca uno spirito aberrante che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Aberrante. Quando questo incantesimo viene lanciato, l'incantatore pud sceglier tra pseudo-onnivedente, slaad o progenie stellare. La creatura ha le sembianze di una di queste aberrazioni e in base a questa somiglianza vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando I|'incantesimo termina.
 La creatura diventa un alleato per Il'incantatore e isuoi compagni. In combattimento, la creatura condivide ilpunteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
-Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 livello
 o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
 SPIRITO ABERRANTE Aberrazione Media
 Classe Armatura 1 + il livello dell'incantesimo (armatura naturale) 
@@ -11487,7 +11487,7 @@ Raggio Oculare (Solo Pseudo-onnivedente). Attacco con Incantesimo a Distanza: mo
 =Colpo FPsichico (Solo Progenie Stellare). Attacco con Incantesimoin Mischia: modificatore di attacco dell'incantesimo del personaggio tiro per colpire, portata 1,5 m, una creatura. Colpito: 148 + 3 + ivellodell'incantesimo di uipsichici. Cari j Jabs.
 
 Evoca BESTIA D'OMBRA
-Evocazione di 3° livello
+Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (delle lacrime all'interno di una gemma del valore di almeno 300 mo) 
@@ -11496,7 +11496,7 @@ L'incantatore invoca uno spirito dell'ombra che si manifesta in uno spazio liber
 di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito d'Ombra. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere uno stato d'animo tra furia, disperazione
 o paura. La creatura ha le sembianze di una creatura bipede deforme, a scelta dell'incantatore, che é in uno di questi tre stati d'animo e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando |'incantesimo termina.
 La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide ilpunteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
-Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello
 o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
 SPIRITO D'OMBRA Mostruosita Media
 Classe Armatura 1 + illivello dell'incantesimo (armatura naturale) 
@@ -11519,7 +11519,7 @@ AZIONI BONUS
 Furtivitd d'‘Ombra (Solo Paura). Quando si trova in oscurita o luce fioca, lo spirito effettua l'azione Nascondersi.
 
 EVOCA CELESTIALE
-Evocazione di 5° livello
+Evocazione di 5 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un reliquario dorato del valore di almeno 500 mo)
@@ -11528,7 +11528,7 @@ L'incantatore invoca uno spirito celestiale che si manifesta in forma angelica i
 La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide
 il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo
 ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa ilsuo movimento per sottrarsi al pericolo.
-Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6 livello
 o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
 SPIRITO CELESTIALE Celestiale Grande
 Classe Armatura 1+ illivello dell'incantesimo (armatura naturale) + 2 (solo Difensore)
@@ -11547,7 +11547,7 @@ Mazza Radiosa (Solo Difensore). Attacco con Arma da Mischia: modificatore di att
 Tocco Guaritore (1/Giorno). |celestiale tocca un‘altra creatura, che re- cupera magicamente punti ferita pari a 2d8 + il livello dell'incantesimo.
 
 EVOCA COSTRUTTO
-Evocazione di 4° livello
+Evocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (una pietra dipinta e uno scrigno di metallo del valore di almeno 400 mo) 
@@ -11560,7 +11560,7 @@ La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattime
 il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo
 ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa ilsuo movimento per sottrarsi al pericolo.
 Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo
-di 4° livello o superiore, usa lo slot di livello pid alto che compare nella sua scheda delle statistiche.
+di 4 livello o superiore, usa lo slot di livello pid alto che compare nella sua scheda delle statistiche.
 PIRITO DEL COSTRUTTO Costrutto Medio
 a
 _Classe Armatura 13+ illivello dell'incantesimo (armatura naturale) Punti Ferita 40 + 15 per ogni livello di incantesimo sopra i!3° Velocita 9 m
@@ -11581,7 +11581,7 @@ AZIONI
 Slancio Rabbioso (Solo Argilla). Quando i|costrutto subisce danni, effettua un attacco Schianto contro una creatura a caso entro 1,5 metri. Se non ci sono creature a portata, ilcostrutto si muove di fino a meta della sua velocita verso un nemico nel suo campo visivo, senza provocare attacchi di opportunita.
 
 EVOCA ELEMENTALE
-Evocazione di 4° livello
+Evocazione di 4 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (aria, un sassolino, cenere e acqua all'interno di una fiala intarsiata d'oro del valore di almeno 400 mo)
@@ -11591,7 +11591,7 @@ di vedere. La forma corporea di questo spirito utilizza la scheda delle statisti
 dal corpo costituito da uno di questi elementi e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando l'incantesimo termina.
 La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
 il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo aisuoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
-Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5 livello
 o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
 SPIRITO 
 ELEMENTALE Elementale Medio
@@ -11611,7 +11611,7 @@ Multiattacco. L'elementale effettua un numero di attacchi pari alla meta del liv
 Schianto. Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d10 + 4 + il livello dell'incantesimo danni contundenti (solo aria, terra eacqua) o danni da fuoco (solo fuoco).
 
 EVOCA FOLLETTO
-Evocazione di 3° livello
+Evocazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un fiore dorato del valore di almeno 300 mo)
@@ -11624,7 +11624,7 @@ La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattime
 il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa
 il suo movimento per sottrarsi al pericolo.
 Ai Livelfi Superiori. Quando l'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 4° livello o superiore, usa lo slot di livello pitt alto che compare nella sua scheda delle statistiche.
+incantesimo usando uno slot incantesimo di 4 livello o superiore, usa lo slot di livello pitt alto che compare nella sua scheda delle statistiche.
 SPIRITO FATATO Falletto Piccolo
 Classe Armatura 12 + illivello dell'incantesimo (armatura naturale) Punti Ferita 30 + 10 per ogni livello di incantesimo sopra il 3° Velocita 12 m
 FOR DES cos INT SAG CAR 13 (+1) 16 (+3) 14 (+2) 14 (+2) 1 (+0) 16 (+3)
@@ -11643,7 +11643,7 @@ Gioioso. |folletto pud costringere una creatura che pud vedere entro 3 metri a e
 Malandrino. |folletto pud colmare di oscurita magica un cubo con spigolo di 1,5 metri entro 1,5 metri da sé; |'effetto termina alla fine del suo turno successivo.
 
 EVOCA IMMONDO
-Evocazione di 6° livello
+Evocazione di 6 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (il sangue di una creatura umanoide all'interno di una fiala rosso rubino del valore di almeno 600 mo) 
@@ -11651,7 +11651,7 @@ Durata: Concentrazione, fino a 1 ora
 Lincantatore invoca uno spirito demoniaco che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Demoniaco. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere una creatura demoniaca tra demone, diavolo o yugoloth. La creatura ha le sembianze della creatura demoniaca scelta e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando I'incantesimo termina. La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento
 per sottrarsi al pericolo.
 Ai Livelli Superiori. Quando I'incantatore lancia questo
-incantesimo usando uno slot incantesimo di 7° livello o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
+incantesimo usando uno slot incantesimo di 7 livello o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
 SPIRITO DEMONIACO Immondo Grande
 — zs Classe Armatura 12+ illivello dell'incantesimo (armatura naturale) Punti Ferita 50 (solo demone) o 40 (solo diavolo) 0 60 (solo yugoloth)
 + 15 per ogni livello di incantesimo sopra il6°
@@ -11675,7 +11675,7 @@ di 9 metri fino a uno spazio libero che egli sia in grado di vedere.
 Scagliare Fiamma (Solo Diavolo). Attacco con Incantesimo a Distanza: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, gittata 45 m, un bersaglio. Colpito: 2d6 + 3 + il livello dell'in- cantesimo danni da fuoco. Se ilbersaglio é un oggetto infiammabile che non é indossato o trasportato, prende anche fuoco.
 
 EVOCA NON MORTO
-Necromanzia di 3° livello
+Necromanzia di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (un teschio dorato del valore di almeno 300 mo)
@@ -11686,7 +11686,7 @@ o scheletrica. La creatura ha le sembianze di una creatura non morta della forma
 La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
 il punteggio di iniziativa con l'incantatore, ma inizia
 il turno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
-Aji Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+Aji Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello
 o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
 SprrITo Non MortTo Non Morto Medio
 Classe Armatura 1+ illivello dell'incantesimo (armatura naturale) Punti Ferita 30 (solo spettrale o putrido) o 20 (solo scheletrico) +
@@ -11710,7 +11710,7 @@ Dardo Tombale (Solo Scheletrico). Attacco con Incantesimo a Distanza: modificato
 Artiglio Putrefatto (Solo Putrido). Attacco con Arma da Mischia: modificatore diattacco dell'incantesimo del personaggio altiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d6 + 3+ illivello dell'incantesimo danni taglienti. Se ilbersaglio ¢avvelenato, deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo del personaggio, altrimenti é paralizzato finoal termine del proprio turno successivo.
 
 EVOCARE BESTIA
-Evocazione di 2° livello
+Evocazione di 2 livello
 Tempo di Lancio: 1 azione
 Gittata: 27 metri
 Componenti: V, S, M (una piuma, un ciuffo di pelliccia e una coda di pesce all'interno di una ghianda dorata del valore di almeno 200 mo) 
@@ -11718,7 +11718,7 @@ Durata: Concentrazione, fino a 1 ora
 L'incantatore invoca uno spirito bestiale che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Bestiale. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere l'ambiente da cui proviene lo spirito evocato tra aria, terra o acqua. La creatura ha le sembianze
 di un animale a scelta dell'incantatore proveniente da uno di questi ambienti e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando |'incantesimo termina.
 La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
-Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello
 o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
 SPIRITO BESTIALE Bestia Piccola
 ClasseArmatura 1+illivellodell'incantesimo (armatura naturale) Punti Ferita 20 (solo aria) o 30 (solo terra e acqua) + 5 per ogni
@@ -11742,18 +11742,18 @@ Multiattacco. La bestia effettua un numero di attacchi pari alla meta del livell
 Dilaniare. Attacco con Arma da Mischia: modificatore di attacco dell'in- cantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersa- glio.Colpito: 1d8 +4+illivellodell'incantesdiamnnoi perforanti.
 
 FORTEZZA DELLA MENTE
-Abiurazione di 3° livello
+Abiurazione di 3 livello
 Tempo di Lancio: 1 azione
 Gittata: 9 metri
 Componenti: V
 Durata: Concentrazione, fino a 1 ora
 Per tutta la durata dell'incantesimo, l'incantatore o una creatura consenziente entro gittata che egli sia in grado di vedere ottiene resistenza ai danni psichici e un vantaggio ai tiri salvezza su Intelligenza, Saggezza e Carisma.
-Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello
 o superiore, pud bersagliare una creatura aggiuntiva per ogni slot superiore al 3°. Quando l'incantatore le bersaglia, le creature devono trovarsi a non pit di 9 metri l'una dall'altra.
 
 LAMA DEL DISASTRO
-Evocazione di 9° livello
-Tempo di Lancio: 1 azione bonus 
+Evocazione di 9 livello
+Tempo di Lancio: 1 azione bonus
 Gittata: 18 metri
 Componenti: V,S
 Durata: Concentrazione, fino a 1 minuto
@@ -11790,7 +11790,7 @@ Lincantatore crea una frusta di energia del fulmine che colpisce una creatura a 
 l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).
 
 MISCELA CAUSTICA DI TASHA
-Invocazione di 1° livello
+Invocazione di 1 livello
 Tempo di Lancio: 1 azione
 Gittata: Incantatore (linea di 9 metri)
 Componenti: V, S, M (un frammento di cibo avariato) 
@@ -11798,14 +11798,14 @@ Durata: Concentrazione, fino a 1 minuto
 Lincantatore emana un fiotto d'acido che indirizza in una direzione asua scelta, formando una linea lunga 9metri
 e larga 1,5 metri. Ogni creatura entro la linea deve superare un tiro salvezza su Destrezza o essere ricoperto dall'acido per la durata dell'incantesimo o finché una delle creature coinvolte non usa la sua azione per ripulire se stessa
 o un‘altra creatura dall'acido. La creatura che resta ricoperta dall'acido subisce 2d4 danni da acido all'inizio di ogni suo turno.
-Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 2 livello
 o superiore, idanni aumentano di 2d4 per ogni slot
 di livello superiore al 1°.
 
 SCHEGGIA DELLA MENTE
 Trucchetto di Ammaliamento
-Tempo di Lancio: 1 azione 
-Gittata: 18 metri 
+Tempo di Lancio: 1 azione
+Gittata: 18 metri
 Componenti: V
 Durata: 1 round
 L'iincantatore guida un flusso di energia psichica nella mente di una creatura entro gittata che egli sia in grado di vedere, disorientandola. La creatura deve superare un tiro salvezza su Intelligenza o subire 1d6 danni psichici e sottrarre 1d4 al tiro salvezza successivo che effettua prima del termine del turno successivo dell'incantatore.
@@ -11813,18 +11813,18 @@ Il danno inflitto da questo incantesimo aumenta
 di 1d6 man mano che ilpersonaggio raggiunge determinati livelli: 5° livello (2d6), 11° livello (3d6) e 17° livello (4d6).
 
 SCUDISCIO MENTALE DI TASHA
-Ammaliamento di 2° livello
-Tempo di Lancio: 1 azione 
-Gittata: 27 metri 
+Ammaliamento di 2 livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
 Componenti: V
 Durata: 1 round
 Lincantatore scaglia un attacco psichico contro una creatura entro gittata che egli sia in grado di vedere
 e il bersaglio deve effettuare un tiro salvezza su Intelligenza. In caso di fallimento, il bersaglio subisce 3d6 danni psichici e non puo effettuare una reazione fino al termine del proprio turno successivo. Inoltre, nel suo turno successivo, pud scegliere solo un'opzione tra muoversi, compiere un'azione o effettuare un'azione bonus. Se invece supera iltiro salvezza, ilbersaglio subisce soltanto la meta di quei danni e non viene influenzato dagli altri effetti dell'incantesimo.
-Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, pud bersagliare una creatura aggiuntiva per ogni slot superiore al 2°. Quando I'incantatore le bersaglia, le creature devono trovarsi a non pitt di 9 metri l'una dall'altra.
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3 livello o superiore, pud bersagliare una creatura aggiuntiva per ogni slot superiore al 2°. Quando I'incantatore le bersaglia, le creature devono trovarsi a non pitt di 9 metri l'una dall'altra.
 
 SOGNO DEL VELO CELESTE
-Evocazione di 7° livello
-Tempo di Lancio: 10 minuti 
+Evocazione di 7 livello
+Tempo di Lancio: 10 minuti
 Gittata: 6 metri
 Componenti: V, S, M (un oggetto magico o una creatura consenziente proveniente dal mondo di destinazione)
 Durata: 6 ore
@@ -11837,8 +11837,8 @@ Leffetto dell'incantesimo su una creatura termina prema- turamente se quella cre
 per lui che per tutte le altre creature e nessuno riesce a raggiungere il mondo della visione.
 
 SUDARIO SPIRITUALE
-Necromanzia di 3° livello
-Tempo di Lancio: 1 azione bonus 
+Necromanzia di 3 livello
+Tempo di Lancio: 1 azione bonus
 Gittata: Incantatore
 Componenti: V,S
 Durata: Concentrazione, fino a 1 minuto
@@ -11846,7 +11846,7 @@ Lincantatore invoca alcuni spiriti dei defunti che fluttuano attorno a lui per l
 Finché l'incantesimo non termina, ogni attacco effettuato dall'incantatore infligge 1d8 danni extra quando colpisce una creatura nel raggio di 3 metri da lui. I danni inflitti possono essere radiosi, necrotici o da freddo, a seconda del tipo scelto dall'incantatore al momento del lancio dell'incantesimo. Tutte le creature che subiscono questi danni non possono recuperare punti ferita fino all'inizio del turno successivo dell'incantatore.
 In piu, un‘altra creatura a sua scelta che egli riesce
 a vedere che inizia il suo turno entro 9 metri da lui vede la sua velocita ridotta di 3 metri fino all'inizio del turno successivo dell'incantatore.
-Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4 livello
 o superiore, idanni aumentano di 1d8 per ogni due slot di livello superiore al 3°.
 
 TURBINE DI SPADE
