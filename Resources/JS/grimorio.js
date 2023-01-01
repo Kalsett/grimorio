@@ -13,7 +13,7 @@
 // Migliora la regex per matchare i titoli con piu' di 2 parole
 // let formattazione = function (str) {
 //     str = str.split('\n\n').join('\n').split('\n°\n').join('\n').split('Gittata').join('\nGittata').split('Componenti').join('\nComponenti').split('Durata').join('\nDurata');
-//     let strArr = str.match(/[A-Z][A-Z]+ *[A-Z][A-Z]+/g);
+//     let strArr = str.match(/[A-Z][A-Z]+ *[A-Z][A-Z]*/g);
 //     for (let title of strArr) {
 //         str = str.split(title).join('\n'+title);
 //     }
@@ -522,7 +522,7 @@ effettuare un attacco in mischia con questo incantesimo
 contro una creatura entro 1,5 metri dall'arma. Se colpisce,
 il bersaglio subisce ld8 danni da forza+ il modificatore di
 caratteristica da incantatore.
-Con un1azione bonus nel suo turno, l'incantatore può
+Con un1 azione bonus nel suo turno, l'incantatore può
 muovere l'arma di un massimo di 6 metri e ripetere l'attacco
 contro una creatura situata entro 1,5 metri da essa.
 L'arma pub assumere la forma che l'incantatore preferisce.
@@ -2936,7 +2936,7 @@ superiore, sceglie una delle opzioni di evocazione soprastanti
 e fa apparire un numero superiore di creature: il doppio
 con uno slot di 6 livello e il triplo con uno slot di 8 livello.
 
-EVOCA FOLLETTO
+EVOCA FOLLETTO PHB
 Evocazione di 6 livello
 Tempo di Lancio: 1 minuto
 Gittata: 27 metri
@@ -9305,7 +9305,7 @@ Allucinazione Mortale
 Legame Telepatico di Rary
 Banchetto degli Eroi
 Spruzzo Prismatico
-Antipatia/Simpatia
+Antipatia / Simpatia
 Muro Prismatico
 `, // Da comando a Muro Prismatico sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiChierico: `
@@ -9511,7 +9511,7 @@ Traslazione Arborea
 Bagliore Solare
 Banchetto degli Eroi
 Camminare nel Vento
-Evoca Folletto
+Evoca Folletto PHB
 Guarigione
 Muovere il Terreno
 Muro di Spine
@@ -10074,7 +10074,7 @@ Sogno
 Carne in Pietra
 Cerchio di Morte
 Creare Non Morti
-Evoca Folletto
+Evoca Folletto PHB
 Portale Arcano
 Sguardo Penetrante
 Suggestione di Massa
@@ -10100,7 +10100,6 @@ Fatale
 Portale
 `, // Da Cerchio di Teletrasporto a Portale sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiArtefice: `
-Lama
 Luce
 Luci Danzanti
 Mano Magica
@@ -10111,8 +10110,7 @@ Resistenza
 Riparare
 Salvare i Morenti
 Spruzzo Velenoso
-Stretta
-Folgorante
+Stretta Folgorante
 Dardo di Fuoco
 Fiotto Acido
 Frusta di Spine
@@ -10120,8 +10118,7 @@ Guida
 Allarme
 Caduta Morbida
 Camuffare Se Stesso
-Cura
-Ferite
+Cura Ferite
 Identificare
 Individuazione del Magico
 Luminescenza
@@ -10139,7 +10136,8 @@ Bocca Magica
 Caratteristica Potenziata
 Fiamma Perenne
 Ingrandire/Ridurre
-Invisibilita Levitazione
+Invisibilità
+Levitazione
 Movimenti del Ragno
 Protezione dai Veleni
 Ragnatela
@@ -11424,7 +11422,7 @@ Creare falò
 Morsa del gelo
 Pietra magica
 Rombo di tuono
-Assorbire elemnti
+Assorbire elementi
 Catapulta
 Trabocchetto
 Pirotecnica
@@ -11440,6 +11438,427 @@ Trasmutare roccia
     }  
   },
   tasha: {
+    grimorioString: `
+ABITO ULTRATERRENO DI TASHA
+Trasmutazione di 6° livello
+Tempo di Lancio: 1 azione bonus
+Gittata: Incantatore
+Componenti: V, S, M (un oggetto sul quale @ inciso un simbolo dei Piani Esterni, del valore di almeno 500 mo) 
+Durata: Concentrazione, fino a 1 minuto
+Proferendo questo incantesimo, I'incantatore sceglie se attingere alla magia dei Piani Inferiori o a quella dei Piani Superiori per trasformarsi e ottiene iseguenti benefici finché l'incantesimo non termina:
+« Immunita ai danni da fuoco o da veleno (se ha scelto iPiani Inferiori) oimmunita ai danni radiosi 0 necrotici (se ha scelto iPiani Superiori).
+« Immunita alla condizione avvelenato (Piani Inferiori) o alla condizione affascinato (Piani Superiori).
+¢ Sulla schiena dell'incantatore compaiono delle ali spet- trali che gli forniscono una velocita di volare di 12 metri.
++ Lincantatore ottiene un bonus di +2 alla CA.
+« Tutti gli attacchi con un'arma diventano magici e l'incantatore pud usare ilsuo modificatore di caratteristica da incantatore invece del modificatore di Forza
+o Destrezza per iltiro per colpire e iltiro per idanni.
++ Lincantatore pud attaccare due volte invece di una quando effettua l'azione di Attacco nel proprio turno.
+
+EVOCA ABERRAZIONE
+Evocazione di 4° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (un tentacolo in salamoia e un bulbo oculare in una fiala intarsiata di platino del valore di almeno 400 mo)
+Durata: Concentrazione, fino a 1 ora
+L'incantatore evoca uno spirito aberrante che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Aberrante. Quando questo incantesimo viene lanciato, l'incantatore pud sceglier tra pseudo-onnivedente, slaad o progenie stellare. La creatura ha le sembianze di una di queste aberrazioni e in base a questa somiglianza vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando I|'incantesimo termina.
+La creatura diventa un alleato per Il'incantatore e isuoi compagni. In combattimento, la creatura condivide ilpunteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello
+o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
+SPIRITO ABERRANTE Aberrazione Media
+Classe Armatura 1 + il livello dell'incantesimo (armatura naturale) 
+Punti Ferita 40 + 10 per ogni livello di incantesimo sopra il4° 
+Velocita 9 m, volare 9 m (fluttuare) (solo pseudo-onnivedente) SaaS
+FOR 16 (+3) re—
+DES cos 10(+0) 15(42)
+INT SAG CAR
+Immunita ai Danni psichici
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi Gergo delle Profondita, comprende i linguaggi parlati
+dal personaggio
+Sfida — Bonus dicompetenza pari aquello del personaggio —_S=
+Rigenerazione (Solo Slaad). Se ha almeno 1 punto ferita, l'‘aberrazione recupera 5 punti ferita all'inizio del suo turno.
+Aura Sussurrante (Solo Progenie Stellare). All'inizio di ogni turno dell'aberrazione, purché questa non sia incapacitata, ogni creatura entro 1,5 metri dall'aberrazione deve superare un tiro salvezza
+su Saggezza contro la CD del tiro salvezza dell'incantesimo
+del personaggio o subire 2d6 danni psichici.
+AZIONI
+Multiattacco. Uaberrazione effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Artigli (Solo Slaad). Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d10 + 3 + il livello dell'incantesimo danni taglienti. Se il bersaglio @ una creatura, non pud recuperare punti ferita fino all'inizio del turno successivo dell'aberrazione.
+Raggio Oculare (Solo Pseudo-onnivedente). Attacco con Incantesimo a Distanza: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, gittata 45 m, una creatura. Colpito: 1d8 + 3+ illivello dell'incantesimo danni psichici.
+=Colpo FPsichico (Solo Progenie Stellare). Attacco con Incantesimoin Mischia: modificatore di attacco dell'incantesimo del personaggio tiro per colpire, portata 1,5 m, una creatura. Colpito: 148 + 3 + ivellodell'incantesimo di uipsichici. Cari j Jabs.
+
+Evoca BESTIA D'OMBRA
+Evocazione di 3° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (delle lacrime all'interno di una gemma del valore di almeno 300 mo) 
+Durata: Concentrazione, fino a 1 ora
+L'incantatore invoca uno spirito dell'ombra che si manifesta in uno spazio libero entro gittata che egli sia in grado
+di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito d'Ombra. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere uno stato d'animo tra furia, disperazione
+o paura. La creatura ha le sembianze di una creatura bipede deforme, a scelta dell'incantatore, che é in uno di questi tre stati d'animo e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando |'incantesimo termina.
+La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide ilpunteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
+SPIRITO D'OMBRA Mostruosita Media
+Classe Armatura 1 + illivello dell'incantesimo (armatura naturale) 
+Punti Ferita 35 + 15 per ogni livello di incantesimo sopra il 3° 
+Velocita 12 m
+FOR DES cos INT SAG CAR 13 (+1) 16 (+3) 15 (+2) 4 (-3) 10 (+0) 16 (+3)
+Resistenze ai Danni necrotici
+Immunita alle Condizioni spaventato
+Sensi Percezione passiva 10, scurovisione 36 m
+Linguaggi comprende i linguaggi parlati dal personaggio
+Sfida — Bonus dicompetenza pari aquello del personaggio
+Frenesia Spaventosa (Solo Furia). Lo spirito dispone di vantaggio ai tiri per colpire contro le creature spaventate.
+Peso del Dolore (Solo Disperazione). Qualsiasi creatura, escluso ilper- sonaggio, che inizi ilsuo turno entro 1,5 metri dallo spirito vede la sua velocita ridotta di 6 metri fino all'inizio del proprio turno successivo.
+AZIONI
+Multiattacco. Lo spirito effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Squarcio Gelido. Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio.Colpito:1d12+3+illivellodell'incantesimodannidafreddo.
+Grido Agghiacciante (1/Giorno). Lo spirito lancia un urlo: ogni creatura entro 9 metri dallo spirito deve superare un tiro salvezza su Saggezza contro la CD del tiro salvezza dell'incantesimo
+del personaggio o essere spaventata dallo spirito per 1 minuto. La creatura spaventata puo ripetere iltiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto svanisce.
+AZIONI BONUS
+Furtivitd d'‘Ombra (Solo Paura). Quando si trova in oscurita o luce fioca, lo spirito effettua l'azione Nascondersi.
+
+EVOCA CELESTIALE
+Evocazione di 5° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (un reliquario dorato del valore di almeno 500 mo)
+Durata: Concentrazione, fino a 1 ora
+L'incantatore invoca uno spirito celestiale che si manifesta in forma angelica in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Celestiale. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere tra Vendicatore e Difensore. Con questa scelta, l'incantatore determina il tipo di attacco della creatura nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando I'incantesimo termina.
+La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide
+il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo
+ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa ilsuo movimento per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello
+o superiore, usa lo slot di livello piti alto che compare nella sua scheda delle statistiche.
+SPIRITO CELESTIALE Celestiale Grande
+Classe Armatura 1+ illivello dell'incantesimo (armatura naturale) + 2 (solo Difensore)
+Punti Ferita 40 + 10 per ogni livello di incantesimo sopra il 5° Velocita 9 m, volare 12 m
+FOR DES cos INT SAG CAR
+16 (+3) 14(+2) 16 (+3) 10(40) 14(42)
+16 (+3)
+Resistenze ai Danni radiosi
+Immunita alle Condizioni affascinato, spaventato
+Sensi Percezione passiva 12, scurovisione 18 m
+Linguaggi Celestiale, comprende i linguaggi parlati dal personaggio Sfida — Bonus di competenza pari a quello del personaggio
+AZIONI
+Multiattacco. |celestiale effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Arco Radioso (Solo Vendicatore). Attacco con Arma a Distanza: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, gittata 45/180 m, un bersaglio, Colpito; 2d6 + 2+ illivello dell'incantesimo danni radiosi.
+Mazza Radiosa (Solo Difensore). Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d10 + 3+ illivello dell'incantesimo danni radiosi. Inoltre ilcelestiale pud scegliere se stesso o un‘altra creatura che pud vedere entro 3 metri dal bersaglio: la creatura scelta ottiene 1d10 punti ferita temporanei.
+Tocco Guaritore (1/Giorno). |celestiale tocca un‘altra creatura, che re- cupera magicamente punti ferita pari a 2d8 + il livello dell'incantesimo.
+
+EVOCA COSTRUTTO
+Evocazione di 4° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (una pietra dipinta e uno scrigno di metallo del valore di almeno 400 mo) 
+Durata: Concentrazione, fino a 1 ora
+L'incantatore invoca lo spirito di un costrutto che
+si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito del Costrutto. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere un materiale tra argilla, metallo o pietra. La creatura ha le sembianze
+di un golem o un modron (a scelta dell'incantatore),
+dal corpo costituito da uno di questi materiali, e in base a questa scelta vengono determinati alcuni tratti nella scheda delle statistiche del costrutto. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando l'incantesimo termina.
+La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
+il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo
+ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa ilsuo movimento per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo
+di 4° livello o superiore, usa lo slot di livello pid alto che compare nella sua scheda delle statistiche.
+PIRITO DEL COSTRUTTO Costrutto Medio
+a
+_Classe Armatura 13+ illivello dell'incantesimo (armatura naturale) Punti Ferita 40 + 15 per ogni livello di incantesimo sopra i!3° Velocita 9 m
+FOR DES cos 18 (+4) 10(+0) 18(+4) INT SAG
+1442) (40) 5(-3)
+Resistenze ai Danni veleno
+Immunita alle Condizioni affascinato, avvelenato, incapacitato,
+indebolimento, paralizzato, pietrificato, spaventato
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi comprende i linguaggi parlati dal personaggio
+Sfida — Bonus di competenza pari a quello del personaggio —= Corpo Riscaldato (Solo Metallo). Qualsiasi creatura che tocchi ilcostrutto o lo colpisca con un attacco in mischia trovandosi entro 1,5 metri da esso subisce 1d10 danni da fuoco.
+Flemma Rocciosa (Solo Pietra). Quando una creatura che ilcostrutto pud vedere inizia ilsuo turno entro 3 metri da esso, ilcostrutto pud costringerla a effettuare un tiro salvezza su Saggezza contro la CD del tiro salvezza dell'incantesimo del personaggio: in caso difallimento, ilbersaglio non pud usare reazioni elasua velocita é dimezzata fino all'inizio del suo turno successivo.
+AZIONI
+Multiattacco. | costrutto effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Schianto. Attacco con Arma da Mischia: modificatore di attacco dell'in- cantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersa- glio. Colpito: 1d8 + 4 + il livello dell'incantesimo danni contundenti.
+RE
+AZIONI
+Slancio Rabbioso (Solo Argilla). Quando i|costrutto subisce danni, effettua un attacco Schianto contro una creatura a caso entro 1,5 metri. Se non ci sono creature a portata, ilcostrutto si muove di fino a meta della sua velocita verso un nemico nel suo campo visivo, senza provocare attacchi di opportunita.
+
+EVOCA ELEMENTALE
+Evocazione di 4° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (aria, un sassolino, cenere e acqua all'interno di una fiala intarsiata d'oro del valore di almeno 400 mo)
+Durata: Concentrazione, fino a 1 ora
+L'incantatore evoca uno spirito elementale che si manifesta in uno spazio libero entro gittata che egli sia in grado
+di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Elementale. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere un elemento tra aria, terra, fuoco o acqua. La creatura ha le sembianze di una creatura bipede
+dal corpo costituito da uno di questi elementi e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando l'incantesimo termina.
+La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
+il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo aisuoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello
+o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
+SPIRITO 
+ELEMENTALE Elementale Medio
+Classe Armatura 1+ illivello dell'incantesimo (armatura naturale) Punti Ferita 50 + 10 per ogni livello di incantesimo sopra il4° Velocita 12 m; scavare 12 m (solo terra); volare 12 m (fluttuare) (solo aria); nuotare 12 m (solo acqua)
+FOR DES cos INT SAG CAR 18 (+4) 15 (+2) 1743) 4 (-3) 1040) —-16 (+3)
+=
+Resistenze ai Danni acido (solo acqua); fulmine e tuono (solo aria);
+perforante etagliente (solo terra)
+Immunita ai Danni veleno; fuoco (solo fuoco)
+Immunita alle Condizioni avvelenato, indebolimento, paralizzato,
+pietrificato, privo di sensi
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi Primordiale, comprende ilinguaggi parlati dal personaggio Sfida — Bonus di competenza pari a quello del personaggio
+Forma Amorfa (Solo Aria, Acqua e Fuoco). L'elementale pud muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.
+AZIONI
+Multiattacco. L'elementale effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Schianto. Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d10 + 4 + il livello dell'incantesimo danni contundenti (solo aria, terra eacqua) o danni da fuoco (solo fuoco).
+
+EVOCA FOLLETTO
+Evocazione di 3° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (un fiore dorato del valore di almeno 300 mo)
+Durata: Concentrazione, fino a 1 ora
+L'incantatore invoca uno spirito fatato che si manifesta in uno spazio libero entro gittata che egli sia in grado
+di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Fatato. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere uno stato d'animo tra rabbioso, gioioso o malandrino.,
+La creatura ha le sembianze di uno spirito fatato a scelta dell'incantatore che é in uno di questi tre stati d'animo
+e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando l'incantesimo termina.
+La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
+il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo ilsuo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa
+il suo movimento per sottrarsi al pericolo.
+Ai Livelfi Superiori. Quando l'incantatore lancia questo
+incantesimo usando uno slot incantesimo di 4° livello o superiore, usa lo slot di livello pitt alto che compare nella sua scheda delle statistiche.
+SPIRITO FATATO Falletto Piccolo
+Classe Armatura 12 + illivello dell'incantesimo (armatura naturale) Punti Ferita 30 + 10 per ogni livello di incantesimo sopra il 3° Velocita 12 m
+FOR DES cos INT SAG CAR 13 (+1) 16 (+3) 14 (+2) 14 (+2) 1 (+0) 16 (+3)
+Immunita alle Condizioni affascinato
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi Silvano, comprendei linguaggi parlati dal personaggio
+Sfida —
+AZIONI
+Bonus di competenza pari a quello del personaggio
+Multiattacco. |folletto effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Spada Corta. Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d6 + 3 + il livello dell'incantesimo danni perforanti + 1d6 danni da forza.
+AZIONI BONUS
+Passo Fatato. |folletto siteletrasporta magicamente di un massimo di 9 metri fino a uno spazio libero che sia in grado di vedere. Dopodiché si verifica uno dei seguenti effetti, in base all'umore del folletto:
+Rabbioso. |folletto dispone di vantaggio al prossimo tiro per colpire che effettua prima della fine di questo turno.
+Gioioso. |folletto pud costringere una creatura che pud vedere entro 3 metri a effettuare un tiro salvezza su Saggezza contro laCD del tiro salvezza dell'incantesimo del personaggio. Se non supera iltiro salvezza, la creatura resta affascinata dal personag- gio e dal folletto per 1 minuto o finché non subisce danni.
+Malandrino. |folletto pud colmare di oscurita magica un cubo con spigolo di 1,5 metri entro 1,5 metri da sé; |'effetto termina alla fine del suo turno successivo.
+
+EVOCA IMMONDO
+Evocazione di 6° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (il sangue di una creatura umanoide all'interno di una fiala rosso rubino del valore di almeno 600 mo) 
+Durata: Concentrazione, fino a 1 ora
+Lincantatore invoca uno spirito demoniaco che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Demoniaco. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere una creatura demoniaca tra demone, diavolo o yugoloth. La creatura ha le sembianze della creatura demoniaca scelta e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando I'incantesimo termina. La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento
+per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando I'incantatore lancia questo
+incantesimo usando uno slot incantesimo di 7° livello o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
+SPIRITO DEMONIACO Immondo Grande
+— zs Classe Armatura 12+ illivello dell'incantesimo (armatura naturale) Punti Ferita 50 (solo demone) o 40 (solo diavolo) 0 60 (solo yugoloth)
++ 15 per ogni livello di incantesimo sopra il6°
+Velocita 12 m; scalare 12 m (solo demone); volare 18 m (solo diavolo) SSS
+FOR DES cos INT SAG CAR 13(+1) 16(43) 15(+2) 10(+0) 10(+0) 16(43)
+==
+Resistenze ai Danni fuoco
+Immunita ai Danni veleno
+Immunita alle Condizioni avvelenato
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi Abissale, Infernale, telepatia 18 m
+Sfida — Bonus di competenza pari a quello del personaggio
+Spasmi di Morte (Solo Demone). Quando |'immondo scende a 0 punti ferita o l'incantesimo termina, l'immondo esplode e ogni creatura entro 3 metri da lui deve superare un tiro salvezza su Destrezza contro la CD del tiro salvezza dell'incantesimo del personaggio. In caso di fal- limento,lacreaturasubisce2d10+illivellodiquest'incantesimodanni da fuoco, mentre se lo supera subisce soltanto la meta di quei danni.
+Vista del Diavolo (Solo Diavolo). L'oscurita magica non ostacola lascurovisione dell'immondo.
+Resistenza allaMagia. L'immondo dispone divantaggio aitirisalvezza contro incantesimi e altri effetti magici.
+AZIONI
+Multiattacco. Limmondo effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Morso (Solo Demone). Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d12 + 3 + illivello dell'incantesimo danni necrotici.
+Artigli (Solo Yugoloth). Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d8 + 3+ illivello dell'incantesimo danni taglienti. Subito dopo l'attacco, sia in caso di successo che di fallimento, l'immondo pué teletrasportarsi di un massimo
+di 9 metri fino a uno spazio libero che egli sia in grado di vedere.
+Scagliare Fiamma (Solo Diavolo). Attacco con Incantesimo a Distanza: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, gittata 45 m, un bersaglio. Colpito: 2d6 + 3 + il livello dell'in- cantesimo danni da fuoco. Se ilbersaglio é un oggetto infiammabile che non é indossato o trasportato, prende anche fuoco.
+
+EVOCA NON MORTO
+Necromanzia di 3° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (un teschio dorato del valore di almeno 300 mo)
+Durata: Concentrazione, fino a 1 ora
+Lincantatore evoca uno spirito non morto che si manifesta in uno spazio libero entro gittata che egli sia in grado
+di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Non Morto. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere la forma della creatura tra spettrale, putrida
+o scheletrica. La creatura ha le sembianze di una creatura non morta della forma scelta e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 o quando I'incantesimo termina.
+La creatura diventa un alleato per l'incantatore e isuoi compagni. In combattimento, la creatura condivide
+il punteggio di iniziativa con l'incantatore, ma inizia
+il turno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
+Aji Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
+SprrITo Non MortTo Non Morto Medio
+Classe Armatura 1+ illivello dell'incantesimo (armatura naturale) Punti Ferita 30 (solo spettrale o putrido) o 20 (solo scheletrico) +
+10 per ogni livello di incantesimo sopra il 3° Velocita 9 m; volare 12 m (fluttuare) (solo spettrale)
+FOR DES cos INT SAG CAR 12(+1) 16 (43) «15 (+2) = 4(-3) 10 (40) 9.(-1)
++RaEET
+Immunita ai Danni necrotici, veleno
+Immunita alle Condizioni avvelenato, indebolimento, paralizzato,
+spaventato
+Sensi Percezione passiva 10, scurovisione 18 m
+Linguaggi comprende ilinguaggi parlati dal personaggio
+Sfida — Bonus di competenza pari a quello del personaggio
+‘i ;
+Aura Marcescente (Solo Putrido). Qualsiasi creatura, escluso ilpersonaggio, che inizi ilsuo turno entro 1,5 metri dallo spirito deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo del personaggio o essere avvelenata fino all'inizio del proprio turno successivo.
+Movimento Incorporeo (Solo Spettrale). Lo spirito pud muoversi attraversoaltrecreatureeoggetticome sefosseroterrenodifficile. Se termina ilsuo turno all'interno di un oggetto, viene spinto nello spazio libero pit vicino e subisce 1d10 danni da forza per ogni
+1,5 metri che ha percorso.
+AZIONI
+Multiattacco. Lo spirito effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Tocco Mortale (Solo Spettrale). Attacco con Arma da Mischia: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, portata 1,5 m, una creatura. Colpito: 1d8 + 3+ illivello dell'incantesimo danni necrotici, e la creatura deve superare un tiro salvezza su Saggezza contro la CD del tiro salvezza dell'incantesimo del personaggio o essere spaventata dal non morto fino alla fine del turno successivo della creatura.
+Dardo Tombale (Solo Scheletrico). Attacco con Incantesimo a Distanza: modificatore di attacco dell'incantesimo del personaggio al tiro per colpire, gittata 45 m, un bersaglio. Colpito: 2d4 + 3 + il livello dell'incantesimo danni necrotici.
+Artiglio Putrefatto (Solo Putrido). Attacco con Arma da Mischia: modificatore diattacco dell'incantesimo del personaggio altiro per colpire, portata 1,5 m, un bersaglio. Colpito: 1d6 + 3+ illivello dell'incantesimo danni taglienti. Se ilbersaglio ¢avvelenato, deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo del personaggio, altrimenti é paralizzato finoal termine del proprio turno successivo.
+
+EVOCARE BESTIA
+Evocazione di 2° livello
+Tempo di Lancio: 1 azione
+Gittata: 27 metri
+Componenti: V, S, M (una piuma, un ciuffo di pelliccia e una coda di pesce all'interno di una ghianda dorata del valore di almeno 200 mo) 
+Durata: Concentrazione, fino a 1 ora
+L'incantatore invoca uno spirito bestiale che si manifesta in uno spazio libero entro gittata che egli sia in grado di vedere. La forma corporea di questo spirito utilizza la scheda delle statistiche dello Spirito Bestiale. Quando questo incantesimo viene lanciato, l'incantatore pud scegliere l'ambiente da cui proviene lo spirito evocato tra aria, terra o acqua. La creatura ha le sembianze
+di un animale a scelta dell'incantatore proveniente da uno di questi ambienti e in base a questa scelta vengono determinati alcuni tratti nella sua scheda delle statistiche. La creatura scompare quando ilvalore dei suoi punti ferita scende a 0 0 quando |'incantesimo termina.
+La creatura diventa un alleato per I'incantatore e isuoi compagni. In combattimento, la creatura condivide il punteggio di iniziativa con l'incantatore, ma inizia ilturno immediatamente dopo il suo, obbedendo ai suoi comandi verbali senza che all'incantatore venga richiesta alcuna azione. Se l'incantatore non pronuncia comandi verbali, la creatura compie la Schivata e usa il suo movimento per sottrarsi al pericolo.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello
+o superiore, usa lo slot di livello pit: alto che compare nella sua scheda delle statistiche.
+SPIRITO BESTIALE Bestia Piccola
+ClasseArmatura 1+illivellodell'incantesimo (armatura naturale) Punti Ferita 20 (solo aria) o 30 (solo terra e acqua) + 5 per ogni
+livello di incantesimo sopra il2°
+Velocita 9 m; scalare 9 m (solo terra); volare 18 m (solo aria); nuotare 18 m (solo acqua)
+FOR 18 (+4)
+DES = 1 (+0)
+cos ~—s16 (+3)
+INT 4 (-3)
+SAG 14 (+2)
+CAR 5 (-3)
+===
+Sensi Percezione passiva 12, scurovisione 18 m
+Linguaggi comprende i linguaggi parlati dal personaggio
+Sfida — Bonus dicompetenza pari aquello del personaggio ——
+Sfuggente (Solo Aria). La bestia non provoca attacchi d'opportunita quando esce volando dalla portata di un nemico.
+Tattiche del Branco (Solo Terra eAcqua). La bestia dispone di vantaggio aun tiro per colpire contro una creatura se almeno uno degli alleati della bestia si trova entro 1,5 metri dalla creatura e non é incapacitato.
+Respirare sott ‘Acqua (solo Acqua). La bestia pud respirare soltanto sott'acqua.
+AZIONI
+Multiattacco. La bestia effettua un numero di attacchi pari alla meta del livello di quest'incantesimo (arrotondando per difetto).
+Dilaniare. Attacco con Arma da Mischia: modificatore di attacco dell'in- cantesimo del personaggio al tiro per colpire, portata 1,5 m, un bersa- glio.Colpito: 1d8 +4+illivellodell'incantesdiamnnoi perforanti.
+
+FORTEZZA DELLA MENTE
+Abiurazione di 3° livello
+Tempo di Lancio: 1 azione
+Gittata: 9 metri
+Componenti: V
+Durata: Concentrazione, fino a 1 ora
+Per tutta la durata dell'incantesimo, l'incantatore o una creatura consenziente entro gittata che egli sia in grado di vedere ottiene resistenza ai danni psichici e un vantaggio ai tiri salvezza su Intelligenza, Saggezza e Carisma.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+o superiore, pud bersagliare una creatura aggiuntiva per ogni slot superiore al 3°. Quando l'incantatore le bersaglia, le creature devono trovarsi a non pit di 9 metri l'una dall'altra.
+
+LAMA DEL DISASTRO
+Evocazione di 9° livello
+Tempo di Lancio: 1 azione bonus 
+Gittata: 18 metri
+Componenti: V,S
+Durata: Concentrazione, fino a 1 minuto
+Ilpersonaggio crea una spaccatura planare aforma di lama lunga circa 90 cm che compare in uno spazio libero entro gittata che egli sia in grado di vedere. Questa lama permane per tutta la durata dell'incantesimo. Una volta lanciato questo incantesimo, l'incantatore pud effettuare con la lama evocata fino a due attacchi in mischia con incantesimo, ognuno dei quali pud essere lanciato contro una creatura, un oggetto non equipaggiato o una struttura posti entro un raggio di 1,5 metri dalla lama. Se lo colpisce, ilbersaglio subisce 4d12 danni da forza. Questo attacco va considerato come un colpo critico se ottiene un risultato pari o superiore a 18 sul tiro del d20. In caso di colpo critico, la lama infligge 8d12 danni da forza extra
+(per un totale di 12d12 danni da forza). Come azione bonus nel suo turno, l'incantatore pud muovere la lama fino a un massimo di 9 metri verso uno spazio libero entro gittata che egli sia in grado di vedere, dopodiché, sempre durante la stessa azione, pud effettuare fino a due attacchi in mischia con incantesimo.
+La lama é in grado di attraversare indisturbata qualsiasi barriera, incluso un muro di forza.
+
+LAMA ROBOANTE
+Trucchetto di Invocazione
+Tempo di Lancio: 1 azione
+Gittata: Incantatore (raggio di 1,5 metri) 
+Componenti: S, M (un'arma da mischia del valore dialmeno 1ma) 
+Durata: 1 round
+Il personaggio impugna l'arma prevista dall'incantesimo ed effettua con questa un attacco in mischia contro una creatura nel raggio di 1,5 metri da lui. Se colpisce, il ber- saglio subisce gli effetti normalmente inflitti dall'attacco con quest'arma e resta avvinto dal suo roboante flusso di energia fino all'inizio del turno successivo dell'incantatore. Se ilbersaglio cerca dimuoversi di 1,5 metri opit prima di allora, subisce 1d8 danni da tuono e l'incantesimo termina. Il danno inflitto da questo incantesimo aumenta man mano che il personaggio raggiunge determinati livelli. Al 5° livello l'attacco in mischia, quando va a segno, infligge1d8dannidatuonoextrae,seilbersaglioprova a muoversi, idanni da tuono aumentano a 2d8. Il tiro per idanni di entrambi gli attacchi aumenta di 1d8 quando i raggiungono !'11° livello (2d8 e 3d8) e il 17° livello (3d8 e 4d8).
+
+LAMA VERDEFIAMMA
+Trucchetto di Invocazione
+Tempo di Lancio: 1 azione
+Gittata: Incantatore (raggio di 1,5 metri) 
+Componenti: S, M (un'arma da mischia del valore dialmeno 1ma) 
+Durata: Istantanea
+Ilpersonaggio impugna Il'arma prevista dall'incantesimo ed effettua con questa un attacco in mischia contro una creatura nel raggio di 1,5 metri da lui. Se colpisce, il bersa- glio subisce gli effetti normalmente inflitti dall'attacco con quest'arma eilpersonaggio pud indirizzare ilfuoco verde emanato facendolo saltare dal bersaglio a un'‘altra creatura a sua scelta che egli é in grado di vedere entro un raggio di 1,5 metri da lui. La seconda creatura subisce danni da fuoco pari al modificatore di caratteristica da incantatore del personaggio.
+Il danno inflitto da questo incantesimo aumenta man mano che ilpersonaggio raggiunge determinati livelli. Al 5° livello l'attacco in mischia, quando va a segno, infligge 1d8 danni da fuoco extra che aumentano
+a 1d8 + il modificatore di caratteristica da incantatore del personaggio quando vengono inflitti alla seconda creatura. Itiroperidanni dientrambi gliattacchi aumenta di 1d8 quando si raggiungono !'11° livello (2d8 e 2d8) e il 17° livello (3d8 e 3d8).
+
+LENZA ELETTRIZZANTE
+Trucchetto di Invocazione
+Tempo di Lancio: 1 azione
+Gittata: Incantatore (raggio di 4,5 metri) 
+Componenti: V
+Durata: Istantanea
+Lincantatore crea una frusta di energia del fulmine che colpisce una creatura a sua scelta nel raggio di 4,5 metri da lui e che egli sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Forza o essere trascinato fino a 3 metri in linea retta verso l'incantatore, subendo
+1d8 danni da fulmine se arriva nel raggio di 1,5 metri da lui. Idanni di questo incantesimo aumentano di 1d8 quando
+l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).
+
+MISCELA CAUSTICA DI TASHA
+Invocazione di 1° livello
+Tempo di Lancio: 1 azione
+Gittata: Incantatore (linea di 9 metri)
+Componenti: V, S, M (un frammento di cibo avariato) 
+Durata: Concentrazione, fino a 1 minuto
+Lincantatore emana un fiotto d'acido che indirizza in una direzione asua scelta, formando una linea lunga 9metri
+e larga 1,5 metri. Ogni creatura entro la linea deve superare un tiro salvezza su Destrezza o essere ricoperto dall'acido per la durata dell'incantesimo o finché una delle creature coinvolte non usa la sua azione per ripulire se stessa
+o un‘altra creatura dall'acido. La creatura che resta ricoperta dall'acido subisce 2d4 danni da acido all'inizio di ogni suo turno.
+Ai Livelli Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello
+o superiore, idanni aumentano di 2d4 per ogni slot
+di livello superiore al 1°.
+
+SCHEGGIA DELLA MENTE
+Trucchetto di Ammaliamento
+Tempo di Lancio: 1 azione 
+Gittata: 18 metri 
+Componenti: V
+Durata: 1 round
+L'iincantatore guida un flusso di energia psichica nella mente di una creatura entro gittata che egli sia in grado di vedere, disorientandola. La creatura deve superare un tiro salvezza su Intelligenza o subire 1d6 danni psichici e sottrarre 1d4 al tiro salvezza successivo che effettua prima del termine del turno successivo dell'incantatore.
+Il danno inflitto da questo incantesimo aumenta
+di 1d6 man mano che ilpersonaggio raggiunge determinati livelli: 5° livello (2d6), 11° livello (3d6) e 17° livello (4d6).
+
+SCUDISCIO MENTALE DI TASHA
+Ammaliamento di 2° livello
+Tempo di Lancio: 1 azione 
+Gittata: 27 metri 
+Componenti: V
+Durata: 1 round
+Lincantatore scaglia un attacco psichico contro una creatura entro gittata che egli sia in grado di vedere
+e il bersaglio deve effettuare un tiro salvezza su Intelligenza. In caso di fallimento, il bersaglio subisce 3d6 danni psichici e non puo effettuare una reazione fino al termine del proprio turno successivo. Inoltre, nel suo turno successivo, pud scegliere solo un'opzione tra muoversi, compiere un'azione o effettuare un'azione bonus. Se invece supera iltiro salvezza, ilbersaglio subisce soltanto la meta di quei danni e non viene influenzato dagli altri effetti dell'incantesimo.
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, pud bersagliare una creatura aggiuntiva per ogni slot superiore al 2°. Quando I'incantatore le bersaglia, le creature devono trovarsi a non pitt di 9 metri l'una dall'altra.
+
+SOGNO DEL VELO CELESTE
+Evocazione di 7° livello
+Tempo di Lancio: 10 minuti 
+Gittata: 6 metri
+Componenti: V, S, M (un oggetto magico o una creatura consenziente proveniente dal mondo di destinazione)
+Durata: 6 ore
+Lincantatore e fino a un massimo di otto creature consenzienti entro gittata cadono privi di sensi per
+la durata dell'incantesimo e vengono raggiunti da visioni di altri mondi del Piano Materiale, come Oerth, Toril, Krynn o Eberron. Se l'incantesimo permane fino alla fine della sua durata, la visione termina con ipersonaggi che si ritirano dietro un misterioso velo blu. Quindi, al termine dell'incantesimo, ipersonaggi vengono trasportati mentalmente e fisicamente nel mondo della visione avuta.
+Per poter lanciare questo incantesimo, l'incantatore deve possedere un oggetto magico proveniente dal mondo che desidera raggiungere e deve essere a conoscenza dell'esistenza effettiva di quel mondo, anche se non ne conosce ilnome. I]mondo della visione viene raggiunto in un luogo sicuro nel raggio di 1,5 km dal luogo dove
+é stato creato l'oggetto magico. Oppure, é possibile lanciare l'incantesimo se una delle creature sotto la sua influenza
+é nata nel mondo che si desidera raggiungere, e si viene materializzati in un luogo sicuro nel raggio di 1,5 km dal luogo dove é nata quella creatura.
+Leffetto dell'incantesimo su una creatura termina prema- turamente se quella creatura subisce danni, impedendole cosi di raggiungere il mondo della visione. Se é l'incantatore a subire danni, l'effetto dell'incantesimo termina sia
+per lui che per tutte le altre creature e nessuno riesce a raggiungere il mondo della visione.
+
+SUDARIO SPIRITUALE
+Necromanzia di 3° livello
+Tempo di Lancio: 1 azione bonus 
+Gittata: Incantatore
+Componenti: V,S
+Durata: Concentrazione, fino a 1 minuto
+Lincantatore invoca alcuni spiriti dei defunti che fluttuano attorno a lui per la durata dell'incantesimo. Gli spiriti sono intangibili e invulnerabili.
+Finché l'incantesimo non termina, ogni attacco effettuato dall'incantatore infligge 1d8 danni extra quando colpisce una creatura nel raggio di 3 metri da lui. I danni inflitti possono essere radiosi, necrotici o da freddo, a seconda del tipo scelto dall'incantatore al momento del lancio dell'incantesimo. Tutte le creature che subiscono questi danni non possono recuperare punti ferita fino all'inizio del turno successivo dell'incantatore.
+In piu, un‘altra creatura a sua scelta che egli riesce
+a vedere che inizia il suo turno entro 9 metri da lui vede la sua velocita ridotta di 3 metri fino all'inizio del turno successivo dell'incantatore.
+Ai Livelfi Superiori. Quando |'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello
+o superiore, idanni aumentano di 1d8 per ogni due slot di livello superiore al 3°.
+
+TURBINE DI SPADE
+Trucchetto di Evocazione
+Tempo di Lancio: 1 azione
+Gittata: Incantatore (raggio di 1,5 metri)
+Componenti: V 
+Durata: Istantanea
+L'incantatore crea un cerchio di spade spettrali che vorticano attorno a lui temporaneamente. Ogni altra creatura situata entro 1,5 metri da lui deve superare un tiro salvezza su Destrezza, altrimenti ognuna di loro subisce 1d6 danni da forza.
+Idanni di questo incantesimo aumentano di 1d6 quando l'incantatore arriva al 5° livello (2d6), 11° livello (3d6)
+e 17° livello (4d6).
+`,
     listaIncantesimi: {
       incantesimiBardo: `
 Fortezza della Mente
@@ -11471,7 +11890,7 @@ Sudario Spirituale
 Evoca Aberrazione
 Evoca Costrutto
 Evoca Elementale
-Abito Ultratrreno di Tasha
+Abito Ultraterreno di Tasha
 Evoca Immondo
 Sogno del Velo Celeste
 Lama del Disastro
@@ -11494,7 +11913,7 @@ Turbine di Spade
 Miscela Caustica di Tasha
 Scudiscio Mentale di Tasha
 Fortezza della Mente
-Abito Ultratrreno di Tasha
+Abito Ultraterreno di Tasha
 Sogno del Velo Celeste
 Lama del Disastro
 `,
@@ -11510,7 +11929,7 @@ Evoca Non Morto
 Fortezza della Mente
 Sudario Spirituale
 Evoca Aberrazione
-Abito Ultratrreno di Tasha
+Abito Ultraterreno di Tasha
 Evoca Immondo
 Sogno del Velo Celeste
 Lama del Disastro
