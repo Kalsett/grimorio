@@ -9294,7 +9294,20 @@ Metamorfosi Pura
 Parola del Potere Guarire
 Parola del Potere Uccidere
 Previsione
-`,
+Comando
+Spruzzo Colorato
+Aiuto
+Immagine Speculare
+Ingrandire/Ridurre
+Lentezza
+Parola Guaritrice di Massa
+Allucinazione Mortale
+Legame Telepatico di Rary
+Banchetto degli Eroi
+Spruzzo Prismatico
+Antipatia/Simpatia
+Muro Prismatico
+`, // Da comando a Muro Prismatico sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiChierico: `
 Fiamma Sacra
 Guida
@@ -9402,7 +9415,13 @@ Guarigione di Massa
 Portale
 Proiezione Astrale
 Resurrezione Pura
-`,
+Aura di Vitalità
+Aura di Purezza
+Aura di vita
+Bagliore Solare
+Esplosione Solare
+Parola del Potere Guarire
+`, // Da Aura di Vitalità a Parola del Potere Guarire sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiDruido: `
 Artificio Druidico
 Frusta di Spine
@@ -9514,7 +9533,20 @@ Previsione
 Resurrezione Pura
 Tempesta di Vendetta
 Trasformazione
-`,
+Protezione dal Bene e dal Male
+Fiamma Perenne
+Ingrandire/Ridurre
+Presagio
+Arma Elementale
+Aura di Vitalità
+Rinascita
+Divinazione
+Scudo di Fuoco
+Cono di freddo
+Carne in Pietra
+Simbolo
+Nube Incendiaria
+`, // Da Protezione dal Bene e dal Male a Nube Incendiaria sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiMago: `
 Amicizia
 Colpo Accurato
@@ -9731,7 +9763,11 @@ Previsione
 Proiezione Astrale
 Sciame di Meteore
 Trasformazione
-`,
+Caratteristica Potenziata
+Presagio
+Parlare con i Morti
+Divinazione
+`, // Da Caratteristica Potenziata a Divinazione sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiPaladino: `
 Benedizione
 Comando
@@ -9778,7 +9814,10 @@ Dissolvi il Bene e il Male
 Onda Distruttiva
 Punizione Esiliante
 Rianimare Morti
-`,
+Preghiera di Guarigione
+Riposo Inviolato
+Vincolo di Interdizione
+`, // Da Preghiera di Guarigione a Vincolo di Interdizione sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiRanger: `
 Allarme
 Amicizia con gli Animali
@@ -9826,7 +9865,18 @@ Comunione con la Natura
 Evoca Pioggia di Armi
 Faretra Rapida
 Traslazione Arborea
-`,
+Intralciare
+Punizione Incandescente
+Aiuto
+Arma Magica
+Caratteristica Potenziata
+Folata di Vento
+Arma Elementale
+Fondersi nella Pietra
+Rinascita
+Dominare Bestie
+Ristorare Superiore
+`, // Da Intralciare a Ristorare Superiore sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiStregone: `
 Amicizia
 Colpo Accurato
@@ -9957,7 +10007,17 @@ Fermare il Tempo
 Parola del Potere Uccidere
 Portale
 Sciame di Meteore
-`,
+Unto
+Arma Magica
+Lama Infuocata
+Sfera Infuocata
+Tocco del Vampiro
+Scudo di Fuoco
+Mano di Bigby
+Carne in Pietra
+Sfera Congelante di Otiluke
+Semipiano
+`, // Da Unto a Semipiano sono stati aggiunti in tasha, prima il phb non li prevedeva. 
   incantesimiWarlock: `
 Amicizia
 Colpo Accurato
@@ -10033,7 +10093,89 @@ Metamorfosi Pura
 Parola del Potere Uccidere
 Previsione
 Proiezione Astrale
-`
+Cerchio di Teletrasporto
+Fuorviare
+Legame Planare
+Fatale
+Portale
+`, // Da Cerchio di Teletrasporto a Portale sono stati aggiunti in tasha, prima il phb non li prevedeva. 
+  incantesimiArtefice: `
+Lama
+Luce
+Luci Danzanti
+Mano Magica
+Messaggio
+Prestidigitazione
+Raggio di Gelo
+Resistenza
+Riparare
+Salvare i Morenti
+Spruzzo Velenoso
+Stretta
+Folgorante
+Dardo di Fuoco
+Fiotto Acido
+Frusta di Spine
+Guida
+Allarme
+Caduta Morbida
+Camuffare Se Stesso
+Cura
+Ferite
+Identificare
+Individuazione del Magico
+Luminescenza
+Passo Veloce
+Purificare Cibo e Bevande
+Ritirata Rapida
+Saltare
+Santuario
+Unto
+Vita Falsata
+Aiuto
+Alterare Se Stesso
+Arma Magica
+Bocca Magica
+Caratteristica Potenziata
+Fiamma Perenne
+Ingrandire/Ridurre
+Invisibilita Levitazione
+Movimenti del Ragno
+Protezione dai Veleni
+Ragnatela
+Riscaldare il Metallo
+Ristorare Inferiore
+Scurovisione
+Serratura Arcana
+Sfocatura
+Trucco della Corda
+Vedere Invisibilità
+Arma Elementale
+Camminare sull'Acqua
+Creare Cibo e Acqua
+Dissolvi Magie
+Glifo di Interdizione
+Intermittenza
+Protezione dall'Energia
+Respirare sott'Acqua
+Rinascita
+Velocità
+Volare
+Fabbricare
+Libertà di Movimento
+Occhio Arcano
+Pelle di Pietra
+Santuario Privato di Mordenkainen
+Scolpire Pietra
+Scrigno Segreto di Leomund
+Segugio Fedele di Mordenkainen
+Sfera Elastica di Otiluke
+Animare Oggetti
+Creazione
+Mano di Bigby
+Muro di Pietra
+Ristorare Superiore
+`, // Sono stati aggiunti in tasha, prima il phb non li prevedeva.     
     }
   },
   xanathar: {
@@ -11276,16 +11418,120 @@ Corona di stelle
 Parola del potere dolore
 Oscurità della follia
 Urlo psichico
+`,
+      incantesimiArtefice: `
+Creare falò
+Morsa del gelo
+Pietra magica
+Rombo di tuono
+Assorbire elemnti
+Catapulta
+Trabocchetto
+Pirotecnica
+Scritta celeste
+Fortezza della mente
+Frecce infuocate
+Servitore minuscolo
+Sonnellino
+Anatema Elementale
+Abilità potenziata
+Trasmutare roccia
 `
     }  
   },
   tasha: {
+    listaIncantesimi: {
+      incantesimiBardo: `
+Fortezza della Mente
+Sogno del Velo Celeste
 
+`,
+      incantesimiChierico: `
+Sudario Spirituale
+Evoca Celestiale
+`,
+      incantesimiDruido: `
+Evocare Bestia
+Evoca Folletto
+Evoca Elementale
+`,
+      incantesimiMago: `
+Lama Roboante
+Lama Verdefiamma
+Lenza Elettrizzante
+Scheggia della Mente
+Turbine di Spade
+Miscela Caustica di Tasha
+Scudiscio Mentale di Tasha
+Evoca Bestia d'Ombra
+Evoca Folletto
+Evoca Non Morto
+Fortezza della Mente
+Sudario Spirituale
+Evoca Aberrazione
+Evoca Costrutto
+Evoca Elementale
+Abito Ultratrreno di Tasha
+Evoca Immondo
+Sogno del Velo Celeste
+Lama del Disastro
+`,
+      incantesimiPaladino: `
+Sudario Spirituale
+Evoca Celestiale
+`,
+      incantesimiRanger: `
+Evocare Bestia
+Evoca Folletto
+Evoca Elementale
+`,
+      incantesimiStregone: `
+Lama Roboante
+Lama Verdefiamma
+Lenza Elettrizzante
+Scheggia della Mente
+Turbine di Spade
+Miscela Caustica di Tasha
+Scudiscio Mentale di Tasha
+Fortezza della Mente
+Abito Ultratrreno di Tasha
+Sogno del Velo Celeste
+Lama del Disastro
+`,
+      incantesimiWarlock: `
+Lama Roboante
+Lama Verdefiamma
+Lenza Elettrizzante
+Scheggia della Mente
+Turbine di Spade
+Evoca Bestia d'Ombra
+Evoca Folletto
+Evoca Non Morto
+Fortezza della Mente
+Sudario Spirituale
+Evoca Aberrazione
+Abito Ultratrreno di Tasha
+Evoca Immondo
+Sogno del Velo Celeste
+Lama del Disastro
+`,
+      incantesimiArtefice: `
+Lama Roboante
+Lama Verdefiamma
+Lenza Elettrizzante
+Turbine di Spade
+Miscela Caustica di Tasha
+Fortezza della Mente
+Evoca Costrutto
+`
+    }
   }
 };
 
 
 
 /*
+
+
 
 */
